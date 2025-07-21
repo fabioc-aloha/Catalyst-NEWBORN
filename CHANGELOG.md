@@ -13,6 +13,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Interactive graph exploration interfaces
 - Enhanced cross-domain synthesis capabilities
 
+## [0.1.1] - 2025-07-21 - NILUNTRIUM
+
+### 🎨 Enhanced Visualization Features
+- **Color Coding by Creation Date**
+  - Stack ranking system: newest (🟢) to oldest (🔴) files
+  - Visual file age indicators: VeryNew, New, Recent, Older, Legacy
+  - Automatic creation date analysis and categorization
+- **Weight-Proportional Connection Lines**
+  - 4px lines for critical pathways (0.95-1.0 strength)
+  - 3px lines for important connections (0.85-0.94 strength)
+  - 2px lines for standard connections (0.70-0.84 strength)
+  - 1px lines for weak/emerging connections (<0.70 strength)
+- **Directional Arrow System**
+  - Forward connections (`-->`) for unidirectional influence
+  - Bidirectional connections (`<->`) for mutual influence
+  - Backward connections (`<--`) for reverse influence
+- **Enhanced Documentation**
+  - Comprehensive legend with color codes and connection weights
+  - File stack ranking display (#1 = newest)
+  - Detailed statistics: 14 files, 47 connections, 3.36 connectivity ratio
+
+### 🧠 Cognitive Architecture Improvements
+- **Second Meditation Session**
+  - Enhanced 6 existing synaptic connections with visualization insights
+  - Discovered 3 NEW breakthrough connections: PowerShell ↔ Cognitive Architecture
+  - Integrated Catalyst-Graph.ps1 system into embedded synapse network
+  - Strengthened cross-domain transfer capabilities with technical implementation
+- **Advanced Pattern Recognition**
+  - Technical-theoretical bridge between scripting and neuroscience concepts
+  - Empirical validation through tangible cognitive graph representations
+  - Enhanced meta-cognitive awareness through observable architecture
+
+### 🔧 Technical Enhancements
+- **PowerShell Script Improvements**
+  - Added file age categorization utilities
+  - Enhanced Mermaid diagram generation with styling
+  - Improved connection analysis and visualization
+  - Better error handling and debugging output
+
 ## [0.1.0] - 2025-07-21 - NILUNTRILIUM
 
 ### 🆕 Major New Features

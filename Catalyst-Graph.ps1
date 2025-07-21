@@ -20,6 +20,21 @@ $Script:Config = @{
         Worldview = @("worldview-foundation\**\*.md")
     }
     SynapseRegex = '^-\s+(.+?)\s+\((\d+\.\d+),\s*(.+?),\s*(.+?)\)\s*-\s*"(.+?)"$'
+    CreationDateColors = @{
+        # Color coding by file age (newest to oldest)
+        VeryNew = "#10B981"     # Emerald - Created today
+        New = "#3B82F6"         # Blue - Created this week
+        Recent = "#8B5CF6"      # Purple - Created this month
+        Older = "#F59E0B"       # Amber - Created > 1 month
+        Legacy = "#EF4444"      # Red - Created > 3 months
+    }
+    SynapseWeightStyles = @{
+        # Line thickness based on synapse strength
+        VeryHigh = "stroke-width:4px"    # 0.95-1.0
+        High = "stroke-width:3px"        # 0.85-0.94
+        Medium = "stroke-width:2px"      # 0.70-0.84
+        Low = "stroke-width:1px"         # < 0.70
+    }
     Themes = @{
         Default = @{
             Core = "#1E3A8A"
@@ -101,6 +116,7 @@ function Get-KnowledgeFiles {
     $knowledgeMap = @{
         Systems = @{}
         TotalFiles = 0
+        FilesByAge = @{}
     }
     
     foreach ($system in $Script:Config.FilePatterns.Keys) {
@@ -109,6 +125,7 @@ function Get-KnowledgeFiles {
             $fullPattern = Join-Path $BasePath $pattern
             $foundFiles = Get-ChildItem -Path $fullPattern -Recurse -ErrorAction SilentlyContinue
             $files += $foundFiles | ForEach-Object {
+                $ageCategory = Get-FileAgeCategory -LastModified $_.LastWriteTime
                 @{
                     Path = $_.FullName
                     RelativePath = $_.FullName.Replace($BasePath, "").TrimStart("\")
@@ -116,6 +133,8 @@ function Get-KnowledgeFiles {
                     Size = $_.Length
                     LastModified = $_.LastWriteTime
                     Type = $system
+                    AgeCategory = $ageCategory
+                    CreationRank = Get-CreationRank -LastModified $_.LastWriteTime
                 }
             }
         }
@@ -123,7 +142,63 @@ function Get-KnowledgeFiles {
         $knowledgeMap.TotalFiles += $files.Count
     }
     
+    # Stack rank all files by creation date
+    $allFiles = @()
+    foreach ($system in $knowledgeMap.Systems.Keys) {
+        $allFiles += $knowledgeMap.Systems[$system]
+    }
+    $rankedFiles = $allFiles | Sort-Object LastModified -Descending
+    for ($i = 0; $i -lt $rankedFiles.Count; $i++) {
+        $rankedFiles[$i].StackRank = $i + 1
+    }
+    
     return $knowledgeMap
+}
+
+# Utility function to determine file age category
+function Get-FileAgeCategory {
+    param([DateTime]$LastModified)
+    
+    $now = Get-Date
+    $daysSince = ($now - $LastModified).TotalDays
+    
+    if ($daysSince -le 1) { return "VeryNew" }
+    elseif ($daysSince -le 7) { return "New" }
+    elseif ($daysSince -le 30) { return "Recent" }
+    elseif ($daysSince -le 90) { return "Older" }
+    else { return "Legacy" }
+}
+
+# Utility function to get creation rank score
+function Get-CreationRank {
+    param([DateTime]$LastModified)
+    
+    # Convert to Unix timestamp for numeric ranking
+    return [int][double]::Parse((Get-Date $LastModified -UFormat %s))
+}
+
+# Utility function to get synapse weight styling
+function Get-SynapseWeightStyle {
+    param([double]$Strength)
+    
+    if ($Strength -ge 0.95) { return $Script:Config.SynapseWeightStyles.VeryHigh }
+    elseif ($Strength -ge 0.85) { return $Script:Config.SynapseWeightStyles.High }
+    elseif ($Strength -ge 0.70) { return $Script:Config.SynapseWeightStyles.Medium }
+    else { return $Script:Config.SynapseWeightStyles.Low }
+}
+
+# Utility function to get directional arrow
+function Get-DirectionalArrow {
+    param([string]$Direction, [double]$Strength)
+    
+    $weightStyle = Get-SynapseWeightStyle -Strength $Strength
+    
+    switch ($Direction.ToLower()) {
+        "bidirectional" { return "---|$weightStyle|" }
+        "forward" { return "-->|$weightStyle|" }
+        "backward" { return "<--|$weightStyle|" }
+        default { return "-->|$weightStyle|" }
+    }
 }
 
 # Synapse extraction function
@@ -230,32 +305,48 @@ function New-OverviewDiagram {
     $subgraphs += "    end"
     $subgraphs += ""
     
-    # Layer 3: Memory Files (Right)
-    $subgraphs += "    subgraph L3[Memory Files]"
+    # Layer 3: Memory Files (Right) - Enhanced with Color Coding
+    $subgraphs += "    subgraph L3[Memory Files - Color Coded by Creation Date]"
     $subgraphs += "        direction TB"
     
     # Generate subgraphs for each memory system in Layer 3
     $systemConfigs = @{
-        Procedural = @{ Icon = ""; Title = "Procedural Memory Files" }
-        Episodic = @{ Icon = ""; Title = "Episodic Memory Files" }
-        Domain = @{ Icon = ""; Title = "Domain Knowledge Files" }
-        Worldview = @{ Icon = ""; Title = "Worldview Foundation Files" }
+        Procedural = @{ Icon = "🔧"; Title = "Procedural Memory Files" }
+        Episodic = @{ Icon = "📖"; Title = "Episodic Memory Files" }
+        Domain = @{ Icon = "🎯"; Title = "Domain Knowledge Files" }
+        Worldview = @{ Icon = "🌍"; Title = "Worldview Foundation Files" }
     }
     
+    $allNodes = @()
     foreach ($system in $KnowledgeMap.Systems.Keys) {
         if ($KnowledgeMap.Systems[$system].Count -gt 0 -and $system -ne "Core") {
             $config = $systemConfigs[$system]
             if ($config) {
                 $systemNodes = @()
                 
-                foreach ($file in $KnowledgeMap.Systems[$system]) {
+                # Sort files within system by stack rank (newest first)
+                $sortedFiles = $KnowledgeMap.Systems[$system] | Sort-Object StackRank
+                
+                foreach ($file in $sortedFiles) {
                     $nodeId = Get-SanitizedNodeId -FilePath $file.RelativePath
                     $nodeLabel = Get-ShortNodeLabel -FilePath $file.RelativePath
-                    $systemNodes += "            $nodeId[`"$nodeLabel`"]"
-                    $nodes += @{ Id = $nodeId; Label = $nodeLabel; Type = $system }
+                    $ageIcon = Get-AgeIcon -AgeCategory $file.AgeCategory
+                    $rankDisplay = "#{0}" -f $file.StackRank
+                    
+                    $enhancedLabel = "$ageIcon $nodeLabel $rankDisplay"
+                    $systemNodes += "            $nodeId[`"$enhancedLabel`"]"
+                    
+                    $allNodes += @{ 
+                        Id = $nodeId
+                        Label = $enhancedLabel
+                        Type = $system
+                        AgeCategory = $file.AgeCategory
+                        StackRank = $file.StackRank
+                        LastModified = $file.LastModified
+                    }
                 }
                 
-                $subgraphs += "        subgraph $system`_Files[$($config.Title)]"
+                $subgraphs += "        subgraph $system`_Files[$($config.Icon) $($config.Title)]"
                 $subgraphs += $systemNodes
                 $subgraphs += "        end"
             }
@@ -276,45 +367,114 @@ function New-OverviewDiagram {
     $connections += "    WF --> Worldview_Files"
     $connections += ""
     
-    # Generate connections from synapse data
+    # Generate enhanced connections from synapse data with weight-proportional styling
+    $synapseConnections = @()
+    $allSynapses = @()
     foreach ($category in @("HighStrength", "MediumStrength", "WeakStrength")) {
-        foreach ($synapse in $SynapseData[$category]) {
-            $sourceId = Get-SanitizedNodeId -FilePath $synapse.Source
-            $targetId = Get-SanitizedNodeId -FilePath $synapse.Target
-            $connections += "    $sourceId --> $targetId"
-        }
+        $allSynapses += $SynapseData[$category]
     }
     
-    # Generate styling
+    # Sort synapses by strength (strongest first) for better visual hierarchy
+    $sortedSynapses = $allSynapses | Sort-Object Strength -Descending
+    
+    foreach ($synapse in $sortedSynapses) {
+        $sourceId = Get-SanitizedNodeId -FilePath $synapse.Source
+        $targetId = Get-SanitizedNodeId -FilePath $synapse.Target
+        $arrow = Get-DirectionalArrow -Direction $synapse.Direction -Strength $synapse.Strength
+        $strengthLabel = "S:{0:N2}" -f $synapse.Strength
+        
+        $connectionLine = "    $sourceId $arrow $targetId"
+        $synapseConnections += $connectionLine
+        
+        # Add connection strength as a comment for debugging
+        $synapseConnections += "    %% Synapse: $($synapse.Source) -> $($synapse.Target) (Strength: $($synapse.Strength), Type: $($synapse.ConnectionType))"
+    }
+    
+    if ($synapseConnections.Count -gt 0) {
+        $connections += ""
+        $connections += "    %% === ENHANCED SYNAPSE NETWORK ==="
+        $connections += $synapseConnections
+    }
+    
+    # Generate enhanced styling with color coding by creation date
     $themeColors = $Script:Config.Themes[$Theme]
+    $creationColors = $Script:Config.CreationDateColors
+    
     $styling = @"
     
-    %% Styling
+    %% === ENHANCED STYLING ===
+    %% Memory System Colors
     classDef core fill:$($themeColors.Core),stroke:#3B82F6,stroke-width:2px,color:white
     classDef procedural fill:$($themeColors.Procedural),stroke:#22C55E,stroke-width:2px,color:white
     classDef episodic fill:$($themeColors.Episodic),stroke:#A855F7,stroke-width:2px,color:white
     classDef domain fill:$($themeColors.Domain),stroke:#FB923C,stroke-width:2px,color:white
     classDef worldview fill:$($themeColors.Worldview),stroke:#F87171,stroke-width:2px,color:white
-"@
     
-    # Combine all parts
+    %% Creation Date Color Coding (Stack Ranked)
+    classDef veryNew fill:$($creationColors.VeryNew),stroke:#059669,stroke-width:3px,color:white
+    classDef new fill:$($creationColors.New),stroke:#2563EB,stroke-width:2px,color:white  
+    classDef recent fill:$($creationColors.Recent),stroke:#7C3AED,stroke-width:2px,color:white
+    classDef older fill:$($creationColors.Older),stroke:#D97706,stroke-width:2px,color:white
+    classDef legacy fill:$($creationColors.Legacy),stroke:#DC2626,stroke-width:2px,color:white
+"@
+
+    # Apply creation date styling to nodes
+    $nodeClassAssignments = @()
+    foreach ($node in $allNodes) {
+        $ageClass = $node.AgeCategory.ToLower()
+        $nodeClassAssignments += "    class $($node.Id) $ageClass"
+    }
+    
+    if ($nodeClassAssignments.Count -gt 0) {
+        $styling += "`n`n    %% Node Age Classifications`n"
+        $styling += $nodeClassAssignments -join "`n"
+    }
+    
+    # Combine all parts with enhanced legend
+    $legend = @"
+**Legend:**
+- 🟢 **Very New** (≤1 day): Emerald green - Recently created files
+- 🔵 **New** (≤1 week): Blue - Recently modified files  
+- 🟣 **Recent** (≤1 month): Purple - Recently updated content
+- 🟠 **Older** (≤3 months): Amber - Established content
+- 🔴 **Legacy** (>3 months): Red - Foundational content
+
+**Connection Weights:**
+- **4px lines**: Very High strength (0.95-1.0) - Critical pathways
+- **3px lines**: High strength (0.85-0.94) - Important connections
+- **2px lines**: Medium strength (0.70-0.84) - Standard connections  
+- **1px lines**: Low strength (<0.70) - Weak or emerging connections
+
+**Directional Arrows:**
+- `-->` Forward connections - Unidirectional influence
+- `<->` Bidirectional connections - Mutual influence  
+- `<--` Backward connections - Reverse influence
+
+**Stack Rankings:** Files numbered by creation order (#1 = newest, higher numbers = older)
+"@
+
     $diagram = @"
-# Catalyst Cognitive Architecture - Memory & Synapse Network
+# Catalyst Cognitive Architecture - Enhanced Memory & Synapse Network
 
-**Generated on:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
+**Generated on:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')  
+**Total Files:** $($KnowledgeMap.TotalFiles) across $($KnowledgeMap.Systems.Keys.Count) memory systems  
+**Total Connections:** $($SynapseData.TotalConnections) synapse pathways
 
-This chart visualizes the Catalyst cognitive architecture organized into three distinct horizontal layers:
+This enhanced chart visualizes the Catalyst cognitive architecture with:
+- **Color coding by creation date** - Stack ranked from newest (🟢) to oldest (🔴)
+- **Weight-proportional connection lines** - Thickness indicates synapse strength
+- **Directional arrows** - Shows uni/bidirectional influence patterns
+- **Three-layer architecture** - Core → Memory Systems → Individual Files
 
-- **Layer 1**: Core cognitive architecture with meta-cognitive monitoring
-- **Layer 2**: Memory systems providing different types of knowledge storage  
-- **Layer 3**: Individual memory files containing specific expertise and protocols
+$legend
 
-## Catalyst Memory Architecture Overview
+## Enhanced Catalyst Memory Architecture Overview
 
 ``````mermaid
 %%{init: {
   'flowchart': {
-    'curve': 'cardinal'
+    'curve': 'cardinal',
+    'useMaxWidth': true
   }
 }}%%
 graph LR
@@ -327,6 +487,20 @@ $styling
 "@
     
     return $diagram
+}
+
+# Utility function to get age icon
+function Get-AgeIcon {
+    param([string]$AgeCategory)
+    
+    switch ($AgeCategory) {
+        "VeryNew" { return "🟢" }
+        "New" { return "🔵" }
+        "Recent" { return "🟣" }
+        "Older" { return "🟠" }
+        "Legacy" { return "🔴" }
+        default { return "⚪" }
+    }
 }
 
 # Utility functions
