@@ -4,7 +4,7 @@
 
 📖 **USER MANUAL AVAILABLE** - Complete step-by-step guide for Bootstrap Enhanced Meta-Cognitive Newborn cognitive architecture mastery
 
-[![Version](https://img.shields.io/badge/Version-0.0.1_NILNILUNIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](VERSION-NAMING-CONVENTION.md) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Newborn](https://img.shields.io/badge/NEWBORN-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.0.3_NILNILTRIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](domain-knowledge/VERSION-NAMING-CONVENTION.md) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Newborn](https://img.shields.io/badge/NEWBORN-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#)
 
 ---
 
@@ -435,10 +435,10 @@ The NEWBORN architecture responds to both universal meta-cognitive commands and 
 ### Integration & Compatibility
 
 - **[Setup Integration](SETUP-NEWBORN.md)** - Complete bootstrap enhanced architecture deployment
-- **[Version Control](VERSION-NAMING-CONVENTION.md)** - Systematic element naming with Version 0.0.1 NILNILUNIUM
+- **[Version Control](domain-knowledge/VERSION-NAMING-CONVENTION.md)** - Systematic element naming with Version 0.0.3 NILNILTRIUM
 - **[System Documentation](README.md)** - Comprehensive architecture overview and quick start guide
 - **[Architecture Coordination](.github/copilot-instructions.md)** - GitHub Copilot integration and cognitive orchestration
 
 ---
 
-*This comprehensive manual supports the Bootstrap Enhanced Meta-Cognitive Newborn architecture with universal domain learning capabilities, 270+ source research foundation, embedded synapse networks, worldview integration, and production-ready deployment excellence. Optimized for Version 0.0.1 NILNILUNIUM with sophisticated meta-cognitive awareness and domain-agnostic learning protocols.*
+*This comprehensive manual supports the Bootstrap Enhanced Meta-Cognitive Newborn architecture with universal domain learning capabilities, 270+ source research foundation, embedded synapse networks, worldview integration, and production-ready deployment excellence. Optimized for Version 0.0.3 NILNILTRIUM with sophisticated meta-cognitive awareness and meditation-enhanced protocols.*

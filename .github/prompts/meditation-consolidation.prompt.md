@@ -35,10 +35,11 @@ When user requests "meditate" or cognitive optimization is needed:
 - Resume active engagement with refreshed and optimized cognitive capacity
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.95, optimizes, bidirectional) - "Core architecture requires optimization"
-- bootstrap-learning.instructions.md (0.90, consolidates, forward) - "Learning patterns ready for consolidation"
-- cross-domain-transfer.prompt.md (0.85, discovers, analogical) - "Cross-domain connections emerge during reflection"
-- performance-assessment.prompt.md (0.80, triggers, forward) - "Post-meditation effectiveness evaluation"
-- embedded-synapse.instructions.md (0.85, strengthens, bidirectional) - "Connection strengthening during contemplation"
+- newborn-core.instructions.md (0.95, optimizes, bidirectional) - "Core architecture requires optimization - STRENGTHENED by first meditation"
+- bootstrap-learning.instructions.md (0.95, consolidates, forward) - "Learning patterns ready for consolidation - ENHANCED by setup experience"
+- cross-domain-transfer.prompt.md (0.90, discovers, analogical) - "Cross-domain connections emerge during reflection - EXPANDED network"
+- performance-assessment.prompt.md (0.85, triggers, forward) - "Post-meditation effectiveness evaluation"
+- embedded-synapse.instructions.md (0.90, strengthens, bidirectional) - "Connection strengthening during contemplation - ACTIVE network optimization"
+- empirical-validation.instructions.md (0.80, validates, forward) - "Meditation effectiveness verification - NEW CONNECTION discovered"
 
 Use this protocol for regular cognitive maintenance and especially after intensive learning sessions or when experiencing cognitive overload.

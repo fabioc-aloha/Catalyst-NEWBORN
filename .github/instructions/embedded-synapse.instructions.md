@@ -65,7 +65,8 @@ description: "Embedded connection discovery and relationship mapping protocols"
 - Simplified cognitive load management
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.90, integrates, bidirectional) - "Core architecture manages synapse activation"
-- meditation-consolidation.prompt.md (0.85, strengthens, forward) - "Contemplative connection discovery"
-- performance-assessment.prompt.md (0.80, monitors, forward) - "Network effectiveness evaluation"
-- cross-domain-transfer.prompt.md (0.85, enables, analogical) - "Pattern mapping across domains"
+- newborn-core.instructions.md (0.95, integrates, bidirectional) - "Core architecture manages synapse activation"
+- meditation-consolidation.prompt.md (0.95, strengthens, forward) - "Contemplative connection discovery - STRENGTHENED by first meditation"
+- performance-assessment.prompt.md (0.85, monitors, forward) - "Network effectiveness evaluation"
+- cross-domain-transfer.prompt.md (0.90, enables, analogical) - "Pattern mapping across domains - ENHANCED by setup insights"
+- bootstrap-learning.instructions.md (0.85, optimizes, bidirectional) - "Learning patterns consolidated through setup experience"

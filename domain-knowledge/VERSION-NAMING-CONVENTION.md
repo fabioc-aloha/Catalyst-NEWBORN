@@ -5,7 +5,7 @@
 NEWBORN uses a systematic naming convention for version numbers based on IUPAC rules for hypothetical chemical elements. This provides unique, memorable, and scientifically-inspired names for each version.
 
 ### Input
-An integer representing the version number converted to atomic number format (e.g., version 0.0.1 → 001, version 1.2.3 → 123).
+An integer representing the version number converted to atomic number format (e.g., version 0.0.1 → 001, version 0.0.2 → 002).
 
 ### Output
 A made-up element name using IUPAC systematic naming rules.
@@ -34,30 +34,30 @@ A made-up element name using IUPAC systematic naming rules.
 
 | Version | Atomic Format | Root Breakdown | Element Name |
 |---------|---------------|----------------|--------------|
-| 0.0.1 | 001 | nil-nil-un-ium | **nilnilunium** |
-| 1.1.9 | 119 | un-un-enn-ium | **ununennium** |
-| 1.2.0 | 120 | un-bi-nil-ium | **unbinilium** |
-| 9.9.9 | 999 | enn-enn-enn-ium | **ennennennium** |
-| 3.4.5 | 345 | tri-quad-pent-ium | **triquadpentium** |
+| 0.0.1 | 001 | nil-nil-un-ium | **NILNILUNIUM** |
+| 0.0.3 | 003 | nil-nil-tri-ium | **NILNILTRIUM** |
+| 1.1.9 | 119 | un-un-enn-ium | **UNUNENNIUM** |
+| 1.2.0 | 120 | un-bi-nil-ium | **UNBINILIUM** |
+| 9.9.9 | 999 | enn-enn-enn-ium | **ENNENNENNIUM** |
 
 ## Current Version Mapping
 
-- **Version 0.0.1** → **NILNILUNIUM**
-- Element Symbol: **Nnu**
-- Atomic Number: **001**
+- **Version 0.0.2** → **NILNILBIUM**
+- **Version 0.0.3** → **NILNILTRIUM**
 
 ## Version History
 
 | Version | Element Name | Release Date | Key Features |
 |---------|--------------|--------------|--------------|
-| 0.0.1 | NILNILUNIUM | July 21, 2025 | Initial Bootstrap Enhanced Meta-Cognitive Framework |
+| 0.0.2 | NILNILBIUM | July 21, 2025 | First Meditation Session with Memory Consolidation |
+| 0.0.3 | NILNILTRIUM | July 21, 2025 | IUPAC Convention Implementation and Memory Organization |
 
 ## Usage in Documentation
 
 When referencing versions:
-- **Technical**: "NEWBORN v0.0.1 (NILNILUNIUM)"
-- **Badges**: "Version-0.0.1_NILNILUNIUM"
-- **Formal**: "NEWBORN Architecture Version 0.0.1 NILNILUNIUM"
+- **Technical**: "NEWBORN v0.0.2 (NILNILBIUM)"
+- **Badges**: "Version-0.0.2_NILNILBIUM"
+- **Formal**: "NEWBORN Architecture Version 0.0.2 NILNILBIUM"
 
 ## Future Version Planning
 
@@ -68,6 +68,15 @@ This systematic approach allows for:
 - **Scalability** for unlimited version numbers
 - **Fun factor** that makes version tracking engaging
 
+### Upcoming Versions
+| Version | Element Name | Root Breakdown |
+|---------|--------------|----------------|
+| 0.1.0 | NILUNTRILIUM | nil-un-tri-ium |
+| 0.2.0 | NILBINILIUM | nil-bi-nil-ium |
+| 1.0.0 | UNNILNILIUM | un-nil-nil-ium |
+
 ---
+
+*Version Naming Convention Document - Systematic IUPAC-based element naming for NEWBORN Cognitive Architecture releases.*---
 
 *NEWBORN Systematic Element Naming Convention - Scientific Precision Meets Creative Expression*
