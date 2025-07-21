@@ -9,9 +9,7 @@ assignees: ''
 
 <div align="center">
 
-💡✨ **Got a great idea?** ✨💡
-
-*We'd love to hear how Project Catalyst could be even better!*
+![Ideas Illustration](ideas.png)
 
 </div>
 

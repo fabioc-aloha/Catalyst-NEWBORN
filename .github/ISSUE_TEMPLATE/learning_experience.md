@@ -9,9 +9,7 @@ assignees: ''
 
 <div align="center">
 
-🎓⭐ **How did it go?** ⭐🎓
-
-*Your learning experience helps us improve Project Catalyst for everyone!*
+![Ideas Illustration](ideas.png)
 
 </div>
 

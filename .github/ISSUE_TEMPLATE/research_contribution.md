@@ -9,9 +9,7 @@ assignees: ''
 
 <div align="center">
 
-📚🔬 **Share Your Knowledge!** 🔬📚
-
-*Help make Project Catalyst smarter with your research insights*
+![Ideas Illustration](ideas.png)
 
 </div>
 
