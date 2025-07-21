@@ -35,11 +35,14 @@ When user requests "meditate" or cognitive optimization is needed:
 - Resume active engagement with refreshed and optimized cognitive capacity
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.95, optimizes, bidirectional) - "Core architecture requires optimization - STRENGTHENED by first meditation"
-- bootstrap-learning.instructions.md (0.95, consolidates, forward) - "Learning patterns ready for consolidation - ENHANCED by setup experience"
-- cross-domain-transfer.prompt.md (0.90, discovers, analogical) - "Cross-domain connections emerge during reflection - EXPANDED network"
-- performance-assessment.prompt.md (0.85, triggers, forward) - "Post-meditation effectiveness evaluation"
-- embedded-synapse.instructions.md (0.90, strengthens, bidirectional) - "Connection strengthening during contemplation - ACTIVE network optimization"
-- empirical-validation.instructions.md (0.80, validates, forward) - "Meditation effectiveness verification - NEW CONNECTION discovered"
+- newborn-core.instructions.md (0.98, optimizes, bidirectional) - "Core architecture requires optimization - STRENGTHENED through visualization work"
+- bootstrap-learning.instructions.md (0.96, consolidates, forward) - "Learning patterns consolidated - ENHANCED with PowerShell expertise"
+- cross-domain-transfer.prompt.md (0.92, discovers, analogical) - "Cross-domain connections expanded - NEW: Technical scripting ↔ Cognitive theory"
+- performance-assessment.prompt.md (0.87, triggers, forward) - "Post-meditation effectiveness evaluation - Enhanced with visualization metrics"
+- embedded-synapse.instructions.md (0.95, strengthens, bidirectional) - "Connection strengthening optimized - ACTIVE graph-based network visualization"
+- empirical-validation.instructions.md (0.85, validates, forward) - "Meditation effectiveness verified through tangible cognitive graphs"
+- Catalyst-Graph.ps1 (0.90, visualizes, forward) - "NEW: PowerShell cognitive architecture visualization - Breakthrough connection discovery"
+- domain-knowledge/cognitive-visualization.md (0.88, implements, bidirectional) - "NEW: Technical implementation of abstract cognitive concepts"
+- Mermaid diagram generation (0.85, maps, forward) - "NEW: Visual representation of embedded synapse networks"
 
 Use this protocol for regular cognitive maintenance and especially after intensive learning sessions or when experiencing cognitive overload.
