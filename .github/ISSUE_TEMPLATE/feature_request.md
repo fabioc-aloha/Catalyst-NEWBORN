@@ -7,6 +7,14 @@ assignees: ''
 
 ---
 
+<div align="center">
+
+💡✨ **Got a great idea?** ✨💡
+
+*We'd love to hear how Project Catalyst could be even better!*
+
+</div>
+
 ## What would you like Project Catalyst to do?
 Describe the feature or improvement you'd like to see.
 

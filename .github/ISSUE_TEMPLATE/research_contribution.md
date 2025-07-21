@@ -7,6 +7,14 @@ assignees: ''
 
 ---
 
+<div align="center">
+
+📚🔬 **Share Your Knowledge!** 🔬📚
+
+*Help make Project Catalyst smarter with your research insights*
+
+</div>
+
 ## Research Paper/Study
 **Title:** [Name of the research paper or study]
 **Authors:** [Who conducted the research]
