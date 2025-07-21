@@ -33,6 +33,12 @@ NEWBORN (Bootstrap Enhanced Meta-Cognitive Newborn) is an advanced AI cognitive 
 Complete system view showing all memory systems and their relationships.
 
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    primaryColor: "#f9f9f9"
+---
 graph TB
     subgraph "🧠 NEWBORN Core Architecture"
         WM["Working Memory<br/>(7±2 Rules)"]
