@@ -4,7 +4,7 @@
 
 📖 **USER MANUAL AVAILABLE** - Complete step-by-step guide for Bootstrap Enhanced Meta-Cognitive Newborn cognitive architecture mastery
 
-[![Version](https://img.shields.io/badge/Version-0.0.3_NILNILTRIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](domain-knowledge/VERSION-NAMING-CONVENTION.md) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Newborn](https://img.shields.io/badge/NEWBORN-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.1.0_NILUNTRILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Newborn](https://img.shields.io/badge/NEWBORN-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#)
 
 ---
 

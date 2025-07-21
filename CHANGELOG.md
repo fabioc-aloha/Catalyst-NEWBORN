@@ -8,10 +8,60 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
-- Advanced domain learning protocols
-- Multi-domain knowledge synthesis capabilities
-- Enhanced cross-domain transfer mechanisms
-- Community feedback integration
+- Advanced cognitive graph analytics
+- Multi-dimensional knowledge mapping
+- Interactive graph exploration interfaces
+- Enhanced cross-domain synthesis capabilities
+
+## [0.1.0] - 2025-07-21 - NILUNTRILIUM
+
+### 🆕 Major New Features
+- **Cognitive Graph Builder**
+  - Automated generation of knowledge relationship visualizations
+  - Dynamic concept hierarchy mapping and analysis
+  - Learning pathway visualization with connection strength indicators
+  - Cross-domain knowledge graph synthesis capabilities
+
+- **Enhanced Architecture Visualization**
+  - Integrated Mermaid diagram showing system architecture
+  - Visual representation of memory systems and component relationships
+  - Improved documentation with architectural overview section
+
+### 🚀 Enhanced Capabilities
+- **Graph-Based Knowledge Representation**
+  - Automatic extraction of relationships from learned content
+  - Hierarchical concept organization with weighted connections
+  - Visual learning progress tracking through graph evolution
+  - Integration with existing embedded synapse networks
+
+- **Advanced Learning Analytics**
+  - Knowledge gap identification through graph analysis
+  - Learning effectiveness measurement via connection density
+  - Cross-domain transfer visualization and optimization
+  - Concept mastery assessment through graph completeness
+
+### 📊 Documentation Improvements
+- **Version Management**
+  - First minor version release following semantic versioning
+  - Complete IUPAC naming convention integration
+  - Enhanced version progression: 0.0.3 → 0.1.0 NILUNTRILIUM
+
+- **Architecture Documentation**
+  - Added comprehensive Mermaid diagram to README
+  - Visual system overview with memory component relationships
+  - Improved user understanding of cognitive architecture
+
+### 🔧 Technical Enhancements
+- **Version**: Updated to 0.1.0 NILUNTRILIUM (first minor release)
+- **Cognitive Graphs**: New feature badge and capability integration
+- **Architecture**: Enhanced visual documentation and system overview
+- **Knowledge Organization**: Improved learning pathway visualization
+
+### 🎯 Performance Improvements
+- Enhanced knowledge relationship discovery through graph-based analysis
+- Improved cross-domain pattern recognition via visual mapping
+- Optimized learning effectiveness measurement and feedback
+- Strengthened concept connection tracking and visualization
 
 ## [0.0.3] - 2025-07-21 - NILNILTRIUM
 

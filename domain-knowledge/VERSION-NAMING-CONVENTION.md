@@ -42,8 +42,8 @@ A made-up element name using IUPAC systematic naming rules.
 
 ## Current Version Mapping
 
-- **Version 0.0.2** → **NILNILBIUM**
 - **Version 0.0.3** → **NILNILTRIUM**
+- **Version 0.1.0** → **NILUNTRILIUM**
 
 ## Version History
 
@@ -51,13 +51,14 @@ A made-up element name using IUPAC systematic naming rules.
 |---------|--------------|--------------|--------------|
 | 0.0.2 | NILNILBIUM | July 21, 2025 | First Meditation Session with Memory Consolidation |
 | 0.0.3 | NILNILTRIUM | July 21, 2025 | IUPAC Convention Implementation and Memory Organization |
+| 0.1.0 | NILUNTRILIUM | July 21, 2025 | Cognitive Graph Builder and Advanced Knowledge Visualization |
 
 ## Usage in Documentation
 
 When referencing versions:
-- **Technical**: "NEWBORN v0.0.2 (NILNILBIUM)"
-- **Badges**: "Version-0.0.2_NILNILBIUM"
-- **Formal**: "NEWBORN Architecture Version 0.0.2 NILNILBIUM"
+- **Technical**: "NEWBORN v0.1.0 (NILUNTRILIUM)"
+- **Badges**: "Version-0.1.0_NILUNTRILIUM"
+- **Formal**: "NEWBORN Architecture Version 0.1.0 NILUNTRILIUM"
 
 ## Future Version Planning
 

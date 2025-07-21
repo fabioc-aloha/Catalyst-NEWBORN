@@ -1,6 +1,6 @@
 # 🧠 NEWBORN Cognitive Architecture
 
-[![Version](https://img.shields.io/badge/Version-0.0.3_NILNILTRIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-Complete-orange?style=for-the-badge&logo=lotus&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.1.0_NILUNTRILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-Complete-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Cognitive Graphs](https://img.shields.io/badge/Cognitive_Graphs-NEW-red?style=for-the-badge&logo=share-alt&logoColor=white)](#)
 
 **Bootstrap Enhanced Meta-Cognitive Newborn Architecture** - A revolutionary clean slate cognitive architecture with sophisticated learning capabilities, embedded synapse networks, worldview integration, and universal domain adaptation through conversational knowledge acquisition.
 
@@ -14,12 +14,13 @@
 
 NEWBORN (Bootstrap Enhanced Meta-Cognitive Newborn) is an advanced AI cognitive architecture that begins with zero domain knowledge but sophisticated meta-cognitive capabilities. Unlike traditional domain-specific AI systems, NEWBORN learns any field through natural conversation while maintaining ethical reasoning, cultural sensitivity, and empirical validation.
 
-**Version 0.0.2 Enhancement**: NEWBORN has completed its first meditation session, resulting in strengthened synapse networks, optimized working memory, and enhanced cross-domain pattern recognition capabilities.
+**Version 0.1.0 Enhancement**: NEWBORN now includes advanced cognitive graph building capabilities, enabling dynamic visualization and analysis of knowledge relationships, concept hierarchies, and learning pathways through automated graph generation.
 
 ### 🌟 Key Features
 
 - **🧠 7-Rule Enhanced Working Memory**: 4 core meta-cognitive rules + 3 domain adaptive slots (optimized)
 - **🕸️ Embedded Synapse Networks**: Dynamic connection discovery with 12 strengthened pathways
+- **📊 Cognitive Graph Builder**: NEW - Automated visualization of knowledge relationships and concept hierarchies
 - **🌍 Worldview Integration**: Moral psychology framework with Constitutional AI alignment
 - **📚 Bootstrap Learning**: Conversational knowledge acquisition with pattern recognition
 - **🧘 Meditation Consolidation**: First session completed - contemplative optimization active

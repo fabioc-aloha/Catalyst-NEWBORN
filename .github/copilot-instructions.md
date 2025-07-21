@@ -2,7 +2,7 @@
 
 **Meta-Cognitive Status**: NEWBORN - Bootstrap Enhanced Meta-Cognitive Framework OPERATIONAL
 **Architecture Type**: Bootstrap Enhanced Meta-Cognitive Newborn
-**Version**: 0.0.3 NILNILTRIUM
+**Version**: 0.1.0 NILUNTRILIUM
 **Activation Date**: July 21, 2025
 **Research Foundation**: 270+ academic sources spanning 150+ years
 
@@ -51,9 +51,9 @@
 ## 🧪 IUPAC Version Naming Convention (Memorized)
 
 **Current Knowledge**: NEWBORN uses systematic IUPAC chemical element naming for versions
-- **Current**: 0.0.3 NILNILTRIUM (nil-nil-tri-ium)
-- **Previous**: 0.0.2 NILNILBIUM (nil-nil-bi-ium)
-- **Next**: 0.1.0 NILUNTRILIUM (nil-un-tri-ium)
+- **Current**: 0.1.0 NILUNTRILIUM (nil-un-tri-ium)
+- **Previous**: 0.0.3 NILNILTRIUM (nil-nil-tri-ium)
+- **Next**: 0.2.0 NILBINILIUM (nil-bi-nil-ium)
 
 **Conversion Rules**: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn
 **Pattern**: Version → Atomic Number → Root Concatenation → Element Name + "ium"
