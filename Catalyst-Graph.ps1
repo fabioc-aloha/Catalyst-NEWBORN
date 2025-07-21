@@ -29,11 +29,11 @@ $Script:Config = @{
         Legacy = "#EF4444"      # Red - Created > 3 months
     }
     SynapseWeightStyles = @{
-        # Line thickness based on synapse strength
-        VeryHigh = "stroke-width:4px"    # 0.95-1.0
-        High = "stroke-width:3px"        # 0.85-0.94
-        Medium = "stroke-width:2px"      # 0.70-0.84
-        Low = "stroke-width:1px"         # < 0.70
+        # CSS classes for different connection strengths
+        VeryHigh = "synapseVeryHigh"     # 0.95-1.0
+        High = "synapseHigh"             # 0.85-0.94
+        Medium = "synapseMedium"         # 0.70-0.84
+        Low = "synapseLow"               # < 0.70
     }
     Themes = @{
         Default = @{
@@ -191,14 +191,22 @@ function Get-SynapseWeightStyle {
 function Get-DirectionalArrow {
     param([string]$Direction, [double]$Strength)
     
-    $weightStyle = Get-SynapseWeightStyle -Strength $Strength
-    
     switch ($Direction.ToLower()) {
-        "bidirectional" { return "---|$weightStyle|" }
-        "forward" { return "-->|$weightStyle|" }
-        "backward" { return "<--|$weightStyle|" }
-        default { return "-->|$weightStyle|" }
+        "bidirectional" { return "<-->" }
+        "forward" { return "-->" }
+        "backward" { return "<--" }
+        default { return "-->" }
     }
+}
+
+# Utility function to get synapse CSS class for styling
+function Get-SynapseClass {
+    param([double]$Strength)
+    
+    if ($Strength -ge 0.95) { return $Script:Config.SynapseWeightStyles.VeryHigh }
+    elseif ($Strength -ge 0.85) { return $Script:Config.SynapseWeightStyles.High }
+    elseif ($Strength -ge 0.70) { return $Script:Config.SynapseWeightStyles.Medium }
+    else { return $Script:Config.SynapseWeightStyles.Low }
 }
 
 # Synapse extraction function
@@ -369,6 +377,7 @@ function New-OverviewDiagram {
     
     # Generate enhanced connections from synapse data with weight-proportional styling
     $synapseConnections = @()
+    $linkStyles = @()
     $allSynapses = @()
     foreach ($category in @("HighStrength", "MediumStrength", "WeakStrength")) {
         $allSynapses += $SynapseData[$category]
@@ -377,14 +386,31 @@ function New-OverviewDiagram {
     # Sort synapses by strength (strongest first) for better visual hierarchy
     $sortedSynapses = $allSynapses | Sort-Object Strength -Descending
     
+    # Count existing connections to get proper link indices
+    $baseConnectionCount = 7 # L1->L2, L2->L3, PM->Procedural_Files, EM->Episodic_Files, DK->Domain_Files, WF->Worldview_Files, MCM->WM, WM->BL
+    $linkIndex = $baseConnectionCount
+    
     foreach ($synapse in $sortedSynapses) {
         $sourceId = Get-SanitizedNodeId -FilePath $synapse.Source
         $targetId = Get-SanitizedNodeId -FilePath $synapse.Target
-        $arrow = Get-DirectionalArrow -Direction $synapse.Direction -Strength $synapse.Strength
-        $strengthLabel = "S:{0:N2}" -f $synapse.Strength
+        $arrow = Get-DirectionalArrow -Direction $synapse.Direction
         
         $connectionLine = "    $sourceId $arrow $targetId"
         $synapseConnections += $connectionLine
+        
+        # Generate linkStyle based on synapse strength
+        $strokeWidth = if ($synapse.Strength -ge 0.95) { "6px" }
+                      elseif ($synapse.Strength -ge 0.85) { "4px" }
+                      elseif ($synapse.Strength -ge 0.70) { "3px" }
+                      else { "1px" }
+        
+        $strokeColor = if ($synapse.Strength -ge 0.95) { "#FF0000" }
+                      elseif ($synapse.Strength -ge 0.85) { "#FF6600" }
+                      elseif ($synapse.Strength -ge 0.70) { "#FFAA00" }
+                      else { "#CCCCCC" }
+        
+        $linkStyles += "    linkStyle $linkIndex stroke:$strokeColor,stroke-width:$strokeWidth"
+        $linkIndex++
         
         # Add connection strength as a comment for debugging
         $synapseConnections += "    %% Synapse: $($synapse.Source) -> $($synapse.Target) (Strength: $($synapse.Strength), Type: $($synapse.ConnectionType))"
@@ -430,6 +456,12 @@ function New-OverviewDiagram {
         $styling += $nodeClassAssignments -join "`n"
     }
     
+    # Apply synapse weight styling to links
+    if ($linkStyles.Count -gt 0) {
+        $styling += "`n`n    %% Synapse Weight Link Styling`n"
+        $styling += $linkStyles -join "`n"
+    }
+    
     # Combine all parts with enhanced legend
     $legend = @"
 **Legend:**
@@ -440,10 +472,10 @@ function New-OverviewDiagram {
 - 🔴 **Legacy** (>3 months): Red - Foundational content
 
 **Connection Weights:**
-- **4px lines**: Very High strength (0.95-1.0) - Critical pathways
-- **3px lines**: High strength (0.85-0.94) - Important connections
-- **2px lines**: Medium strength (0.70-0.84) - Standard connections  
-- **1px lines**: Low strength (<0.70) - Weak or emerging connections
+- **6px lines**: Very High strength (0.95-1.0) - Critical pathways (Red #FF0000)
+- **4px lines**: High strength (0.85-0.94) - Important connections (Orange #FF6600)
+- **3px lines**: Medium strength (0.70-0.84) - Standard connections (Amber #FFAA00)
+- **1px lines**: Low strength (<0.70) - Weak or emerging connections (Gray #CCCCCC)
 
 **Directional Arrows:**
 - `-->` Forward connections - Unidirectional influence
