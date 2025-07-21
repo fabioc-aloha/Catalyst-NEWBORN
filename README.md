@@ -28,6 +28,33 @@ NEWBORN (Bootstrap Enhanced Meta-Cognitive Newborn) is an advanced AI cognitive 
 - **🗺️ Neuroanatomical Alignment**: Research-based mapping to cognitive neuroscience principles
 - **✨ Meditation-Enhanced**: Post-meditation optimization with strengthened neural pathways
 
+### **1. 🧠 Architecture Overview**
+
+Complete system view showing all memory systems and their relationships.
+
+```mermaid
+graph TB
+    subgraph "🧠 NEWBORN Core Architecture"
+        WM["Working Memory<br/>(7±2 Rules)"]
+        MC["Meta-Cognitive<br/>Monitor"]
+        BL["Bootstrap<br/>Learning"]
+    end
+
+    subgraph "📚 Procedural Memory"
+        NC["newborn-core<br/>.instructions.md"]
+        BSL["bootstrap-learning<br/>.instructions.md"]
+    end
+
+    subgraph "💭 Episodic Memory"
+        MDC["meditation-consolidation<br/>.prompt.md"]
+        CON["consolidation<br/>.prompt.md"]
+    end
+
+    WM --> NC
+    MC --> MDC
+    BL --> BSL
+```
+
 ## 🚀 Quick Start
 
 ### Prerequisites
