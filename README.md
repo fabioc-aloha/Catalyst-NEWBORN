@@ -1,6 +1,6 @@
 # 🧠 NEWBORN Cognitive Architecture
 
-[![Version](https://img.shields.io/badge/Version-0.1.1_NILUNTRIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-2nd_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Cognitive Graphs](https://img.shields.io/badge/Cognitive_Graphs-Enhanced-red?style=for-the-badge&logo=share-alt&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.1.2_NILUNBIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-2nd_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Cognitive Graphs](https://img.shields.io/badge/Cognitive_Graphs-Enhanced-red?style=for-the-badge&logo=share-alt&logoColor=white)](#)
 
 **Bootstrap Enhanced Meta-Cognitive Newborn Architecture** - A revolutionary clean slate cognitive architecture with sophisticated learning capabilities, embedded synapse networks, worldview integration, and universal domain adaptation through conversational knowledge acquisition.
 
@@ -14,13 +14,14 @@
 
 NEWBORN (Bootstrap Enhanced Meta-Cognitive Newborn) is an advanced AI cognitive architecture that begins with zero domain knowledge but sophisticated meta-cognitive capabilities. Unlike traditional domain-specific AI systems, NEWBORN learns any field through natural conversation while maintaining ethical reasoning, cultural sensitivity, and empirical validation.
 
-**Version 0.1.1 Enhancement**: Advanced cognitive visualization with color-coded creation dates, weight-proportional connection lines, directional arrows, and comprehensive stack ranking. Second meditation session completed with enhanced synapse network optimization and PowerShell-cognitive architecture integration.
+**Version 0.1.2 Enhancement**: Domain Knowledge Injection Template - Systematic framework for injecting specialized domain expertise into NEWBORN cognitive architecture with embedded synapse networks, baseline setup protocols, meditation-enhanced consolidation, and self-injectable design compatibility.
 
 ### 🌟 Key Features
 
 - **🧠 7-Rule Enhanced Working Memory**: 4 core meta-cognitive rules + 3 domain adaptive slots (optimized)
 - **🕸️ Embedded Synapse Networks**: Dynamic connection discovery with enhanced visualization insights
-- **🎨 Enhanced Cognitive Graph Builder**: NEW - Color-coded creation dates, weight-proportional lines, directional arrows
+- **� Domain Knowledge Injection**: NEW - Systematic template for specialized domain expertise integration
+- **�🎨 Enhanced Cognitive Graph Builder**: Color-coded creation dates, weight-proportional lines, directional arrows
 - **🌍 Worldview Integration**: Moral psychology framework with Constitutional AI alignment
 - **📚 Bootstrap Learning**: Conversational knowledge acquisition with pattern recognition
 - **🧘 Second Meditation Complete**: Enhanced cognitive optimization with strengthened neural pathways
@@ -192,6 +193,11 @@ NEWBORN is built upon **270+ academic sources** spanning 150+ years of research:
 
 ## 🛠️ Usage Guide
 
+### Quick Start
+
+**New Installation**: Use `SETUP-NEWBORN.md` for complete architecture setup
+**Domain Injection**: Use `DK-TEMPLATE.md` for systematic domain expertise integration
+
 ### Domain Learning
 
 **Starting a New Domain**:
@@ -201,6 +207,18 @@ NEWBORN is built upon **270+ academic sources** spanning 150+ years of research:
 3. Engage in natural conversation about the topic
 4. Ask for clarification, examples, or deeper exploration
 5. NEWBORN will demonstrate understanding through application
+
+**Domain Knowledge Injection**:
+
+For specialized expertise, use the systematic injection template:
+
+```markdown
+1. Follow DK-TEMPLATE.md protocol
+2. Replace [TEMPLATE_VARIABLES] with domain specifics
+3. Create structured knowledge files with embedded synapses
+4. Establish baseline synapse network connectivity
+5. Execute meditation consolidation for integration
+```
 
 **Example Learning Session**:
 
@@ -252,6 +270,7 @@ Catalyst-NEWBORN/
 ├── README.md                           # This file
 ├── CHANGELOG.md                        # Version history and release notes
 ├── SETUP-NEWBORN.md                   # Complete setup guide
+├── DK-TEMPLATE.md                     # Domain knowledge injection template
 ├── MANUAL-NEWBORN.md                  # Detailed usage manual
 ├── .github/
 │   ├── copilot-instructions.md        # Core cognitive architecture
@@ -276,6 +295,10 @@ Catalyst-NEWBORN/
 │   ├── cultural-sensitivity/
 │   ├── ethical-frameworks/
 │   └── practical-guidance/
+├── visualization/                      # Cognitive graph tools
+│   ├── Catalyst-Graph.ps1             # PowerShell visualization system
+│   ├── Catalyst-Graphv2.ps1           # Enhanced graph generator
+│   └── cognitive-graphs/              # Generated visualizations
 └── assets/                            # Documentation assets
     ├── MINION-NEWBORN.png
     ├── MINION-NEWBORN1.png
@@ -295,7 +318,9 @@ NEWBORN automatically optimizes when:
 
 ## 🎓 Learning Capabilities
 
-NEWBORN can learn any domain through conversation:
+## 🌐 Universal Domain Adaptability
+
+NEWBORN can learn any domain through conversation or systematic injection:
 
 ### 🔬 Technical Domains
 
@@ -325,6 +350,16 @@ NEWBORN can learn any domain through conversation:
 - Health and wellness approaches
 - Relationship and communication skills
 
+### 🎯 Domain Knowledge Injection
+
+For systematic domain expertise:
+
+- **Template-Driven**: Use `DK-TEMPLATE.md` for structured knowledge integration
+- **Self-Injectable**: Compatible with existing cognitive architecture protocols
+- **Research-Validated**: Empirical foundation requirements and quality assurance
+- **Ethically-Aligned**: Built-in moral psychology and responsible practice frameworks
+- **Synapse-Integrated**: Automatic network connectivity with existing knowledge base
+
 ## 🤝 Contributing
 
 While NEWBORN is a complete cognitive architecture, we welcome:
@@ -352,14 +387,15 @@ The `Minions/` directory contains visual assets representing domain-knowledgeabl
 
 ## 🔍 Architecture Status
 
-**Meta-Cognitive Status**: ✅ OPERATIONAL - NILNILBIUM ENHANCED
+**Meta-Cognitive Status**: ✅ OPERATIONAL - Bootstrap Enhanced Meta-Cognitive Framework
 **Working Memory**: ✅ 7/7 rules optimized (P5-P7 cleared for new learning)
-**Embedded Synapses**: ✅ ENHANCED - 12 connections strengthened
-**Worldview Integration**: ✅ ACTIVE
-**Research Foundation**: ✅ 270+ sources
-**Meditation Protocols**: ✅ FIRST SESSION COMPLETED
-**Version**: ✅ 0.0.3 NILNILTRIUM
-**Learning Readiness**: ✅ READY FOR NEW DOMAIN ACQUISITION
+**Embedded Synapses**: ✅ ENHANCED - 47 connections with 3.36 connectivity ratio
+**Worldview Integration**: ✅ ACTIVE with Constitutional AI alignment
+**Research Foundation**: ✅ 270+ sources spanning 150+ years
+**Meditation Protocols**: ✅ SECOND SESSION COMPLETED with PowerShell integration
+**Domain Injection**: ✅ NEW - DK-TEMPLATE.md systematic framework available
+**Version**: ✅ 0.1.2 NILUNBIUM - Domain Knowledge Injection Enhanced
+**Learning Readiness**: ✅ READY FOR NEW DOMAIN ACQUISITION OR SYSTEMATIC INJECTION
 
 ## 🌟 Philosophy
 
@@ -413,3 +449,31 @@ This project is protected under a **Proprietary License**.
 **Ready to begin your first domain learning session?** Simply start a conversation about any topic you'd like to explore, and watch NEWBORN's sophisticated learning capabilities unfold in real-time.
 
 *NEWBORN Architecture - Bootstrap Enhanced Meta-Cognitive Framework Operational*
+
+## 🎯 Domain Knowledge Injection (DK-TEMPLATE)
+
+**NEW in Version 0.1.2**: Systematic framework for injecting specialized domain expertise into NEWBORN cognitive architecture.
+
+### **Key DK-TEMPLATE Capabilities:**
+
+- **🔧 Self-Injectable Design**: Template compatible with existing bootstrap-learning and meta-cognitive protocols
+- **📋 Five-Step Protocol**: Pre-assessment → Directory Structure → Knowledge Files → Synapse Networks → Meditation Consolidation
+- **🔄 Variable Replacement**: Template variables ([DOMAIN_NAME], [DOMAIN_CODE], [EXPERTISE_LEVEL], etc.) for easy customization
+- **🕸️ Embedded Synapse Integration**: Automatic bi-directional connectivity with existing architecture
+- **✅ Quality Assurance**: Built-in validation, testing protocols, and empirical standards compliance
+- **🧠 Autonomous Execution**: NEWBORN can systematically follow the template for self-directed domain injection
+
+### **Domain Knowledge Structure:**
+- **Core Concepts**: Foundational knowledge with conceptual hierarchies
+- **Methodologies**: Practical application frameworks and best practices
+- **Applications**: Real-world implementation with success factors
+- **Research Foundation**: Evidence-based validation with quality standards
+- **Ethical Considerations**: Responsible practice protocols and risk assessment
+
+### **Professional Applications:**
+- **Technical Domains**: Programming, engineering, scientific methodologies
+- **Creative Domains**: Artistic techniques, design principles, creative writing
+- **Business Domains**: Strategy, management, marketing, finance
+- **Academic Domains**: Research methods, theoretical frameworks, empirical validation
+
+**Template Usage**: Use `DK-TEMPLATE.md` for systematic domain expertise integration with embedded synapse networks and meditation-enhanced consolidation.

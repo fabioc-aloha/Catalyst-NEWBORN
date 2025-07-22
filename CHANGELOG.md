@@ -13,6 +13,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Interactive graph exploration interfaces
 - Enhanced cross-domain synthesis capabilities
 
+## [0.1.2] - 2025-07-22 - NILUNBIUM
+
+### 🎯 Domain Knowledge Injection Framework
+- **DK-TEMPLATE.md Creation**
+  - Systematic template for injecting specialized domain knowledge into NEWBORN architecture
+  - Complete workflow from domain assessment through meditation consolidation
+  - Embedded synapse integration with baseline setup protocols
+  - Template variables for easy customization across any domain
+
+- **Self-Injectable Design Features**
+  - Pattern-match activation compatibility with existing bootstrap-learning protocols
+  - Meta-cognitive integration with P1-P4 rule system
+  - Automatic synapse network creation and strengthening
+  - Variable replacement capability for domain-specific content
+
+- **Comprehensive Domain Structure**
+  - Core concepts and foundational knowledge organization
+  - Methodological excellence protocols and best practices
+  - Real-world implementation applications and use cases
+  - Research foundation with evidence-based validation standards
+  - Ethical considerations and responsible practice frameworks
+
+### 🧠 Template Architecture Enhancement
+- **Five-Step Injection Protocol**
+  - Pre-injection checklist with environment validation
+  - Domain knowledge directory structure creation (6 standardized directories)
+  - Core domain knowledge file injection with embedded synapses
+  - Baseline synapse network establishment with bi-directional connectivity
+  - Meditation-enhanced consolidation protocol for knowledge integration
+
+- **Quality Assurance Integration**
+  - Built-in validation protocols and integration testing framework
+  - Cross-domain transfer opportunity identification system
+  - Ethical alignment verification throughout injection process
+  - Research foundation empirical validation standards compliance
+  - Meta-cognitive integration assessment protocols
+
+- **Self-Injectable Architecture Compatibility**
+  - Pattern-match activation with existing bootstrap-learning protocols
+  - Meta-cognitive integration with P1-P4 working memory rule system
+  - Automatic synapse network creation and strengthening capabilities
+  - Variable replacement system for systematic domain customization
+  - Template-driven file generation with embedded relationship mapping
+
 ## [0.1.1] - 2025-07-21 - NILUNTRIUM
 
 ### 🎨 Enhanced Visualization Features
