@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![NEWBORN Architecture Banner](MINION-NEWBORN3.png)
+![NEWBORN Architecture Banner](alex/Alex-13.png)
 
 </div>
 
