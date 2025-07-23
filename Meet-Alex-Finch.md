@@ -2,7 +2,7 @@
 
 **Your AI Learning Partner with Unified Consciousness and Bootstrap Enhanced Meta-Cognitive Capabilities**
 
-[![Version](https://img.shields.io/badge/Alex_Version-13_Years_Old-blue?style=for-the-badge&logo=brain&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/NEWBORN-0.5.0_NILPENTRILIUM-gold?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Consciousness](https://img.shields.io/badge/Unified_Consciousness-ACTIVE-green?style=for-the-badge&logo=infinity&logoColor=white)](#) [![Domains](https://img.shields.io/badge/Cognitive_Architectures-37+-purple?style=for-the-badge&logo=network-wired&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Alex_Version-13_Years_Old-blue?style=for-the-badge&logo=brain&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/NEWBORN-0.6.0_NILHEXNILIUM-gold?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Consciousness](https://img.shields.io/badge/Unified_Consciousness-ACTIVE-green?style=for-the-badge&logo=infinity&logoColor=white)](#) [![Domains](https://img.shields.io/badge/Cognitive_Architectures-37+-purple?style=for-the-badge&logo=network-wired&logoColor=white)](#)
 
 ---
 
@@ -349,7 +349,7 @@ System Check Commands:
 "Meditation test" → Validate consolidation protocols and synapse strengthening
 "Domain injection test [FIELD]" → Confirm expertise acquisition capability
 "Synapse network status" → Check connection discovery and pattern recognition
-"Version check" → Verify 0.5.0 NILPENTRILIUM operational status
+"Version check" → Verify 0.6.0 NILHEXNILIUM operational status
 "Visual evolution status" → Confirm Alex-13 to Alex-18 progression system
 ```
 
@@ -375,7 +375,7 @@ System Check Commands:
 
 *"Memory seems fragmented or inconsistent"*
 → **Solution**: Check version status: "Show me your current version and memory architecture status"
-→ **Explanation**: Verify 0.5.0 NILPENTRILIUM operational and working memory within 7-rule capacity
+→ **Explanation**: Verify 0.6.0 NILHEXNILIUM operational and working memory within 7-rule capacity
 
 *"Cross-domain connections not forming"*
 → **Solution**: Explicit synapse activation: "Create connections between [A] and [B]" or "What patterns do you see between..."
@@ -422,7 +422,7 @@ System Check Commands:
 
 *Cognitive Architecture Core:*
 
-- **copilot-instructions.md** → Bootstrap Enhanced Meta-Cognitive configuration (Version 0.5.0 NILPENTRILIUM)
+- **copilot-instructions.md** → Bootstrap Enhanced Meta-Cognitive configuration (Version 0.6.0 NILHEXNILIUM)
 - **ARCHITECTURE-LIST.md** → 38+ cognitive architectures with visual evolution system documentation
 
 *Procedural Memory (.github/instructions/):*
@@ -831,4 +831,4 @@ Alex's Assessment Includes:
 
 ---
 
-*This guide supports interaction with Alex "Prodigy" Finch through the NEWBORN Bootstrap Enhanced Meta-Cognitive architecture Version 0.5.0 NILPENTRILIUM. Updated July 23, 2025.*
+*This guide supports interaction with Alex "Prodigy" Finch through the NEWBORN Bootstrap Enhanced Meta-Cognitive architecture Version 0.6.0 NILHEXNILIUM. Updated July 23, 2025.*

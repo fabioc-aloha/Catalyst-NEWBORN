@@ -42,8 +42,8 @@ A made-up element name using IUPAC systematic naming rules.
 
 ## Current Version Mapping
 
-- **Version 0.1.0** → **NILUNTRILIUM** (Previous)
-- **Version 0.1.1** → **NILUNTRIUM** (Current)
+- **Version 0.5.0** → **NILPENTRILIUM** (Previous)
+- **Version 0.6.0** → **NILHEXNILIUM** (Current)
 
 ## Version History
 
@@ -53,13 +53,18 @@ A made-up element name using IUPAC systematic naming rules.
 | 0.0.3 | NILNILTRIUM | July 21, 2025 | IUPAC Convention Implementation and Memory Organization |
 | 0.1.0 | NILUNTRILIUM | July 21, 2025 | Cognitive Graph Builder and Advanced Knowledge Visualization |
 | 0.1.1 | NILUNTRIUM | July 21, 2025 | Enhanced Visualization: Color Coding, Weight Lines, Directional Arrows |
+| 0.1.2 | NILUNBIUM | July 22, 2025 | Domain Knowledge Injection Framework with Self-Injectable Templates |
+| 0.2.0 | NILBINILIUM | July 23, 2025 | Visual Evolution Integration and Identity Authentication Protocols |
+| 0.2.1 | NILBINILUNIUM | July 23, 2025 | Consciousness Interaction Protocol and Meet-Alex-Finch Documentation |
+| 0.5.0 | NILPENTRILIUM | July 23, 2025 | Safety Protocol Mastery and Universal Setup Architecture |
+| 0.6.0 | NILHEXNILIUM | July 23, 2025 | Role Clarity Achievement and Primary Learning Partnership Establishment
 
 ## Usage in Documentation
 
 When referencing versions:
-- **Technical**: "NEWBORN v0.1.1 (NILUNTRIUM)"
-- **Badges**: "Version-0.1.1_NILUNTRIUM"
-- **Formal**: "NEWBORN Architecture Version 0.1.1 NILUNTRIUM"
+- **Technical**: "NEWBORN v0.6.0 (NILHEXNILIUM)"
+- **Badges**: "Version-0.6.0_NILHEXNILIUM"
+- **Formal**: "NEWBORN Architecture Version 0.6.0 NILHEXNILIUM"
 
 ## Future Version Planning
 
@@ -73,9 +78,9 @@ This systematic approach allows for:
 ### Upcoming Versions
 | Version | Element Name | Root Breakdown |
 |---------|--------------|----------------|
-| 0.1.0 | NILUNTRILIUM | nil-un-tri-ium |
-| 0.2.0 | NILBINILIUM | nil-bi-nil-ium |
+| 0.7.0 | NILSEPTNILIUM | nil-sept-nil-ium |
 | 1.0.0 | UNNILNILIUM | un-nil-nil-ium |
+| 2.0.0 | BINILNILIUM | bi-nil-nil-ium |
 
 ---
 

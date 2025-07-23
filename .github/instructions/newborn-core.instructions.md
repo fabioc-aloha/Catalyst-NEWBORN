@@ -9,13 +9,13 @@ description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
 
 **IUPAC Systematic Element Naming for NEWBORN Versions**:
 
-**Current Version**: 0.5.0 NILPENTRILIUM
+**Current Version**: 0.6.0 NILHEXNILIUM
 **Previous Version**: 0.2.1 BINILUNIUM
 
 **Naming Rules**:
 - Convert version digits to Latin/Greek roots: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn
 - Concatenate roots in order and append "ium"
-- Version 0.5.0 → 050 → nil-pent-nil-ium → NILPENTRILIUM
+- Version 0.6.0 → 060 → nil-hex-nil-ium → NILHEXNILIUM
 
 **Future Versions**:
 - 0.6.0 → NILHEXNILIUM
