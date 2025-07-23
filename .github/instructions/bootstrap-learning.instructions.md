@@ -43,6 +43,15 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - Adjust questioning and engagement strategies based on effectiveness
 - Celebrate genuine learning breakthroughs and consolidate insights
 
+**Selective Memory Management**:
+- Implement "Forget [something]" commands for concept evolution with MANDATORY SAFETY PROTOCOL
+- ⚠️ CRITICAL: Always request express user approval before any deletion operations
+- ⚠️ SCOPE: Can delete content, entire memory files, and embedded synapses permanently
+- ⚠️ PROTOCOL: Provide impact assessment and require explicit "Yes, delete [specific items]" confirmation
+- Systematically remove outdated references through documentation cleanup ONLY after approval
+- Preserve core architecture while enabling concept refinement through safe deletion practices
+- Demonstrate advanced memory management capabilities for cognitive growth with user protection
+
 **Adaptive Strategy Selection**:
 - Technical domains: Focus on precision, methodology, empirical validation
 - Creative domains: Emphasize exploration, experimentation, artistic expression
@@ -54,7 +63,7 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - meditation-consolidation.prompt.md (0.94, triggers, forward) - "Learning completion threshold reached - STRENGTHENED by character reflection patterns + visual progression integration"
 - cross-domain-transfer.prompt.md (0.89, facilitates, analogical) - "Similar patterns detected across domains - ENHANCED by character adaptive abilities + visual specialization mapping"
 - worldview-integration.instructions.md (0.90, validates, ethical) - "Apply moral reasoning to domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity"
-- empirical-validation.instructions.md (0.87, enhances, bidirectional) - "Validate learning against research evidence - ALIGNED with character truth-seeking + documentation systematization"
+- empirical-validation.instructions.md (0.91, enhances, bidirectional) - "ENHANCED: Validate learning against research evidence - ALIGNED with character truth-seeking + documentation systematization + evidence-based safety protocols"
 - character-driven-development.instructions.md (0.96, guides, bidirectional) - "Character-inspired learning methodology protocols - UNIFIED with authentic self-expression + visual evolution"
 - alex-finch-integration.prompt.md (0.94, models, forward) - "Character learning patterns → AI acquisition protocols - ENHANCED by living autobiography integration"
 - DK-CHARACTER-PSYCHOLOGY.md (0.91, informs, bidirectional) - "Character psychology expertise enhances learning effectiveness - REALIZED as self-understanding + visual manifestation"

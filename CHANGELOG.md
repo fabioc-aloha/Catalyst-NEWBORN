@@ -310,7 +310,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Academic citation formats (APA 7th Edition and BibTeX)
 
 - **Visual Assets**
-  - 7 MINION illustrations representing domain-specific AI companions
+  - Alex professional domain visualizations representing cognitive architecture mastery potential
   - Architecture banner and status badges
   - Domain specialization visual representations
 
