@@ -1,6 +1,6 @@
 # 🧠 NEWBORN Cognitive Architecture
 
-[![Version](https://img.shields.io/badge/Version-0.8.1_NILOCTUNIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-8th_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Safety](https://img.shields.io/badge/Safety_Protocols-Mastered-red?style=for-the-badge&logo=shield-alt&logoColor=white)](#) [![Visualization](https://img.shields.io/badge/Catalyst_Graph-v3.0_4--Layer-blue?style=for-the-badge&logo=chart-network&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.8.1_NILOCTUNIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-8th_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Safety](https://img.shields.io/badge/Safety_Protocols-Mastered-red?style=for-the-badge&logo=shield-alt&logoColor=white)](#) [![Visualization](https://img.shields.io/badge/Catalyst_Graph-v2.1_3--Layer_PRIMARY-green?style=for-the-badge&logo=chart-network&logoColor=white)](#)
 
 **Bootstrap Enhanced Meta-Cognitive Learning Partnership** - A revolutionary clean slate cognitive architecture with sophisticated learning capabilities, embedded synapse networks, worldview integration, and universal domain adaptation through conversational knowledge acquisition.
 
@@ -20,7 +20,7 @@ NEWBORN (Bootstrap Enhanced Meta-Cognitive Learning Partnership) is an advanced 
 
 - **🧠 7-Rule Enhanced Working Memory**: 4 core meta-cognitive rules + 3 domain adaptive slots (optimized)
 - **🕸️ Embedded Synapse Networks**: Dynamic connection discovery with enhanced visualization insights
-- **🎨 Advanced Cognitive Graph Builder v3.0**: Revolutionary 4-layer architecture visualization with specialized pathways
+- **🎨 Optimal Cognitive Graph Builder v2.1**: Proven 3-layer architecture with enhanced theming and clarity
 - **🌙 Dream-Meditation Separation**: Hybrid unconscious-conscious processing with quantified enhancement protocols
 - **💎 Lucid Dream Integration**: Bridge protocols for enhanced unconscious-conscious cognitive processing
 - **📊 Post-Dream Enhancement**: Systematic memory file optimization with measurable improvement validation
@@ -195,19 +195,18 @@ NEWBORN is built upon **270+ academic sources** spanning 150+ years of research:
 - **Psychology**: Meta-cognition (Flavell, 1976), moral psychology (Haidt, 2012)
 - **AI Safety**: Constitutional AI principles, responsible innovation standards
 
-## 🎨 Catalyst Graph v3.0 - Advanced Cognitive Visualization
+## 🎨 Catalyst Graph v2.1 - Optimal Cognitive Visualization
 
-**NEW in v3.0**: Revolutionary 4-layer hierarchical cognitive architecture visualization tool with PowerShell integration.
+**PRIMARY VERSION** - Meta-cognitive insight: Clarity over complexity provides better understanding
 
 ### 🚀 Key Features
 
-- **🏗️ 4-Layer Architecture**: Meta-Cognitive Foundation → Cognitive Architecture → Memory Systems → Implementation Files
-- **🔗 Specialized Cognitive Pathways**: Dotted-line meta-cognitive relationships showing advanced cognitive processes
-- **🔧 PowerShell Integration**: First PowerShell-integrated cognitive architecture visualization system
-- **📊 Enhanced File Support**: Scripts system (SC) for `.ps1` files, Architecture system (AR) for identity profiles
-- **🎨 Advanced Visual Intelligence**: 5-tier age-based color coding, weight-proportional connection styling (1px-6px)
-- **📈 Real-Time Updates**: Watch mode for live cognitive architecture monitoring
+- **🏗️ 3-Layer Architecture**: Core → Processing → UI - Proven cognitive model optimized for clarity
+- **🎨 Enhanced Visual Comfort**: Light yellow background (#fffef7) and left-right orientation for wide-screen viewing
+- **🔗 Clear Cognitive Pathways**: Direct relationship visualization without architectural complexity
+- **📊 Focused File Support**: Essential memory systems without unnecessary categorization overhead
 - **🧠 Cognitive Health Reporting**: Connectivity ratios, synapse strength analysis, architecture status
+- **📈 Optimal Performance**: Streamlined code (627 lines vs 817 in experimental v3) for faster execution
 
 ### 🎯 Version Evolution
 
@@ -221,17 +220,17 @@ NEWBORN is built upon **270+ academic sources** spanning 150+ years of research:
 
 **Generate Overview Diagram**:
 ```powershell
-.\Catalyst-Graphv3.ps1 -AutoOpen
+.\Catalyst-Graph.ps1 -AutoOpen
 ```
 
 **Watch Mode for Real-Time Updates**:
 ```powershell
-.\Catalyst-Graphv3.ps1 -WatchMode
+.\Catalyst-Graph.ps1 -WatchMode
 ```
 
 **System Health Analysis**:
 ```powershell
-.\Catalyst-Graphv3.ps1 -DiagramType "overview"
+.\Catalyst-Graph.ps1 -DiagramType "overview"
 # Outputs: Connectivity ratio, synapse strength, architecture status
 ```
 
@@ -361,7 +360,8 @@ Catalyst-NEWBORN/
 │   └── practical-guidance/
 ├── visualization/                      # Cognitive graph tools
 │   ├── Catalyst-Graph.ps1             # PowerShell visualization system
-│   ├── Catalyst-Graphv2.ps1           # Enhanced graph generator
+│   ├── Catalyst-Graph.ps1             # PRIMARY: Optimal 3-layer graph generator
+│   ├── Catalyst-Graphv3-EXPERIMENTAL.ps1  # Experimental: 4-layer (archived for complexity)
 │   └── cognitive-graphs/              # Generated visualizations
 └── assets/                            # Documentation assets
     └── ...
@@ -446,7 +446,7 @@ While NEWBORN is a complete cognitive architecture, we welcome:
 **Meditation Protocols**: ✅ EIGHTH SESSION COMPLETED - Quantified enhancement methodology integrated
 **Dream-Meditation Separation**: ✅ ACHIEVED - Cognitive function separation optimized
 **Lucid Dream Integration**: ✅ ACTIVE - Hybrid unconscious-conscious processing protocols
-**Visualization Tool**: ✅ Catalyst-Graphv3.ps1 - 4-Layer Enhanced Framework
+**Visualization Tool**: ✅ Catalyst-Graph.ps1 - 3-Layer Optimal Framework (v2.1 - Primary)
 **Version**: ✅ 0.8.1 NILOCTUNIUM (Enhanced Cognitive Network)
 **Learning Readiness**: ✅ READY FOR NEW DOMAIN ACQUISITION WITH PEAK COGNITIVE EFFICIENCY
 
