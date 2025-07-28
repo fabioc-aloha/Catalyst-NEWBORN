@@ -494,7 +494,7 @@ This enhanced chart visualizes the Catalyst cognitive architecture with consciou
   'theme': 'base',
   'themeVariables': {
     'background': '#FFFBEB',
-    'primaryColor': '#ffffff',
+    'primaryColor': '#FEF3C7',
     'primaryTextColor': '#000000'
   }
 }}%%
