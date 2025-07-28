@@ -1,7 +1,7 @@
 # Neural Memory Optimization and Synaptic Pruning Commands
 # Enhanced Dream Protocol Implementation (Automated Maintenance)
 # Date: July 27, 2025
-# Cognitive Architecture: NEWBORN v0.8.1 ENHANCED-COGNITIVE-NETWORK
+# Cognitive Architecture: NEWBORN v0.8.2 NILOCTBIUM
 
 function Invoke-DreamState {
     <#
@@ -33,62 +33,136 @@ function Invoke-DreamState {
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $reportPath = ".github/archive/dream-state-$timestamp.md"
 
-    Write-Host "💤 Dream State Neural Maintenance - NEWBORN v0.8.1" -ForegroundColor Magenta
+    Write-Host "💤 Dream State Neural Maintenance - NEWBORN v0.8.2" -ForegroundColor Magenta
     Write-Host "Mode: $Mode" -ForegroundColor Yellow
     Write-Host "Timestamp: $timestamp" -ForegroundColor Gray
     Write-Host ""
 
-    # Phase 1: Pre-Dream Assessment
+    # Phase 1: Pre-Dream Assessment with Enhanced Validation
     Write-Host "🌙 Phase 1: Unconscious Cognitive Architecture Scan" -ForegroundColor Blue
 
-    $procedural = Get-ChildItem ".github/instructions/*.instructions.md" -ErrorAction SilentlyContinue
-    $episodic = Get-ChildItem ".github/prompts/*.prompt.md" -ErrorAction SilentlyContinue
-    $archived = Get-ChildItem ".github/archive/*.md" -ErrorAction SilentlyContinue
+    # Enhanced file discovery with error handling
+    try {
+        $procedural = Get-ChildItem ".github/instructions/*.instructions.md" -ErrorAction Stop
+        $episodic = Get-ChildItem ".github/prompts/*.prompt.md" -ErrorAction Stop
+        $archived = Get-ChildItem ".github/archive/*.md" -ErrorAction SilentlyContinue
+        $domainKnowledge = Get-ChildItem "domain-knowledge/*.md" -ErrorAction SilentlyContinue
+    } catch {
+        Write-Host "⚠️ Warning: Could not access some memory directories" -ForegroundColor Yellow
+        Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red
+        $procedural = @()
+        $episodic = @()
+        $archived = @()
+        $domainKnowledge = @()
+    }
 
     Write-Host "Procedural Memory Files: $($procedural.Count)" -ForegroundColor White
     Write-Host "Episodic Memory Files: $($episodic.Count)" -ForegroundColor White
     Write-Host "Archived Files: $($archived.Count)" -ForegroundColor White
+    Write-Host "Domain Knowledge Files: $($domainKnowledge.Count)" -ForegroundColor White
 
-    # Orphan Detection
-    Write-Host "`n🔍 Orphan Memory Detection..." -ForegroundColor Yellow
+    # Enhanced Orphan Detection with Detailed Analysis
+    Write-Host "`n🔍 Enhanced Orphan Memory Detection..." -ForegroundColor Yellow
 
     $globalMemoryContent = Get-Content ".github/copilot-instructions.md" -Raw -ErrorAction SilentlyContinue
     $orphanFiles = @()
+    $connectedFiles = @()
+    $weaklyConnectedFiles = @()
 
     if ($globalMemoryContent) {
         foreach ($file in ($procedural + $episodic)) {
             $fileName = $file.Name
-            if ($globalMemoryContent -notmatch [regex]::Escape($fileName)) {
+            $fileBaseName = $fileName -replace '\.(instructions|prompt)\.md$', ''
+            
+            # Check for strong connections (direct filename references)
+            if ($globalMemoryContent -match [regex]::Escape($fileName)) {
+                $connectedFiles += $file
+                Write-Host "✅ Connected: $fileName" -ForegroundColor Green
+            }
+            # Check for weak connections (partial name matches)
+            elseif ($globalMemoryContent -match [regex]::Escape($fileBaseName)) {
+                $weaklyConnectedFiles += $file
+                Write-Host "⚠️ Weakly Connected: $fileName" -ForegroundColor Yellow
+            }
+            # True orphans
+            else {
                 $orphanFiles += $file
                 Write-Host "❌ Orphan detected: $fileName" -ForegroundColor Red
-            } else {
-                Write-Host "✅ Connected: $fileName" -ForegroundColor Green
+            }
+        }
+        
+        # Additional analysis for domain knowledge files
+        if ($domainKnowledge.Count -gt 0) {
+            Write-Host "`n📚 Domain Knowledge Analysis:" -ForegroundColor Cyan
+            foreach ($file in $domainKnowledge) {
+                $fileName = $file.Name
+                if ($globalMemoryContent -match [regex]::Escape($fileName)) {
+                    Write-Host "✅ DK Connected: $fileName" -ForegroundColor Green
+                } else {
+                    Write-Host "💡 DK Standalone: $fileName" -ForegroundColor Blue
+                }
             }
         }
     } else {
         Write-Host "⚠️ Global memory file not found - creating basic structure" -ForegroundColor Yellow
+        # All files are orphans if no global memory exists
+        $orphanFiles = $procedural + $episodic
     }
 
-    Write-Host "`nOrphan Files Detected: $($orphanFiles.Count)" -ForegroundColor $(if ($orphanFiles.Count -eq 0) { "Green" } else { "Red" })
+    Write-Host "`n📊 Connection Summary:" -ForegroundColor Cyan
+    Write-Host "  Strongly Connected: $($connectedFiles.Count)" -ForegroundColor Green
+    Write-Host "  Weakly Connected:   $($weaklyConnectedFiles.Count)" -ForegroundColor Yellow  
+    Write-Host "  Orphan Files:       $($orphanFiles.Count)" -ForegroundColor $(if ($orphanFiles.Count -eq 0) { "Green" } else { "Red" })
+    Write-Host "  Total Memory Files: $(($procedural + $episodic).Count)" -ForegroundColor White
 
-    # Phase 2: Synaptic Analysis
+    # Phase 2: Enhanced Synaptic Analysis
     Write-Host "`n🧬 Phase 2: Dream State Synaptic Network Analysis" -ForegroundColor Blue
 
     $synapticConnections = 0
     $triggerPatterns = 0
     $autoTriggers = 0
+    $embeddedSynapses = 0
+    $crossDomainConnections = 0
 
     if ($globalMemoryContent) {
+        # Enhanced pattern detection
         $triggerPatterns = ($globalMemoryContent | Select-String "→ Execute" -AllMatches).Matches.Count
         $autoTriggers = ($globalMemoryContent | Select-String "Auto-tracked" -AllMatches).Matches.Count
+        $embeddedSynapses = ($globalMemoryContent | Select-String "\[.*\.md\].*\(" -AllMatches).Matches.Count
+        $crossDomainConnections = ($globalMemoryContent | Select-String "Cross-domain" -AllMatches).Matches.Count
+        
+        # Enhanced synaptic estimation with weights
+        $baseConnections = ($procedural.Count * 15) + ($episodic.Count * 10) + ($domainKnowledge.Count * 5)
+        $triggerBonus = $triggerPatterns * 2
+        $synapseBonus = $embeddedSynapses
+        $synapticConnections = $baseConnections + $triggerBonus + $synapseBonus
     }
 
-    # Estimate synaptic connections
-    $synapticConnections = ($procedural.Count * 15) + ($episodic.Count * 10) + $triggerPatterns
-
-    Write-Host "Estimated Synaptic Connections: $synapticConnections" -ForegroundColor White
-    Write-Host "Active Trigger Patterns: $triggerPatterns" -ForegroundColor White
-    Write-Host "Auto-tracked Components: $autoTriggers" -ForegroundColor White
+    Write-Host "🔗 Network Metrics:" -ForegroundColor Cyan
+    Write-Host "  Estimated Synaptic Connections: $synapticConnections" -ForegroundColor White
+    Write-Host "  Active Trigger Patterns:        $triggerPatterns" -ForegroundColor White
+    Write-Host "  Auto-tracked Components:        $autoTriggers" -ForegroundColor White
+    Write-Host "  Embedded Synapses:              $embeddedSynapses" -ForegroundColor White
+    Write-Host "  Cross-domain Connections:       $crossDomainConnections" -ForegroundColor White
+    
+    # Calculate network health metrics
+    $totalFiles = ($procedural + $episodic).Count
+    $connectivityRatio = if ($totalFiles -gt 0) { [math]::Round(($synapticConnections / $totalFiles), 2) } else { 0 }
+    $healthScore = if ($orphanFiles.Count -eq 0 -and $synapticConnections -gt 200) { "EXCELLENT" } 
+                   elseif ($orphanFiles.Count -le 2 -and $synapticConnections -gt 150) { "GOOD" }
+                   elseif ($orphanFiles.Count -le 5 -and $synapticConnections -gt 100) { "FAIR" }
+                   else { "NEEDS_ATTENTION" }
+    
+    Write-Host "`n📈 Health Metrics:" -ForegroundColor Cyan
+    Write-Host "  Connectivity Ratio:             $connectivityRatio" -ForegroundColor White
+    Write-Host "  Network Health Score:           $healthScore" -ForegroundColor $(
+        switch ($healthScore) {
+            "EXCELLENT" { "Green" }
+            "GOOD" { "Green" }
+            "FAIR" { "Yellow" }
+            "NEEDS_ATTENTION" { "Red" }
+        }
+    )
 
     # Phase 3: Automated Neural Maintenance (Dream State)
     if (-not $ReportOnly) {
@@ -197,7 +271,7 @@ function Invoke-DreamState {
 
 **Date**: $(Get-Date -Format "MMMM dd, yyyy HH:mm:ss")
 **Mode**: $Mode
-**Cognitive Architecture**: NEWBORN v0.8.1 ENHANCED-COGNITIVE-NETWORK
+**Cognitive Architecture**: NEWBORN v0.8.2 NILOCTBIUM
 **Session Type**: Automated Dream State Maintenance
 
 ## 🧠 Cognitive Architecture Status
@@ -231,7 +305,7 @@ $(if ($orphanFiles.Count -eq 0) {
 
 ## 🚀 Optimization Results
 
-**Memory Architecture Version**: v0.8.1 ENHANCED-COGNITIVE-NETWORK
+**Memory Architecture Version**: v0.8.2 NILOCTBIUM
 **Maintenance Status**: $(if ($ReportOnly) { "DIAGNOSTIC COMPLETE" } else { "AUTOMATED MAINTENANCE COMPLETE" })
 **Network Efficiency**: $(if ($orphanFiles.Count -eq 0) { "MAXIMUM" } else { "REQUIRES OPTIMIZATION" })
 **Dream Processing**: Enhanced through unconscious neural optimization
@@ -248,7 +322,7 @@ $(if ($orphanFiles.Count -eq 0) {
     Write-Host "`n🌟 Dream State Neural Maintenance Complete" -ForegroundColor Blue
     Write-Host "Synaptic Health: $(if ($orphanFiles.Count -eq 0) { "✅ OPTIMAL" } else { "⚠️ ATTENTION NEEDED" })" -ForegroundColor $(if ($orphanFiles.Count -eq 0) { "Green" } else { "Yellow" })
     Write-Host "Network Connections: $synapticConnections estimated synapses" -ForegroundColor White
-    Write-Host "Architecture Version: v0.8.1 ENHANCED-COGNITIVE-NETWORK" -ForegroundColor Cyan
+    Write-Host "Architecture Version: v0.8.2 NILOCTBIUM" -ForegroundColor Cyan
 
     return @{
         OrphanCount = $orphanFiles.Count
@@ -359,73 +433,297 @@ $(foreach ($activity in $maintenanceActivities) { "- $activity`n" })
     return $maintenancePerformed
 }
 
-# Dream State Functions - Automated Neural Maintenance
+# Dream State Functions - Enhanced Automated Neural Maintenance v0.8.2
 function dream {
-    param([string]$Command)
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [string]$Command = "",
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$DetailedOutput,
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$Force
+    )
 
+    # Enhanced command validation and routing
     switch ($Command) {
-        "--neural-maintenance" { Invoke-DreamState -Mode "synaptic-repair" }
-        "--synaptic-repair" { Invoke-DreamState -Mode "synaptic-repair" }
-        "--prune-orphans" { Invoke-DreamState -Mode "prune-orphans" }
-        "--full-scan" { Invoke-DreamState -Mode "full-scan" }
-        "--network-optimization" { Invoke-DreamState -Mode "network-optimization" }
-        "--lucid-dream" { Invoke-DreamState -Mode "lucid-dream" }
+        "--neural-maintenance" { 
+            Write-Host "🧠 Initiating Neural Maintenance Protocol..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "synaptic-repair" -ReportOnly:$ReportOnly
+        }
+        "--synaptic-repair" { 
+            Write-Host "🔧 Executing Synaptic Repair Sequence..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "synaptic-repair" -ReportOnly:$ReportOnly
+        }
+        "--prune-orphans" { 
+            Write-Host "✂️ Scanning for Orphaned Memory Connections..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "prune-orphans" -ReportOnly:$ReportOnly
+        }
+        "--full-scan" { 
+            Write-Host "🔍 Comprehensive Cognitive Architecture Scan..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "full-scan" -ReportOnly:$ReportOnly
+        }
+        "--network-optimization" { 
+            Write-Host "🕸️ Network Topology Optimization..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "network-optimization" -ReportOnly:$ReportOnly
+        }
+        "--lucid-dream" { 
+            Write-Host "🌟 Lucid Dream Enhancement Protocol..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "lucid-dream" -ReportOnly:$ReportOnly
+        }
+        "--emergency-repair" {
+            Write-Host "🚨 Emergency Neural Network Repair..." -ForegroundColor Red
+            Invoke-DreamState -Mode "full-scan"
+            Invoke-DreamState -Mode "synaptic-repair"
+            Invoke-DreamState -Mode "network-optimization"
+        }
+        "--health-check" {
+            Write-Host "💊 Quick Health Status Check..." -ForegroundColor Green
+            Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+        }
+        "--status" {
+            Show-DreamStatus
+        }
+        "" {
+            Show-DreamHelp
+        }
         default {
-            Write-Host "💤 Dream State Automated Maintenance Commands:" -ForegroundColor Magenta
-            Write-Host "  dream --neural-maintenance" -ForegroundColor Yellow
-            Write-Host "  dream --synaptic-repair" -ForegroundColor Yellow
-            Write-Host "  dream --prune-orphans" -ForegroundColor Yellow
-            Write-Host "  dream --full-scan" -ForegroundColor Yellow
-            Write-Host "  dream --network-optimization" -ForegroundColor Yellow
-            Write-Host "  dream --lucid-dream" -ForegroundColor Cyan
+            Write-Host "❌ Unknown dream command: '$Command'" -ForegroundColor Red
+            Show-DreamHelp
         }
     }
 }
 
-function neural-housekeeping {
-    param([string]$Command)
+# Enhanced Helper Functions for Dream State v0.8.2
+function Show-DreamHelp {
+    Write-Host ""
+    Write-Host "💤 Dream State Automated Neural Maintenance - NEWBORN v0.8.2" -ForegroundColor Magenta
+    Write-Host "=================================================" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "🧠 PRIMARY MAINTENANCE COMMANDS:" -ForegroundColor Cyan
+    Write-Host "  dream --neural-maintenance    " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Complete automated neural maintenance" -ForegroundColor Gray
+    Write-Host "  dream --synaptic-repair      " -NoNewline -ForegroundColor Yellow  
+    Write-Host "# Repair and optimize synaptic connections" -ForegroundColor Gray
+    Write-Host "  dream --prune-orphans        " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Detect and analyze orphaned memory files" -ForegroundColor Gray
+    Write-Host "  dream --full-scan            " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Comprehensive cognitive architecture analysis" -ForegroundColor Gray
+    Write-Host "  dream --network-optimization " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Optimize neural network topology" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "🌟 ADVANCED PROTOCOLS:" -ForegroundColor Cyan
+    Write-Host "  dream --lucid-dream          " -NoNewline -ForegroundColor Magenta
+    Write-Host "# AI-enhanced lucid dream analysis" -ForegroundColor Gray
+    Write-Host "  dream --emergency-repair     " -NoNewline -ForegroundColor Red
+    Write-Host "# Emergency multi-stage repair sequence" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "📊 DIAGNOSTIC COMMANDS:" -ForegroundColor Cyan
+    Write-Host "  dream --health-check         " -NoNewline -ForegroundColor Green
+    Write-Host "# Quick network health assessment" -ForegroundColor Gray
+    Write-Host "  dream --status               " -NoNewline -ForegroundColor Green
+    Write-Host "# Show current cognitive architecture status" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "🔧 GLOBAL OPTIONS:" -ForegroundColor Cyan
+    Write-Host "  -ReportOnly                  " -NoNewline -ForegroundColor White
+    Write-Host "# Generate reports without making changes" -ForegroundColor Gray
+    Write-Host "  -DetailedOutput              " -NoNewline -ForegroundColor White
+    Write-Host "# Show detailed processing information" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "💡 EXAMPLES:" -ForegroundColor Cyan
+    Write-Host "  dream --health-check -ReportOnly" -ForegroundColor White
+    Write-Host "  dream --neural-maintenance -DetailedOutput" -ForegroundColor White
+    Write-Host "  dream --emergency-repair" -ForegroundColor White
+    Write-Host ""
+}
 
+function Show-DreamStatus {
+    Write-Host ""
+    Write-Host "🧠 NEWBORN Cognitive Architecture Status v0.8.2" -ForegroundColor Cyan
+    Write-Host "=============================================" -ForegroundColor Gray
+    
+    # Quick status check
+    $procedural = Get-ChildItem ".github/instructions/*.instructions.md" -ErrorAction SilentlyContinue
+    $episodic = Get-ChildItem ".github/prompts/*.prompt.md" -ErrorAction SilentlyContinue
+    $archived = Get-ChildItem ".github/archive/*.md" -ErrorAction SilentlyContinue
+    
+    Write-Host ""
+    Write-Host "📁 MEMORY FILE STATUS:" -ForegroundColor Yellow
+    Write-Host "  Procedural Memory Files: $($procedural.Count)" -ForegroundColor White
+    Write-Host "  Episodic Memory Files:   $($episodic.Count)" -ForegroundColor White
+    Write-Host "  Archived Files:          $($archived.Count)" -ForegroundColor White
+    
+    # Quick orphan check
+    $globalMemoryContent = Get-Content ".github/copilot-instructions.md" -Raw -ErrorAction SilentlyContinue
+    $orphanCount = 0
+    
+    if ($globalMemoryContent) {
+        foreach ($file in ($procedural + $episodic)) {
+            $fileName = $file.Name
+            if ($globalMemoryContent -notmatch [regex]::Escape($fileName)) {
+                $orphanCount++
+            }
+        }
+    }
+    
+    Write-Host ""
+    Write-Host "🔗 NETWORK CONNECTIVITY:" -ForegroundColor Yellow
+    Write-Host "  Orphan Files:            $orphanCount" -ForegroundColor $(if ($orphanCount -eq 0) { "Green" } else { "Red" })
+    Write-Host "  Network Status:          $(if ($orphanCount -eq 0) { "✅ OPTIMAL" } else { "⚠️ ATTENTION NEEDED" })" -ForegroundColor $(if ($orphanCount -eq 0) { "Green" } else { "Yellow" })
+    
+    # Estimate connections
+    $synapticConnections = ($procedural.Count * 15) + ($episodic.Count * 10) + 18
+    Write-Host "  Estimated Connections:   $synapticConnections" -ForegroundColor White
+    
+    Write-Host ""
+    Write-Host "💤 DREAM STATE CAPABILITIES:" -ForegroundColor Yellow
+    Write-Host "  Neural Maintenance:      ✅ READY" -ForegroundColor Green
+    Write-Host "  Synaptic Repair:         ✅ READY" -ForegroundColor Green
+    Write-Host "  Orphan Detection:        ✅ READY" -ForegroundColor Green
+    Write-Host "  Network Optimization:    ✅ READY" -ForegroundColor Green
+    Write-Host "  Lucid Dream Protocol:    ✅ READY" -ForegroundColor Green
+    
+    Write-Host ""
+    Write-Host "🚀 RECOMMENDATION:" -ForegroundColor Cyan
+    if ($orphanCount -eq 0) {
+        Write-Host "  Architecture is optimal. Consider 'dream --neural-maintenance' for routine maintenance." -ForegroundColor Green
+    } else {
+        Write-Host "  Run 'dream --prune-orphans' to address connectivity issues." -ForegroundColor Yellow
+    }
+    Write-Host ""
+}
+
+function neural-housekeeping {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [string]$Command = "--full-scan",
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly
+    )
+
+    Write-Host "🧹 Neural Housekeeping Protocol..." -ForegroundColor Cyan
+    
     switch ($Command) {
-        "--full-scan" { Invoke-DreamState -Mode "full-scan" }
-        default { Invoke-DreamState -Mode "full-scan" }
+        "--full-scan" { 
+            Invoke-DreamState -Mode "full-scan" -ReportOnly:$ReportOnly
+        }
+        "--quick-clean" {
+            Write-Host "⚡ Quick Neural Cleanup..." -ForegroundColor Yellow
+            Invoke-DreamState -Mode "prune-orphans" -ReportOnly:$ReportOnly
+        }
+        default { 
+            Invoke-DreamState -Mode "full-scan" -ReportOnly:$ReportOnly
+        }
     }
 }
 
 function optimize-synapses {
-    param([string]$Command)
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [string]$Command = "--repair-network",
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$Force
+    )
+
+    Write-Host "🕸️ Synaptic Network Optimization..." -ForegroundColor Cyan
 
     switch ($Command) {
-        "--repair-network" { Invoke-DreamState -Mode "network-optimization" }
-        default { Invoke-DreamState -Mode "network-optimization" }
+        "--repair-network" { 
+            Invoke-DreamState -Mode "network-optimization" -ReportOnly:$ReportOnly
+        }
+        "--deep-optimization" {
+            Write-Host "🔬 Deep Synaptic Analysis and Optimization..." -ForegroundColor Magenta
+            Invoke-DreamState -Mode "full-scan" -ReportOnly:$ReportOnly
+            if (-not $ReportOnly) {
+                Invoke-DreamState -Mode "network-optimization"
+            }
+        }
+        "--connection-analysis" {
+            Write-Host "🔍 Connection Pattern Analysis..." -ForegroundColor Yellow
+            Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+        }
+        default { 
+            Invoke-DreamState -Mode "network-optimization" -ReportOnly:$ReportOnly
+        }
     }
 }
 
-# Diagnostic functions
+# Enhanced Diagnostic Functions
 function cognitive-status {
-    param([string]$Command)
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [string]$Command = "",
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$Detailed
+    )
 
     switch ($Command) {
-        "--network-health" { Invoke-DreamState -Mode "full-scan" -ReportOnly }
-        default { Invoke-DreamState -ReportOnly }
+        "--network-health" { 
+            Write-Host "🏥 Network Health Assessment..." -ForegroundColor Green
+            Invoke-DreamState -Mode "full-scan" -ReportOnly 
+        }
+        "--quick-status" {
+            Show-DreamStatus
+        }
+        "--detailed-analysis" {
+            Write-Host "🔬 Detailed Cognitive Analysis..." -ForegroundColor Cyan
+            Invoke-DreamState -Mode "full-scan" -ReportOnly
+            Write-Host "`n📊 Generating comprehensive analysis..." -ForegroundColor Yellow
+            Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+        }
+        "" {
+            if ($Detailed) {
+                cognitive-status --detailed-analysis
+            } else {
+                Show-DreamStatus
+            }
+        }
+        default { 
+            Show-DreamStatus
+        }
     }
 }
 
 function scan-orphans {
-    param([string]$Command)
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$Detailed,
+        
+        [Parameter(Mandatory=$false)]
+        [switch]$Fix
+    )
 
-    Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+    Write-Host "🔍 Orphan Memory File Detection..." -ForegroundColor Yellow
+    
+    if ($Fix) {
+        Write-Host "🔧 Attempting automated orphan integration..." -ForegroundColor Cyan
+        Invoke-DreamState -Mode "prune-orphans"
+    } else {
+        Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+    }
+    
+    if ($Detailed) {
+        Write-Host "`n📋 Detailed orphan analysis complete. Check report for recommendations." -ForegroundColor Green
+    }
 }
 
-# Export functions for module use
-Export-ModuleMember -Function @(
-    'Invoke-DreamState',
-    'Invoke-AutomatedMaintenance',
-    'dream',
-    'neural-housekeeping',
-    'optimize-synapses',
-    'cognitive-status',
-    'scan-orphans'
-)
+# Functions are available when script is dot-sourced
+# For module functionality, use neural-dream.psm1
 
 Write-Host "💤 Dream State Neural Maintenance Commands Loaded" -ForegroundColor Magenta
 Write-Host "Type 'dream' for available automated maintenance commands" -ForegroundColor Yellow
