@@ -255,7 +255,7 @@ function New-OverviewDiagram {
     
     # Layer 1: Meta-Cognitive Foundation (Top)
     $subgraphs += "    subgraph L1[""🎯 Meta-Cognitive Foundation""]"
-    $subgraphs += "        direction TB"
+    $subgraphs += "        direction LR"
     $subgraphs += "        NEWBORN[""🧠 NEWBORN Core""]"
     $subgraphs += "        BOOTSTRAP[""🌱 Bootstrap Learning""]"
     $subgraphs += "        AWARENESS[""👁️ Meta-Cognitive Awareness""]"
@@ -268,7 +268,7 @@ function New-OverviewDiagram {
     
     # Layer 2: Cognitive Architecture (Second)
     $subgraphs += "    subgraph L2[""🏗️ Cognitive Architecture""]"
-    $subgraphs += "        direction TB"
+    $subgraphs += "        direction LR"
     $subgraphs += "        WM[""💭 Working Memory""]"
     $subgraphs += "        SYNAPSE[""🕸️ Synapse Network""]"
     $subgraphs += "        CONSOLIDATION[""🧘‍♂️ Memory Consolidation""]"
@@ -281,7 +281,7 @@ function New-OverviewDiagram {
     
     # Layer 3: Memory Systems (Third)
     $subgraphs += "    subgraph L3[""⚙️ Memory Systems""]"
-    $subgraphs += "        direction TB"
+    $subgraphs += "        direction LR"
     $subgraphs += "        PM[""⚙️ Procedural Memory""]"
     $subgraphs += "        EM[""📚 Episodic Memory""]"
     if ($KnowledgeMap.Systems["Domain"].Count -gt 0) {
@@ -301,7 +301,7 @@ function New-OverviewDiagram {
     
     # Layer 4: Individual Memory Files (Bottom)  
     $subgraphs += "    subgraph L4[""📄 Memory Files & Components""]"
-    $subgraphs += "        direction TB"
+    $subgraphs += "        direction LR"
     
     # Generate subgraphs for each memory system in Layer 4
     $systemConfigs = @{
@@ -501,8 +501,9 @@ function New-OverviewDiagram {
 **Previous**: Basic flowchart rendering  
 **v3.0 Improvements**:
 - **Enhanced spacing**: `nodeSpacing: 50, rankSpacing: 80` for better layout
-- **Improved flow direction**: `graph TB` (top-bottom) optimized for 4-layer hierarchy
+- **Improved flow direction**: `graph LR` (left-right) optimized for 4-layer hierarchy
 - **Better curve handling**: `curve: 'cardinal'` for smoother connection rendering
+- **Light yellow background**: `#fffef7` for enhanced visual comfort and diagram clarity
 
 **System Context**: These visualization enhancements display the NEWBORN 0.8.1 NILOCTUNIUM architecture with improved clarity and detail.
 
@@ -567,9 +568,17 @@ This advanced chart visualizes the Catalyst cognitive architecture with a **4-la
     'curve': 'cardinal',
     'nodeSpacing': 50,
     'rankSpacing': 80
+  },
+  'theme': 'base',
+  'themeVariables': {
+    'background': '#fffef7',
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#333333',
+    'primaryBorderColor': '#cccccc',
+    'lineColor': '#666666'
   }
 }}%%
-graph TB
+graph LR
 $($subgraphs -join "`n")
 
 $($connections -join "`n")
