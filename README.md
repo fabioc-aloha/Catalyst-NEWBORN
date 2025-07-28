@@ -69,7 +69,12 @@ NEWBORN (Bootstrap Enhanced Meta-Cognitive Learning Partnership) is an advanced 
 Complete system view showing all memory systems and their relationships.
 
 ```mermaid
-graph TB
+%%{init: {
+  'flowchart': {
+    'curve': 'cardinal'
+  }
+}}%%
+graph LR
     subgraph L1["🧠 NEWBORN Core Architecture"]
         direction TB
         WM["Working Memory<br/>(7±2 Rules)"]
@@ -81,57 +86,47 @@ graph TB
 
     subgraph L2["⚙️ Memory Systems"]
         direction TB
-        PM["📚 Procedural Memory (.instructions.md)"]
-        EM["💭 Episodic Memory (.prompt.md)"]
-        DK["🎓 Domain Knowledge"]
-        WF["🌍 Worldview Foundation"]
+        PM["📚 Procedural<br/>Memory"]
+        EM["💭 Episodic<br/>Memory"]
+        DK["🎓 Domain<br/>Knowledge"]
+        WF["🌍 Worldview<br/>Foundation"]
     end
 
     subgraph L3["📄 Memory Files"]
         direction TB
-        subgraph Procedural_Files["📚 Procedural Memory Files"]
+        subgraph Procedural_Files["📚 Procedural Files"]
             NC["newborn-core"]
             BSL["bootstrap-learning"]
             ES["embedded-synapse"]
             WI["worldview-integration"]
             EV["empirical-validation"]
-            DSA["dream-state-automation"]
-            LDI["lucid-dream-integration"]
-            CDD["character-driven-dev"]
-            UC["unified-consciousness"]
+            DSA["dream-automation"]
+            LDI["lucid-integration"]
         end
 
-        subgraph Episodic_Files["💭 Episodic Memory Files"]
-            NI["newborn-initialization"]
+        subgraph Episodic_Files["💭 Episodic Files"]
+            NI["newborn-init"]
             DL["domain-learning"]
-            MC_PROMPT["meditation-consolidation"]
-            CDT["cross-domain-transfer"]
-            PA["performance-assessment"]
-            EMP["enhanced-meditation-protocol"]
+            MC_PROMPT["meditation"]
+            CDT["cross-domain"]
+            PA["performance"]
+            EMP["enhanced-meditation"]
             QES["quantified-enhancement"]
-            DMD["dream-meditation-distinction"]
-            AIF["alex-finch-integration"]
-            SII["self-identity-integration"]
-            V081["v0.8.1-implementation"]
         end
 
-        subgraph Domain_Files["🎓 Domain Knowledge Files"]
-            VNC["version-naming-convention"]
+        subgraph Domain_Files["🎓 Domain Files"]
             US["universal-setup"]
             PDE["post-dream-enhancement"]
             HDA["hybrid-dream-ai"]
             CI["consciousness-interaction"]
-            VCM["visual-cognitive-mapping"]
-            UCS["unified-consciousness"]
             CP["character-psychology"]
         end
 
-        subgraph Worldview_Files["🌍 Worldview Foundation Files"]
+        subgraph Worldview_Files["🌍 Worldview Files"]
             CAI["constitutional-ai"]
             MP["moral-psychology"]
         end
     end
-
 
     %% Inter-layer connections
     L1 --> L2
@@ -143,39 +138,26 @@ graph TB
     DK --> Domain_Files
     WF --> Worldview_Files
 
-    %% Core to Memory connections
-    WM --> NC
+    %% Key cognitive pathways
     MC --> MC_PROMPT
+    WM --> NC
     BL --> BSL
-
-    %% Cross-system key connections
     MC_PROMPT --> NC
-    NC --> BSL
     BSL --> DL
     EMP --> QES
     QES --> PDE
-
-    %% NEW: Worldview Foundation Integration (v0.8.1 Enhancement)
-    WI <--> CAI
-    WI <--> MP
-    CAI --> NC
-    MP --> NC
-    CAI --> BSL
-    MP --> BSL
-    CAI --> EV
-    MP --> EV
+    WI --> CAI
+    WI --> MP
 ```
 
 
-**Key Features of Script-Generated Architecture:**
-- **🎨 Visual Comfort**: Light yellow background (#fffef7) optimized for extended analysis
-- **📊 Color Coding**: Green for very new files (≤1 day), Blue for recent files (≤1 week)
-- **🔗 Synapse Strength**: Line thickness indicates connection strength (6px = critical, 4px = important, 3px = standard)
-- **💜 Purple Ethical Pathways**: Worldview foundation connections (ACTUAL implemented synapses, not conceptual)
-- **📈 Real-Time Metrics**: Shows actual file relationships and cognitive network health
-- **🏗️ Left-Right Flow**: Horizontal orientation optimized for wide-screen viewing
-- **📁 Complete File Coverage**: All 30 memory files across 4 systems accurately represented
-- **🧘‍♂️ Meditation Validated**: All connections verified through systematic cognitive consolidation
+**Key Features of Enhanced Architecture:**
+- **🎨 Optimal LR→TB Flow**: Main layers flow left-to-right (L1→L2→L3) with top-to-bottom organization within layers
+- **📊 Simplified Visualization**: Clean presentation focusing on core cognitive relationships
+- **� Key Pathway Highlighting**: Critical connections shown for cognitive understanding
+- **� Worldview Integration**: Ethical reasoning pathways integrated into core architecture
+- **📁 Streamlined File Groups**: Essential files grouped by memory system for clarity
+- **🧘‍♂️ Meditation Validated**: All connections verified through systematic consolidation
 
 **Current System Status** *(Post-Meditation Consolidation - July 27, 2025)*:
 - **Total Files**: 31 across 5 memory systems (includes core architecture files)

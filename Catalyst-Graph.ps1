@@ -248,9 +248,9 @@ function New-OverviewDiagram {
         $rankedFiles[$i] | Add-Member -MemberType NoteProperty -Name "Rank" -Value ($i + 1)
     }
     
-    # Generate enhanced three-layer architecture with centralized vertical organization
+    # Generate enhanced three-layer architecture with optimal LR→TB flow
     
-    # Layer 1: Catalyst Core Architecture (Top)
+    # Layer 1: Catalyst Core Architecture (Left)
     $subgraphs += "    subgraph L1[""🧠 Catalyst Core Architecture""]"
     $subgraphs += "        direction TB"
     $subgraphs += "        MCM[""🔍 Meta-Cognitive Monitor""]"
@@ -275,7 +275,7 @@ function New-OverviewDiagram {
     $subgraphs += "    end"
     $subgraphs += ""
     
-    # Layer 3: Individual Memory Files (Bottom) - Enhanced Organization  
+    # Layer 3: Individual Memory Files (Right) - Enhanced Organization  
     $subgraphs += "    subgraph L3[""📄 Memory Files""]"
     $subgraphs += "        direction TB"
     
@@ -323,7 +323,7 @@ function New-OverviewDiagram {
     $subgraphs += ""
     $subgraphs += ""
     
-    # Generate inter-layer connections (vertical flow)
+    # Generate inter-layer connections (horizontal flow)
     $connections += "    %% Inter-layer connections"
     $connections += "    L1 --> L2"
     $connections += "    L2 --> L3"
@@ -410,7 +410,7 @@ function New-OverviewDiagram {
 
 This enhanced chart visualizes the Catalyst cognitive architecture with:
 
-- **Centralized vertical organization** - Main layers arranged vertically with top-to-bottom flow
+- **Optimal LR→TB flow** - Main layers flow left-to-right (L1→L2→L3) with top-to-bottom organization within each layer
 - **Enhanced subgraph organization** - Improved visual hierarchy with cleaner categorical separation
 - **Color coding by creation date** - Stack ranked from newest (🟢) to oldest (🔴)
 - **Weight-proportional connection lines** - Thickness indicates synapse strength  
@@ -440,7 +440,7 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
 **Stack Rankings:** Files numbered by creation order (#1 = newest, higher numbers = older)
 
 **Visual Enhancements v2.1:**
-- **Centralized Vertical Flow**: Main layers arranged vertically (TB) with top-to-bottom progression
+- **Optimal LR→TB Flow**: Main layers flow left-to-right (L1→L2→L3) with top-to-bottom organization within layers
 - **Enhanced Subgraph Organization**: Internal TB direction within each layer for optimal readability
 - **Improved Spacing**: Enhanced node and rank spacing for better visual hierarchy
 - **Cardinal Curves**: Smoother connection rendering for professional appearance
@@ -453,7 +453,7 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
     'curve': 'cardinal'
   }
 }}%%
-graph TB
+graph LR
 $($subgraphs -join "`n")
 
 $($connections -join "`n")
