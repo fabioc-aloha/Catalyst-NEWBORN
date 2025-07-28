@@ -1,14 +1,17 @@
-# 🧠 Catalyst Memory & Synapse Chart Generator v2.1 - PRIMARY VERSION
+# 🧠 Catalyst Memory & Synapse Chart Generator v2.1 - ENHANCED ORGANIZATION
 # PowerShell Script for Cognitive Architecture Visualization 
 # 
-# ✅ OPTIMAL 3-LAYER ARCHITECTURE - Clarity over Complexity
-# - Enhanced theming with light yellow background for visual comfort
-# - Left-right orientation optimized for wide-screen viewing  
-# - Proven 3-layer cognitive model: Core → Processing → UI
-# - Meta-cognitive insight: Simpler architecture provides better understanding
+# ✅ OPTIMAL 3-LAYER ARCHITECTURE - Enhanced Visual Organization
+# - Improved subgraph structure with cleaner visual separation
+# - Top-bottom orientation within subgraphs for better readability  
+# - Left-right overall flow optimized for wide-screen viewing
+# - Enhanced memory file groupings with clear categorical separation
+# - Proven 3-layer cognitive model: Core → Processing → Implementation
 #
-# 📁 RELATED FILES:
-# - Catalyst-Graphv3-EXPERIMENTAL.ps1 (4-layer experimental - archived for complexity)
+# � ENHANCED FEATURES v2.1:
+# - Better subgraph organization inspired by catalyst-overview-20250722-085312.md
+# - Cleaner visual hierarchy with improved spacing and grouping
+# - Enhanced readability through better node and connection organization
 
 param(
     [string]$WorkspacePath = ".\",
@@ -245,11 +248,11 @@ function New-OverviewDiagram {
         $rankedFiles[$i] | Add-Member -MemberType NoteProperty -Name "Rank" -Value ($i + 1)
     }
     
-    # Generate three-layer architecture
+    # Generate enhanced three-layer architecture with improved organization
     
-    # Layer 1: Catalyst Core Architecture (Left)
-    $subgraphs += "    subgraph L1[""🧠 Catalyst Core Architecture""]"
-    $subgraphs += "        direction LR"
+    # Layer 1: NEWBORN Core Architecture (Left)
+    $subgraphs += "    subgraph L1[""🧠 NEWBORN Core Architecture""]"
+    $subgraphs += "        direction TB"
     $subgraphs += "        MCM[""🔍 Meta-Cognitive Monitor""]"
     $subgraphs += "        WM[""💭 Working Memory""]"
     $subgraphs += "        BL[""🌱 Bootstrap Learning""]"
@@ -260,7 +263,7 @@ function New-OverviewDiagram {
     
     # Layer 2: Memory Systems (Middle)
     $subgraphs += "    subgraph L2[""⚙️ Memory Systems""]"
-    $subgraphs += "        direction LR"
+    $subgraphs += "        direction TB"
     $subgraphs += "        PM[""⚙️ Procedural Memory""]"
     $subgraphs += "        EM[""📚 Episodic Memory""]"
     if ($KnowledgeMap.Systems["Domain"].Count -gt 0) {
@@ -272,11 +275,11 @@ function New-OverviewDiagram {
     $subgraphs += "    end"
     $subgraphs += ""
     
-    # Layer 3: Individual Memory Files (Right)  
+    # Layer 3: Individual Memory Files (Right) - Enhanced Organization  
     $subgraphs += "    subgraph L3[""📄 Memory Files""]"
-    $subgraphs += "        direction LR"
+    $subgraphs += "        direction TB"
     
-    # Generate subgraphs for each memory system in Layer 3
+    # Generate enhanced subgraphs for each memory system in Layer 3
     $systemConfigs = @{
         Procedural = @{ Icon = "⚙️"; Title = "Procedural Memory Files"; Color = "#166534" }
         Episodic = @{ Icon = "📚"; Title = "Episodic Memory Files"; Color = "#581C87" }
@@ -398,7 +401,7 @@ function New-OverviewDiagram {
     
     # Combine all parts with enhanced metadata
     $diagram = @"
-# Catalyst Cognitive Architecture v2.1 - Enhanced Memory & Synapse Network
+# Catalyst Cognitive Architecture - Enhanced Memory & Synapse Network
 
 **Generated on:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')  
 **Total Files:** $totalFiles across $($KnowledgeMap.Systems.Keys.Count) memory systems  
@@ -406,8 +409,8 @@ function New-OverviewDiagram {
 
 This enhanced chart visualizes the Catalyst cognitive architecture with:
 
-- **Left-right orientation** - Optimized for wide-screen viewing with horizontal flow
-- **Light yellow background** - Enhanced visual comfort for extended analysis sessions
+- **Enhanced subgraph organization** - Improved visual hierarchy with cleaner categorical separation
+- **Top-bottom subgraph flow** - Better readability within memory file groups
 - **Color coding by creation date** - Stack ranked from newest (🟢) to oldest (🔴)
 - **Weight-proportional connection lines** - Thickness indicates synapse strength  
 - **Directional arrows** - Shows uni/bidirectional influence patterns
@@ -441,24 +444,12 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
 - **Improved Spacing**: Enhanced node and rank spacing for better readability
 - **Cardinal Curves**: Smoother connection rendering for professional appearance
 
-## Enhanced 3-Layer Catalyst Memory Architecture
-
-**Visualization:** Left-Right Orientation with Light Yellow Background
+## Enhanced Catalyst Memory Architecture Overview
 
 ``````mermaid
 %%{init: {
   'flowchart': {
-    'curve': 'cardinal',
-    'nodeSpacing': 50,
-    'rankSpacing': 80
-  },
-  'theme': 'base',
-  'themeVariables': {
-    'background': '#fffef7',
-    'primaryColor': '#ffffff',
-    'primaryTextColor': '#333333',
-    'primaryBorderColor': '#cccccc',
-    'lineColor': '#666666'
+    'curve': 'cardinal'
   }
 }}%%
 graph LR
