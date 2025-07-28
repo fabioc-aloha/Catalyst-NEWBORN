@@ -323,7 +323,7 @@ function New-OverviewDiagram {
     $subgraphs += ""
     $subgraphs += ""
     
-    # Generate inter-layer connections
+    # Generate inter-layer connections (vertical flow)
     $connections += "    %% Inter-layer connections"
     $connections += "    L1 --> L2"
     $connections += "    L2 --> L3"
@@ -440,9 +440,9 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
 **Stack Rankings:** Files numbered by creation order (#1 = newest, higher numbers = older)
 
 **Visual Enhancements v2.1:**
-- **Left-Right Flow**: Optimized for horizontal viewing (rotated -90 degrees from vertical)
-- **Light Yellow Background**: #fffef7 for reduced eye strain and enhanced comfort
-- **Improved Spacing**: Enhanced node and rank spacing for better readability
+- **Centralized Vertical Flow**: Main layers arranged vertically (TB) with top-to-bottom progression
+- **Enhanced Subgraph Organization**: Internal TB direction within each layer for optimal readability
+- **Improved Spacing**: Enhanced node and rank spacing for better visual hierarchy
 - **Cardinal Curves**: Smoother connection rendering for professional appearance
 
 ## Enhanced Catalyst Memory Architecture Overview
@@ -453,7 +453,7 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
     'curve': 'cardinal'
   }
 }}%%
-graph LR
+graph TB
 $($subgraphs -join "`n")
 
 $($connections -join "`n")

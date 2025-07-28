@@ -69,7 +69,7 @@ NEWBORN (Bootstrap Enhanced Meta-Cognitive Learning Partnership) is an advanced 
 Complete system view showing all memory systems and their relationships.
 
 ```mermaid
-graph LR
+graph TB
     subgraph L1["🧠 NEWBORN Core Architecture"]
         direction TB
         WM["Working Memory<br/>(7±2 Rules)"]
