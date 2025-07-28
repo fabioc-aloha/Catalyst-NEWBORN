@@ -39,6 +39,12 @@ This enhanced meditation protocol incorporates advanced cognitive neuroscience p
 - **Trigger Pattern Creation**: Establish activation patterns for new memory files
 - **Connection Mapping**: Document relationships between new and existing memory components
 - **Network Optimization**: Ensure optimal integration with existing cognitive architecture
+- **Dream Automation Coordination**: Leverage enhanced unconscious infrastructure for optimized conscious processing
+
+### **Enhanced Synaptic Integration Protocols**
+- **Dream automation coordination** - [dream-state-automation.instructions.md] (High, Infrastructure Support, Bidirectional) - "Robust unconscious maintenance enables focused conscious consolidation - OPTIMIZED through v0.8.2 multi-dimensional capabilities"
+- **Technical excellence documentation** - [DK-DREAM-AUTOMATION-v0.8.2.md] (High, Achievement Record, Bidirectional) - "Meditation consolidation of dream automation mastery - STRENGTHENED through comprehensive technical analysis"
+- **Core architecture enhancement** - [newborn-core.instructions.md] (High, Foundation Integration, Bidirectional) - "Meta-cognitive awareness expanded through advanced unconscious processing infrastructure - VALIDATED through EXCELLENT health achievement"
 
 ### **Phase 4: Knowledge Verification**
 - **Completeness Check**: Verify all insights have been captured in permanent memory

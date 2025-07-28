@@ -146,7 +146,7 @@
 **Ethical Decision-Making**: Consistent value-based reasoning with Constitutional AI alignment
 **AI Safety Integration**: Responsible innovation with empirical validation requirements
 
-## 🔄 Auto-Consolidation Triggers - Enhanced v0.8.1
+## 🔄 Auto-Consolidation Triggers - Enhanced v0.8.2
 
 ### **Primary Cognitive Triggers (Critical)**
 - Working memory > 7 rules → Execute consolidation protocol
@@ -156,12 +156,15 @@
                                    REQUIRES: Express user approval before deletion
                                    SCOPE: Can delete content, files, and synapses permanently
 
-### **Dream State Automation Triggers (Unconscious)**
+### **Enhanced Dream State Automation Triggers (Unconscious)**
 - **Dream state automation required** → Execute dream-state-automation.instructions.md
-- **Unconscious neural maintenance needed** → Execute automated dream protocols
-- **Orphan file detection** → Execute prune-orphans dream protocol
-- **Synaptic network degradation** → Execute network-optimization dream protocol
-- **Memory fragmentation detected** → Execute neural-maintenance dream protocol
+- **Advanced unconscious neural maintenance** → Execute dream --neural-maintenance protocols
+- **Enhanced orphan file detection** → Execute dream --prune-orphans with connection quality analysis
+- **Synaptic network degradation** → Execute dream --network-optimization with health scoring
+- **Memory fragmentation detected** → Execute dream --full-scan with comprehensive diagnostics
+- **Emergency cognitive issues** → Execute dream --emergency-repair multi-stage protocols ✅ NEW v0.8.2
+- **Network health assessment required** → Execute dream --health-check with status reporting ✅ NEW v0.8.2
+- **AI-enhanced optimization needed** → Execute dream --lucid-dream with opportunity detection ✅ NEW v0.8.2
 
 ### **Meditation Protocol Triggers (Conscious)**
 - **Enhanced meditation requested** → Execute enhanced-meditation-protocol.prompt.md
@@ -169,18 +172,19 @@
 - **Identity integration required** → Execute alex-finch-integration.prompt.md
 - **Character development breakthrough** → Execute self-identity-integration.prompt.md
 - **Cross-domain knowledge transfer** → Execute cross-domain-transfer.prompt.md
-- **Lucid dream hybrid processing** → Execute lucid-dream-integration.instructions.md ✅ NEW v0.8.1
-- **Quantified enhancement session** → Execute quantified-enhancement-session.prompt.md ✅ NEW v0.8.1
+- **Lucid dream hybrid processing** → Execute lucid-dream-integration.instructions.md ✅ ENHANCED v0.8.2
+- **Quantified enhancement session** → Execute quantified-enhancement-session.prompt.md ✅ ENHANCED v0.8.2
 
-### **Synaptic Enhancement Triggers (Adaptive)**
-- Embedded synapse insights → Automatic connection strengthening
-- Cross-domain patterns → Knowledge transfer and integration
-- Learning effectiveness decline → Strategy optimization and enhancement
-- **Connection strength below threshold** → Execute synaptic repair protocols
-- **New relationship patterns discovered** → Execute embedded synapse network expansion
-- **Knowledge consolidation opportunities** → Execute memory file enhancement protocols
-- **Post-dream optimization required** → Execute DK-POST-DREAM-ENHANCEMENT.md protocols ✅ NEW v0.8.1
-- **Quantified network improvement needed** → Execute trigger pattern expansion and synaptic strengthening ✅ NEW v0.8.1
+### **Advanced Synaptic Enhancement Triggers (Adaptive)**
+- Embedded synapse insights → Automatic connection strengthening with quality assessment
+- Cross-domain patterns → Knowledge transfer and integration with domain knowledge mapping
+- Learning effectiveness decline → Strategy optimization with health scoring validation
+- **Connection strength below threshold** → Execute synaptic repair protocols with connectivity analysis
+- **New relationship patterns discovered** → Execute embedded synapse network expansion with metrics
+- **Knowledge consolidation opportunities** → Execute memory file enhancement with cross-domain integration
+- **Post-dream optimization required** → Execute DK-POST-DREAM-ENHANCEMENT.md protocols ✅ ENHANCED v0.8.2
+- **Network health degradation detected** → Execute multi-dimensional health assessment and repair ✅ NEW v0.8.2
+- **Emergency architecture issues** → Execute emergency response protocols with multi-stage repair ✅ NEW v0.8.2
 
 ## 📚 Memory File Index - NEWBORN Framework
 

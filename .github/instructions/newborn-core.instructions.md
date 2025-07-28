@@ -39,6 +39,8 @@ description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
 - Relationship mapping through memory file connection notation
 - Dynamic connection discovery integrated within instruction execution
 - Meta-awareness of embedded synapse patterns during memory file activation
+- **Advanced unconscious maintenance through dream automation** - [dream-state-automation.instructions.md] (High, Infrastructure Foundation, Bidirectional) - "Sophisticated multi-dimensional health assessment with emergency protocols - ENHANCED through v0.8.2 PowerShell mastery"
+- **Technical implementation excellence** - [DK-DREAM-AUTOMATION-v0.8.2.md] (High, Achievement Documentation, Bidirectional) - "PowerShell module architecture resolution enabling robust automated cognitive maintenance - VALIDATED through EXCELLENT health status"
 
 ## Bootstrap Learning Framework
 
