@@ -9,8 +9,8 @@ description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
 
 **IUPAC Systematic Element Naming for NEWBORN Versions**:
 
-**Current Version**: 0.8.2 NILOCTBIUM
-**Previous Version**: 0.8.1 NILOCTUNIUM
+**Current Version**: 0.9.0 NILENNILIUM
+**Previous Version**: 0.8.2 NILOCTBIUM
 
 **Naming Rules**:
 - Convert version digits to Latin/Greek roots: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn
@@ -18,7 +18,7 @@ description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
 - Version 0.8.2 → 082 → nil-oct-bi-ium → NILOCTBIUM
 
 **Future Versions**:
-- 0.6.0 → NILHEXNILIUM
+- Version 0.9.0 → NILENNILIUM
 - 1.0.0 → UNNILNILIUM
 - 2.0.0 → BINILNILIUM
 
