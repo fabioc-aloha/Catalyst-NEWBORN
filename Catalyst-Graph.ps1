@@ -251,43 +251,44 @@ function New-OverviewDiagram {
     # Generate enhanced three-layer architecture with optimal LR→TB flow
     
     # Layer 1: Catalyst Core Architecture (Left)
-    $subgraphs += "    subgraph L1[""🧠 Catalyst Core Architecture""]"
+    $subgraphs += "    subgraph L1[""Catalyst Core Architecture""]"
     $subgraphs += "        direction TB"
-    $subgraphs += "        MCM[""🔍 Meta-Cognitive Monitor""]"
-    $subgraphs += "        WM[""💭 Working Memory""]"
-    $subgraphs += "        BL[""🌱 Bootstrap Learning""]"
+    $subgraphs += "        MCM[""Meta-Cognitive Monitor""]"
+    $subgraphs += "        WM[""Working Memory""]"
+    $subgraphs += "        BL[""Bootstrap Learning""]"
     $subgraphs += "        MCM --> WM"
     $subgraphs += "        WM --> BL"
     $subgraphs += "    end"
     $subgraphs += ""
     
     # Layer 2: Memory Systems (Middle)
-    $subgraphs += "    subgraph L2[""⚙️ Memory Systems""]"
+    $subgraphs += "    subgraph L2[""Memory Systems""]"
     $subgraphs += "        direction TB"
-    $subgraphs += "        PM[""⚙️ Procedural Memory""]"
-    $subgraphs += "        EM[""📚 Episodic Memory""]"
+    $subgraphs += "        PM[""Procedural Memory""]"
+    $subgraphs += "        EM[""Episodic Memory""]"
     if ($KnowledgeMap.Systems["Domain"].Count -gt 0) {
-        $subgraphs += "        DK[""🎓 Domain Knowledge""]"
+        $subgraphs += "        DK[""Domain Knowledge""]"
     }
     if ($KnowledgeMap.Systems["Worldview"].Count -gt 0) {
-        $subgraphs += "        WF[""🌍 Worldview Foundation""]"
+        $subgraphs += "        WF[""Worldview Foundation""]"
     }
     $subgraphs += "    end"
     $subgraphs += ""
     
-    # Layer 3: Individual Memory Files (Right) - Enhanced Organization  
-    $subgraphs += "    subgraph L3[""📄 Memory Files""]"
+    # Layer 3: Memory Files (Right) - Enhanced Organization with Better Vertical Centralization
+    $subgraphs += "    subgraph L3[""Memory Files - Color Coded by Creation Date""]"
     $subgraphs += "        direction TB"
     
-    # Generate enhanced subgraphs for each memory system in Layer 3
+    # Generate enhanced subgraphs for each memory system in Layer 3 with better organization
     $systemConfigs = @{
-        Procedural = @{ Icon = "⚙️"; Title = "Procedural Memory Files"; Color = "#166534" }
-        Episodic = @{ Icon = "📚"; Title = "Episodic Memory Files"; Color = "#581C87" }
-        Domain = @{ Icon = "🎓"; Title = "Domain Knowledge Files"; Color = "#EA580C" }
         Worldview = @{ Icon = "🌍"; Title = "Worldview Foundation Files"; Color = "#DC2626" }
+        Domain = @{ Icon = "🎯"; Title = "Domain Knowledge Files"; Color = "#EA580C" }
+        Procedural = @{ Icon = "🔧"; Title = "Procedural Memory Files"; Color = "#166534" }
+        Episodic = @{ Icon = "📖"; Title = "Episodic Memory Files"; Color = "#581C87" }
     }
     
-    foreach ($system in @("Procedural", "Episodic", "Domain", "Worldview")) {
+    # Reorganize with better vertical flow - smaller systems first for better balance
+    foreach ($system in @("Worldview", "Domain", "Procedural", "Episodic")) {
         if ($KnowledgeMap.Systems.ContainsKey($system) -and $KnowledgeMap.Systems[$system].Count -gt 0) {
             $config = $systemConfigs[$system]
             $systemFiles = $rankedFiles | Where-Object { $_.System -eq $system }
@@ -298,7 +299,19 @@ function New-OverviewDiagram {
                 foreach ($rankedFile in $systemFiles) {
                     $file = $rankedFile.File
                     $nodeId = Get-SanitizedNodeId -FilePath $file.RelativePath
-                    $nodeLabel = Get-EnhancedNodeLabel -FilePath $file.RelativePath -Rank $rankedFile.Rank
+                    
+                    # Enhanced node label with color emoji indicator
+                    $colorEmoji = switch ($rankedFile.ColorCategory) {
+                        "VeryNew" { "🟢" }
+                        "New" { "🔵" }
+                        "Recent" { "🟣" }
+                        "Older" { "🟠" }
+                        "Legacy" { "🔴" }
+                    }
+                    
+                    $basename = Split-Path $file.RelativePath -Leaf
+                    $shortName = $basename -replace '\.(instructions|prompt)\.md$', '' -replace '\.md$', ''
+                    $nodeLabel = "$colorEmoji $shortName #$($rankedFile.Rank)"
                     
                     # Color based on age
                     $colorCode = switch ($rankedFile.ColorCategory) {
