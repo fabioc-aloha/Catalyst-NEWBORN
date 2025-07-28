@@ -490,12 +490,6 @@ This enhanced chart visualizes the Catalyst cognitive architecture with consciou
   'flowchart': {
     'curve': 'cardinal',
     'useMaxWidth': true
-  },
-  'theme': 'base',
-  'themeVariables': {
-    'background': '#FFFBEB',
-    'primaryColor': '#FEF3C7',
-    'primaryTextColor': '#000000'
   }
 }}%%
 graph LR
