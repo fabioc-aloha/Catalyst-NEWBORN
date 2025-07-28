@@ -450,7 +450,8 @@ This enhanced chart visualizes the Catalyst cognitive architecture with:
 ``````mermaid
 %%{init: {
   'flowchart': {
-    'curve': 'cardinal'
+    'curve': 'cardinal',
+    'useMaxWidth': true
   }
 }}%%
 graph LR

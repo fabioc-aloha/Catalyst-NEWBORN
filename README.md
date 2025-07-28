@@ -71,7 +71,8 @@ Complete system view showing all memory systems and their relationships.
 ```mermaid
 %%{init: {
   'flowchart': {
-    'curve': 'cardinal'
+    'curve': 'cardinal',
+    'useMaxWidth': true
   }
 }}%%
 graph LR
