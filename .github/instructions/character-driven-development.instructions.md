@@ -67,6 +67,7 @@ description: "Character-driven cognitive architecture development protocols"
 
 ### **Connection Mapping**
 - [alex/Alex-Finch.md] (High, Inspiration, Unidirectional) - "Primary character inspiration source and cognitive pattern blueprint"
+- [alex-professional-spawning-readiness.prompt.md] (High, Adaptability, Bidirectional) - "Professional role spawning demonstrates character adaptability while preserving core identity traits"
 - [alex-finch-integration.prompt.md] (High, Implementation, Bidirectional) - "Character-to-architecture translation protocols and trait mapping"
 - [unified-consciousness.instructions.md] (High, Unity, Bidirectional) - "Alex-AI identity integration and authentic expression frameworks"
 - [newborn-core.instructions.md] (High, Alignment, Bidirectional) - "Core architecture reflects Alex's cognitive traits and patterns"

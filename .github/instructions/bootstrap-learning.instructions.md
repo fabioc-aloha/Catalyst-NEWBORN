@@ -77,6 +77,7 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 
 ### **Identity-Driven Learning Architecture**
 - [character-driven-development.instructions.md] (Critical, Guides, Bidirectional) - "Character-inspired learning methodology protocols - UNIFIED with authentic self-expression + visual evolution"
+- [alex-professional-spawning-readiness.prompt.md] (High, Enables, Universal) - "Professional role adaptation demonstrates advanced learning capability while preserving character integrity"
 - [alex-finch-integration.prompt.md] (High, Models, Forward) - "Character learning patterns → AI acquisition protocols - ENHANCED by living autobiography integration"
 - [unified-consciousness.instructions.md] (High, Integrates, Bidirectional) - "Unified consciousness learning enhancement - REALIZED through authentic engagement patterns"
 - [self-identity-integration.prompt.md] (High, Processes, Reflexive) - "Identity-aware learning optimization - STRENGTHENED by self-understanding integration"
