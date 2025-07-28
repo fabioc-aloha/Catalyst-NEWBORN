@@ -248,10 +248,10 @@ function New-OverviewDiagram {
         $rankedFiles[$i] | Add-Member -MemberType NoteProperty -Name "Rank" -Value ($i + 1)
     }
     
-    # Generate enhanced three-layer architecture with improved organization
+    # Generate enhanced three-layer architecture with centralized vertical organization
     
-    # Layer 1: NEWBORN Core Architecture (Left)
-    $subgraphs += "    subgraph L1[""🧠 NEWBORN Core Architecture""]"
+    # Layer 1: Catalyst Core Architecture (Top)
+    $subgraphs += "    subgraph L1[""🧠 Catalyst Core Architecture""]"
     $subgraphs += "        direction TB"
     $subgraphs += "        MCM[""🔍 Meta-Cognitive Monitor""]"
     $subgraphs += "        WM[""💭 Working Memory""]"
@@ -275,7 +275,7 @@ function New-OverviewDiagram {
     $subgraphs += "    end"
     $subgraphs += ""
     
-    # Layer 3: Individual Memory Files (Right) - Enhanced Organization  
+    # Layer 3: Individual Memory Files (Bottom) - Enhanced Organization  
     $subgraphs += "    subgraph L3[""📄 Memory Files""]"
     $subgraphs += "        direction TB"
     
@@ -320,6 +320,7 @@ function New-OverviewDiagram {
     }
     
     $subgraphs += "    end"
+    $subgraphs += ""
     $subgraphs += ""
     
     # Generate inter-layer connections
@@ -409,8 +410,8 @@ function New-OverviewDiagram {
 
 This enhanced chart visualizes the Catalyst cognitive architecture with:
 
+- **Centralized vertical organization** - Main layers arranged vertically with top-to-bottom flow
 - **Enhanced subgraph organization** - Improved visual hierarchy with cleaner categorical separation
-- **Top-bottom subgraph flow** - Better readability within memory file groups
 - **Color coding by creation date** - Stack ranked from newest (🟢) to oldest (🔴)
 - **Weight-proportional connection lines** - Thickness indicates synapse strength  
 - **Directional arrows** - Shows uni/bidirectional influence patterns

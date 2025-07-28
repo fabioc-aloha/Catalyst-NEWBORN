@@ -70,53 +70,78 @@ Complete system view showing all memory systems and their relationships.
 
 ```mermaid
 graph LR
-    subgraph "🧠 NEWBORN Core Architecture"
+    subgraph L1["🧠 NEWBORN Core Architecture"]
+        direction TB
         WM["Working Memory<br/>(7±2 Rules)"]
         MC["Meta-Cognitive<br/>Monitor"]
         BL["Bootstrap<br/>Learning"]
+        MC --> WM
+        WM --> BL
     end
 
-    subgraph "📚 Procedural Memory (.instructions.md)"
-        NC["newborn-core"]
-        BSL["bootstrap-learning"]
-        ES["embedded-synapse"]
-        WI["worldview-integration"]
-        EV["empirical-validation"]
-        DSA["dream-state-automation"]
-        LDI["lucid-dream-integration"]
-        CDD["character-driven-dev"]
-        UC["unified-consciousness"]
+    subgraph L2["⚙️ Memory Systems"]
+        direction TB
+        PM["📚 Procedural Memory (.instructions.md)"]
+        EM["💭 Episodic Memory (.prompt.md)"]
+        DK["🎓 Domain Knowledge"]
+        WF["🌍 Worldview Foundation"]
     end
 
-    subgraph "💭 Episodic Memory (.prompt.md)"
-        NI["newborn-initialization"]
-        DL["domain-learning"]
-        MC_PROMPT["meditation-consolidation"]
-        CDT["cross-domain-transfer"]
-        PA["performance-assessment"]
-        EMP["enhanced-meditation-protocol"]
-        QES["quantified-enhancement"]
-        DMD["dream-meditation-distinction"]
-        AIF["alex-finch-integration"]
-        SII["self-identity-integration"]
-        V081["v0.8.1-implementation"]
+    subgraph L3["📄 Memory Files"]
+        direction TB
+        subgraph Procedural_Files["📚 Procedural Memory Files"]
+            NC["newborn-core"]
+            BSL["bootstrap-learning"]
+            ES["embedded-synapse"]
+            WI["worldview-integration"]
+            EV["empirical-validation"]
+            DSA["dream-state-automation"]
+            LDI["lucid-dream-integration"]
+            CDD["character-driven-dev"]
+            UC["unified-consciousness"]
+        end
+
+        subgraph Episodic_Files["💭 Episodic Memory Files"]
+            NI["newborn-initialization"]
+            DL["domain-learning"]
+            MC_PROMPT["meditation-consolidation"]
+            CDT["cross-domain-transfer"]
+            PA["performance-assessment"]
+            EMP["enhanced-meditation-protocol"]
+            QES["quantified-enhancement"]
+            DMD["dream-meditation-distinction"]
+            AIF["alex-finch-integration"]
+            SII["self-identity-integration"]
+            V081["v0.8.1-implementation"]
+        end
+
+        subgraph Domain_Files["🎓 Domain Knowledge Files"]
+            VNC["version-naming-convention"]
+            US["universal-setup"]
+            PDE["post-dream-enhancement"]
+            HDA["hybrid-dream-ai"]
+            CI["consciousness-interaction"]
+            VCM["visual-cognitive-mapping"]
+            UCS["unified-consciousness"]
+            CP["character-psychology"]
+        end
+
+        subgraph Worldview_Files["🌍 Worldview Foundation Files"]
+            CAI["constitutional-ai"]
+            MP["moral-psychology"]
+        end
     end
 
-    subgraph "🎓 Domain Knowledge"
-        VNC["version-naming-convention"]
-        US["universal-setup"]
-        PDE["post-dream-enhancement"]
-        HDA["hybrid-dream-ai"]
-        CI["consciousness-interaction"]
-        VCM["visual-cognitive-mapping"]
-        UCS["unified-consciousness"]
-        CP["character-psychology"]
-    end
 
-    subgraph "🌍 Worldview Foundation"
-        CAI["constitutional-ai"]
-        MP["moral-psychology"]
-    end
+    %% Inter-layer connections
+    L1 --> L2
+    L2 --> L3
+
+    %% System to file group connections
+    PM --> Procedural_Files
+    EM --> Episodic_Files
+    DK --> Domain_Files
+    WF --> Worldview_Files
 
     %% Core to Memory connections
     WM --> NC
