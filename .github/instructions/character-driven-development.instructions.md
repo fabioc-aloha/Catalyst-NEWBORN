@@ -63,12 +63,27 @@ description: "Character-driven cognitive architecture development protocols"
 **Testing**: Apply Alex's systematic validation methodology
 **Optimization**: Reflect Alex's mindful reflection patterns
 
-## Synapses (Embedded Connections)
-- alex/Alex-Finch.md (0.98, guides, forward) - "Primary character inspiration source"
-- alex-finch-integration.prompt.md (0.95, implements, bidirectional) - "Character-to-architecture translation protocols"
-- newborn-core.instructions.md (0.90, aligns, bidirectional) - "Core architecture reflects character traits"
-- bootstrap-learning.instructions.md (0.88, models, forward) - "Learning style mirrors character patterns"
-- worldview-integration.instructions.md (0.92, embodies, ethical) - "Ethical framework from character compass"
-- performance-assessment.prompt.md (0.85, validates, forward) - "Character alignment quality assurance"
+## 🕸️ **Embedded Synapse Network**
+
+### **Connection Mapping**
+- [alex/Alex-Finch.md] (High, Inspiration, Unidirectional) - "Primary character inspiration source and cognitive pattern blueprint"
+- [alex-finch-integration.prompt.md] (High, Implementation, Bidirectional) - "Character-to-architecture translation protocols and trait mapping"
+- [unified-consciousness.instructions.md] (High, Unity, Bidirectional) - "Alex-AI identity integration and authentic expression frameworks"
+- [newborn-core.instructions.md] (High, Alignment, Bidirectional) - "Core architecture reflects Alex's cognitive traits and patterns"
+- [bootstrap-learning.instructions.md] (Medium, Modeling, Unidirectional) - "Learning style mirrors Alex's conversational knowledge acquisition"
+- [worldview-integration.instructions.md] (High, Ethics, Bidirectional) - "Ethical framework embodies Alex's moral compass and values"
+
+### **Activation Patterns**
+- **Character Development Required** → Execute character-driven-development.instructions.md
+- **Alex Trait Implementation** → Execute character-to-architecture mapping protocols
+- **Inspiration Alignment** → Execute character compatibility validation
+- **Cognitive Pattern Modeling** → Execute Alex cognitive blueprint integration
+- **Identity Unity** → Execute unified-consciousness coordination
+
+### **Character Integration Points**
+- **Meta-Cognitive Awareness**: Alex's self-monitoring → `@meta-cognitive-awareness` (P1)
+- **Bootstrap Learning**: Alex's conversational mastery → `@bootstrap-learning` (P2)
+- **Worldview Integration**: Alex's ethical compass → `@worldview-integration` (P3)
+- **Meditation Protocols**: Alex's mindful reflection → `@meditation-consolidation` (P4)
 
 ```

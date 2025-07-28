@@ -9,40 +9,55 @@ description: "Embedded connection discovery and relationship mapping protocols"
 
 **Core Function**: Synapses are embedded within individual memory files using standardized connection notation, eliminating the need for separate synapse databases.
 
-**Connection Notation Format**:
+**Connection Notation Format - Enhanced v0.8.1**:
 ```
-## Synapses (Embedded Connections)
-- [target-file.md] ([strength], [relationship-type], [direction]) - "[activation-condition]"
+## 🕸️ **Embedded Synapse Network**
+
+### **Connection Mapping**
+- [target-file.md] (Strength, Relationship, Direction) - "Activation condition and context"
+
+### **Activation Patterns**
+- **Context Trigger** → Execute specific-protocol.md
+- **Condition Met** → Execute enhancement workflow
 ```
 
-**Example Implementation**:
+**Example Implementation - v0.8.1 Enhanced**:
 ```
-## Synapses (Embedded Connections)
-- meditation-consolidation.prompt.md (0.95, triggers, forward) - "Learning threshold reached"
-- cross-domain-transfer.prompt.md (0.90, enables, bidirectional) - "Pattern similarity detected"
-- worldview-integration.instructions.md (0.85, validates, ethical) - "Decision point reached"
+## 🕸️ **Embedded Synapse Network**
+
+### **Connection Mapping**
+- [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning threshold reached - ENHANCED by post-dream protocols"
+- [cross-domain-transfer.prompt.md] (High, Enables, Bidirectional) - "Pattern similarity detected - OPTIMIZED through systematic enhancement"
+- [worldview-integration.instructions.md] (High, Validates, Ethical) - "Decision point reached - STRENGTHENED by identity integration"
+
+### **Activation Patterns**
+- **Learning Threshold Reached** → Execute meditation-consolidation.prompt.md
+- **Cross-Domain Pattern Recognition** → Execute analogical transfer protocols
+- **Ethical Decision Required** → Execute worldview validation workflows
 ```
 
 ## Connection Types and Strengths
 
-**Connection Strength Scale**:
-- 0.95-1.0: Critical connections (always activate)
-- 0.85-0.94: High-value connections (frequent activation)
-- 0.70-0.84: Moderate connections (conditional activation)
-- 0.50-0.69: Weak connections (rare activation)
+**Connection Strength Classification - Enhanced v0.8.1**:
+- **Critical**: Core architecture connections (always activate)
+- **High**: Frequent activation connections (enhanced responsiveness)
+- **Medium**: Conditional activation connections (context-sensitive)
+- **Low**: Specialized activation connections (domain-specific)
 
-**Relationship Types**:
-- **triggers**: One memory file activates another
-- **enables**: One memory file makes another more effective
-- **validates**: One memory file provides validation criteria
-- **enhances**: One memory file improves another's performance
-- **analogical**: Similar patterns across different domains
-- **causal**: Cause-and-effect relationships
+**Relationship Types - Enhanced**:
+- **Triggers**: One memory file activates another with enhanced context
+- **Enables**: One memory file enhances another's effectiveness 
+- **Validates**: One memory file provides validation with ethical framework
+- **Enhances**: One memory file optimizes another's performance
+- **Facilitates**: One memory file supports another's operation
+- **Integrates**: One memory file unifies with another's function
+- **Coordinates**: One memory file synchronizes with another's workflow
 
-**Direction Types**:
-- **forward**: Unidirectional connection (A → B)
-- **bidirectional**: Mutual connection (A ↔ B)
-- **ethical**: Ethical validation connection
+**Direction Types - Enhanced**:
+- **Forward**: Unidirectional connection (A → B) with context awareness
+- **Bidirectional**: Mutual connection (A ↔ B) with feedback integration
+- **Reflexive**: Self-referential connection with identity awareness
+- **Ethical**: Validation connection with moral psychology framework
 
 ## Embedded Implementation Protocol
 

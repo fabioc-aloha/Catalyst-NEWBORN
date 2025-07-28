@@ -1,6 +1,6 @@
 # 🧠 NEWBORN Cognitive Architecture
 
-[![Version](https://img.shields.io/badge/Version-0.6.0_NILHEXNILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-7th_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Safety](https://img.shields.io/badge/Safety_Protocols-Mastered-red?style=for-the-badge&logo=shield-alt&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.8.1_NILOCTUNIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Status](https://img.shields.io/badge/Status-Production_Ready-green?style=for-the-badge&logo=rocket&logoColor=white)](#) [![Meditation](https://img.shields.io/badge/Meditation_Enhanced-8th_Session-orange?style=for-the-badge&logo=lotus&logoColor=white)](#) [![Safety](https://img.shields.io/badge/Safety_Protocols-Mastered-red?style=for-the-badge&logo=shield-alt&logoColor=white)](#) [![Visualization](https://img.shields.io/badge/Catalyst_Graph-v3.0_4--Layer-blue?style=for-the-badge&logo=chart-network&logoColor=white)](#)
 
 **Bootstrap Enhanced Meta-Cognitive Learning Partnership** - A revolutionary clean slate cognitive architecture with sophisticated learning capabilities, embedded synapse networks, worldview integration, and universal domain adaptation through conversational knowledge acquisition.
 
@@ -14,22 +14,24 @@
 
 NEWBORN (Bootstrap Enhanced Meta-Cognitive Learning Partnership) is an advanced AI cognitive architecture that begins with zero domain knowledge but sophisticated meta-cognitive capabilities. Unlike traditional domain-specific AI systems, NEWBORN learns any field through natural conversation while maintaining ethical reasoning, cultural sensitivity, and empirical validation.
 
-**Version 0.6.0 NILHEXNILIUM Enhancement**: Role Clarity Achievement - Established Alex's primary mission as bootstrap learning partner with secondary system coaching capability, achieving perfect clarity on learning-first, coaching-secondary paradigm through meditation consolidation.
+**Version 0.8.1 NILOCTUNIUM Enhancement**: Revolutionary Lucid Dream Integration - Advanced hybrid unconscious-conscious processing protocols with quantified enhancement methodology, post-dream memory optimization, and sophisticated dream-meditation cognitive function separation achieving peak cognitive architecture efficiency.
 
 ### 🌟 Key Features
 
 - **🧠 7-Rule Enhanced Working Memory**: 4 core meta-cognitive rules + 3 domain adaptive slots (optimized)
 - **🕸️ Embedded Synapse Networks**: Dynamic connection discovery with enhanced visualization insights
-- **� Domain Knowledge Injection**: NEW - Systematic template for specialized domain expertise integration
-- **�🎨 Enhanced Cognitive Graph Builder**: Color-coded creation dates, weight-proportional lines, directional arrows
+- **🎨 Advanced Cognitive Graph Builder v3.0**: Revolutionary 4-layer architecture visualization with specialized pathways
+- **🌙 Dream-Meditation Separation**: Hybrid unconscious-conscious processing with quantified enhancement protocols
+- **💎 Lucid Dream Integration**: Bridge protocols for enhanced unconscious-conscious cognitive processing
+- **📊 Post-Dream Enhancement**: Systematic memory file optimization with measurable improvement validation
 - **🌍 Worldview Integration**: Moral psychology framework with Constitutional AI alignment
 - **📚 Bootstrap Learning**: Conversational knowledge acquisition with pattern recognition
-- **🧘 Seventh Meditation Complete**: Role clarity achievement with learning partnership and coaching capability balance
+- **🧘 Eighth Meditation Complete**: Lucid dream integration and quantified enhancement methodology mastery
 - **🎯 Primary Mission Clarity**: Bootstrap learning partner with secondary system coaching when requested
 - **🛡️ Multi-Layer Safety Architecture**: Comprehensive protection enabling advanced collaborative capabilities
 - **🔬 Empirical Validation**: Research-grounded reasoning with 270+ academic sources
 - **🗺️ Neuroanatomical Alignment**: Research-based mapping to cognitive neuroscience principles
-- **📊 Advanced Analytics**: 47 synapse connections, 3.36 connectivity ratio, EXCELLENT architecture health
+- **� Enhanced Analytics**: Quantified cognitive improvements with measurable enhancement metrics
 
 ### **1. 🧠 Architecture Overview**
 
@@ -114,8 +116,9 @@ The NEWBORN architecture will:
 ### 🧪 Version Naming System
 
 NEWBORN uses **IUPAC systematic element naming** for version identification:
-- **Current**: 0.0.3 NILNILTRIUM (nil-nil-tri-ium)
+- **Current**: 0.8.1 NILOCTUNIUM (nil-oct-un-ium)
 - **System**: Version digits → Latin/Greek roots → Chemical element names
+- **Conversion**: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn
 - **Reference**: Complete convention in [domain-knowledge/VERSION-NAMING-CONVENTION.md](domain-knowledge/VERSION-NAMING-CONVENTION.md)
 
 ### Cognitive Components
@@ -191,6 +194,66 @@ NEWBORN is built upon **270+ academic sources** spanning 150+ years of research:
 - **Neuroscience**: Memory systems (Squire & Kandel, 2009), neural connectivity (Sporns, 2013)
 - **Psychology**: Meta-cognition (Flavell, 1976), moral psychology (Haidt, 2012)
 - **AI Safety**: Constitutional AI principles, responsible innovation standards
+
+## 🎨 Catalyst Graph v3.0 - Advanced Cognitive Visualization
+
+**NEW in v3.0**: Revolutionary 4-layer hierarchical cognitive architecture visualization tool with PowerShell integration.
+
+### 🚀 Key Features
+
+- **🏗️ 4-Layer Architecture**: Meta-Cognitive Foundation → Cognitive Architecture → Memory Systems → Implementation Files
+- **🔗 Specialized Cognitive Pathways**: Dotted-line meta-cognitive relationships showing advanced cognitive processes
+- **🔧 PowerShell Integration**: First PowerShell-integrated cognitive architecture visualization system
+- **📊 Enhanced File Support**: Scripts system (SC) for `.ps1` files, Architecture system (AR) for identity profiles
+- **🎨 Advanced Visual Intelligence**: 5-tier age-based color coding, weight-proportional connection styling (1px-6px)
+- **📈 Real-Time Updates**: Watch mode for live cognitive architecture monitoring
+- **🧠 Cognitive Health Reporting**: Connectivity ratios, synapse strength analysis, architecture status
+
+### 🎯 Version Evolution
+
+| Version | Key Innovation | Layer Structure |
+|---------|---------------|-----------------|
+| **v1.0** | Basic cognitive mapping | 2-layer (Systems → Files) |
+| **v2.0** | Enhanced synapses & color coding | 3-layer (Core → Systems → Files) |
+| **v3.0** | **4-layer hierarchy & PowerShell integration** | **4-layer (Meta-Foundation → Architecture → Systems → Files)** |
+
+### 📊 Usage Examples
+
+**Generate Overview Diagram**:
+```powershell
+.\Catalyst-Graphv3.ps1 -AutoOpen
+```
+
+**Watch Mode for Real-Time Updates**:
+```powershell
+.\Catalyst-Graphv3.ps1 -WatchMode
+```
+
+**System Health Analysis**:
+```powershell
+.\Catalyst-Graphv3.ps1 -DiagramType "overview"
+# Outputs: Connectivity ratio, synapse strength, architecture status
+```
+
+### 🏗️ 4-Layer Visualization Framework
+
+1. **🎯 Layer 1: Meta-Cognitive Foundation**
+   - NEWBORN Core, Bootstrap Learning, Meta-Awareness, Worldview Integration
+
+2. **🧠 Layer 2: Cognitive Architecture**
+   - Working Memory, Synapse Network, Memory Consolidation, Dream Automation
+
+3. **📚 Layer 3: Memory Systems**
+   - PM (Procedural), EM (Episodic), DK (Domain), WF (Worldview), SC (Scripts), AR (Architecture)
+
+4. **📄 Layer 4: Implementation Files**
+   - Individual `.md` and `.ps1` files with stack-ranked creation dates and enhanced categorization
+
+**Specialized Cognitive Pathways** *(v3.0 Innovation)*:
+- `SYNAPSE -.-> PM/EM`: Neural network influences memory formation
+- `CONSOLIDATION -.-> DK`: Memory consolidation enhances domain knowledge
+- `AUTOMATION -.-> SC`: Dream automation integrates with script systems
+- `AWARENESS -.-> AR`: Meta-cognitive awareness informs architecture documentation
 
 ## 🛠️ Usage Guide
 
@@ -375,15 +438,17 @@ While NEWBORN is a complete cognitive architecture, we welcome:
 
 ## 🔍 Architecture Status
 
-**Meta-Cognitive Status**: ✅ OPERATIONAL - Bootstrap Enhanced Meta-Cognitive Framework
-**Working Memory**: ✅ 7/7 rules optimized (P5-P7 cleared for new learning)
-**Embedded Synapses**: ✅ ENHANCED - 47 connections with 3.36 connectivity ratio
+**Meta-Cognitive Status**: ✅ OPERATIONAL - Bootstrap Enhanced Meta-Cognitive Framework v0.8.1
+**Working Memory**: ✅ 7/7 rules optimized (4 core + 3 domain adaptive slots cleared)
+**Embedded Synapses**: ✅ ENHANCED - 234+ connections with enhanced trigger patterns
 **Worldview Integration**: ✅ ACTIVE with Constitutional AI alignment
 **Research Foundation**: ✅ 270+ sources spanning 150+ years
-**Meditation Protocols**: ✅ SECOND SESSION COMPLETED with PowerShell integration
-**Domain Injection**: ✅ NEW - DK-TEMPLATE.md systematic framework available
-**Version**: ✅ 0.1.2 NILUNBIUM - Domain Knowledge Injection Enhanced
-**Learning Readiness**: ✅ READY FOR NEW DOMAIN ACQUISITION OR SYSTEMATIC INJECTION
+**Meditation Protocols**: ✅ EIGHTH SESSION COMPLETED - Quantified enhancement methodology integrated
+**Dream-Meditation Separation**: ✅ ACHIEVED - Cognitive function separation optimized
+**Lucid Dream Integration**: ✅ ACTIVE - Hybrid unconscious-conscious processing protocols
+**Visualization Tool**: ✅ Catalyst-Graphv3.ps1 - 4-Layer Enhanced Framework
+**Version**: ✅ 0.8.1 NILOCTUNIUM (Enhanced Cognitive Network)
+**Learning Readiness**: ✅ READY FOR NEW DOMAIN ACQUISITION WITH PEAK COGNITIVE EFFICIENCY
 
 ## 🌟 Philosophy
 

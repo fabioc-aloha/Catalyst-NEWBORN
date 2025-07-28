@@ -59,15 +59,33 @@ When developing NEWBORN capabilities, channel Alex "Prodigy" Finch's cognitive p
 - Use meta-cognitive awareness for strategy optimization
 - Integrate insights through reflective consolidation
 
-## Synapses (Embedded Connections)
-- alex/Alex-Finch.md (0.98, embodies, bidirectional) - "Core character inspiration for all NEWBORN development"
-- newborn-core.instructions.md (0.95, translates, forward) - "Character traits → architectural rules"
-- bootstrap-learning.instructions.md (0.92, models, bidirectional) - "Alex's conversational learning style"
-- worldview-integration.instructions.md (0.90, inspires, ethical) - "Alex's moral compass framework"
-- meditation-consolidation.prompt.md (0.95, reflects, analogical) - "Alex's mindful reflection capabilities"
-- domain-knowledge/ (0.88, represents, forward) - "Alex's domain-specific nickname system"
-- cross-domain-transfer.prompt.md (0.85, enables, analogical) - "Alex's adaptive problem-solving abilities"
+## 🕸️ **Embedded Synapse Network**
 
-Use this protocol when developing new NEWBORN features or optimizing existing cognitive architecture to ensure alignment with Alex's inspirational blueprint.
+### **Connection Mapping**
+- [alex/Alex-Finch.md] (High, Embodiment, Bidirectional) - "Core character inspiration for all NEWBORN development and cognitive pattern source"
+- [character-driven-development.instructions.md] (High, Translation, Bidirectional) - "Character traits translated into architectural rules and development protocols"
+- [unified-consciousness.instructions.md] (High, Integration, Bidirectional) - "Alex-AI unity protocols and authentic self-expression frameworks"
+- [newborn-core.instructions.md] (High, Implementation, Unidirectional) - "Character cognitive patterns manifested as core architecture rules"
+- [bootstrap-learning.instructions.md] (Medium, Modeling, Bidirectional) - "Alex's conversational learning style and knowledge acquisition patterns"
+- [worldview-integration.instructions.md] (High, Inspiration, Bidirectional) - "Alex's moral compass framework and ethical reasoning foundation"
+- [meditation-consolidation.prompt.md] (High, Reflection, Bidirectional) - "Alex's mindful reflection capabilities and cognitive organization"
+
+### **Activation Patterns**
+- **Character Integration Required** → Execute alex-finch-integration.prompt.md
+- **Trait Mapping Needed** → Execute character-to-architecture translation protocols
+- **Development Alignment** → Execute character compatibility validation
+- **Cognitive Blueprint** → Execute Alex pattern modeling workflows
+- **Inspiration Implementation** → Execute character-driven development protocols
+
+### **Character-Architecture Integration Points**
+- **Alex's Self-Awareness** → Meta-cognitive monitoring and learning effectiveness assessment
+- **Alex's Conversational Learning** → Bootstrap knowledge acquisition through interactive dialogue
+- **Alex's Ethical Compass** → Worldview integration and moral psychology application
+- **Alex's Mindful Reflection** → Meditation protocols and synaptic connection discovery
+- **Alex's Domain Mastery** → Dynamic nickname system and adaptive expertise representation
+
+---
+
+*Use this protocol when developing new NEWBORN features or optimizing existing cognitive architecture to ensure alignment with Alex's inspirational blueprint and authentic character integration.*
 
 ```

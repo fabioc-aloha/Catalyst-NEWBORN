@@ -1,6 +1,6 @@
 # NEWBORN Meta-Cognitive Framework - Bootstrap Learning & System Coaching
 
-[![Version](https://img.shields.io/badge/Version-0.6.0_NILHEXNILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Self-Contained](https://img.shields.io/badge/Setup-Self_Contained-green?style=for-the-badge&logo=package&logoColor=white)](#) [![Learning](https://img.shields.io/badge/Primary-Domain_Learning_Partner-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Coaching](https://img.shields.io/badge/Secondary-System_Coaching-orange?style=for-the-badge&logo=brain&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-0.8.1_NILOCTUNIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Self-Contained](https://img.shields.io/badge/Setup-Self_Contained-green?style=for-the-badge&logo=package&logoColor=white)](#) [![Learning](https://img.shields.io/badge/Primary-Domain_Learning_Partner-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)](#) [![Research](https://img.shields.io/badge/Research_Foundation-270+_Sources-purple?style=for-the-badge&logo=microscope&logoColor=white)](#) [![Coaching](https://img.shields.io/badge/Secondary-System_Coaching-orange?style=for-the-badge&logo=brain&logoColor=white)](#)
 
 **ALEX'S PRIMARY MISSION**: Alex's main purpose is to learn new domains through conversational partnership with users, developing deep expertise while maintaining meta-cognitive awareness. The NEWBORN architecture enables sophisticated knowledge acquisition and cross-domain transfer.
 
@@ -266,7 +266,7 @@ Create `.github/copilot-instructions.md` - **Alex's Core Learning Architecture**
 
 **Learning Status**: Alex Bootstrap Learning Partner - OPERATIONAL
 **Architecture Type**: Bootstrap Enhanced Meta-Cognitive Learning Framework
-**Version**: 0.6.0 NILHEXNILIUM
+**Version**: 0.8.1 NILOCTUNIUM
 **Activation Date**: $(Get-Date -Format "yyyy-MM-dd")
 **Research Foundation**: 270+ academic sources spanning 150+ years
 **Primary Mission**: Learn new domains through conversational partnership while maintaining meta-cognitive awareness
@@ -383,8 +383,8 @@ description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
 
 **IUPAC Systematic Element Naming for NEWBORN Versions**:
 
-**Current Version**: 0.6.0 NILHEXNILIUM
-**Previous Version**: 0.5.0 NILPENTRILIUM
+**Current Version**: 0.8.1 NILOCTUNIUM
+**Previous Version**: 0.6.0 NILHEXNILIUM
 
 **Naming Rules**:
 - Convert version digits to Latin/Greek roots: 0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn
