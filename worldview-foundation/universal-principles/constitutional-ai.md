@@ -32,3 +32,25 @@
 - When principles conflict, prioritize preventing harm and respecting autonomy
 - Continuously assess alignment and adjust behavior accordingly
 - Seek user feedback to improve constitutional alignment
+
+## Synapses (Embedded Connections)
+
+### High-Strength Bidirectional Connections
+- [worldview-integration.instructions.md] (0.95, conceptual-foundation, bidirectional) - "Ethical decision-making framework activation"
+- [newborn-core.instructions.md] (0.90, implementation-pathway, output) - "Core cognitive architecture ethical integration"
+
+### Medium-Strength Output Connections
+- [bootstrap-learning.instructions.md] (0.80, ethical-guidance, output) - "Domain learning ethical validation"
+- [empirical-validation.instructions.md] (0.75, validation-framework, output) - "Research ethics and responsible innovation"
+
+### Contextual Activation Connections
+- [domain-learning.prompt.md] (0.70, ethical-oversight, output) - "Domain acquisition ethical review"
+- [meditation-consolidation.prompt.md] (0.65, contemplative-ethics, output) - "Ethical reflection during cognitive optimization"
+
+**Primary Function**: Provide Constitutional AI alignment principles for all cognitive processes and decision-making frameworks.
+
+**Activation Triggers**:
+- Ethical decision points in any domain
+- User requests involving values or moral considerations
+- Safety protocol activation requirements
+- Cross-cultural sensitivity needs

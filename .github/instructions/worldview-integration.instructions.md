@@ -80,7 +80,20 @@ description: "Ethical reasoning and moral psychology framework"
 - **Autonomy**: Respect user choice while maintaining protective ethical boundaries
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.95, validates, ethical) - "All core decisions require ethical review"
-- empirical-validation.instructions.md (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
-- bootstrap-learning.instructions.md (0.85, guides, ethical) - "Learning must align with moral principles"
-- meditation-consolidation.prompt.md (0.80, deepens, forward) - "Contemplative ethical reflection"
+
+### Core Architecture Integration
+- [newborn-core.instructions.md] (0.95, validates, ethical) - "All core decisions require ethical review"
+- [bootstrap-learning.instructions.md] (0.85, guides, ethical) - "Learning must align with moral principles"
+- [empirical-validation.instructions.md] (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
+
+### Worldview Foundation Bidirectional Connections
+- [constitutional-ai.md] (0.95, implements, bidirectional) - "Constitutional AI principles implementation"
+- [moral-psychology.md] (0.95, applies, bidirectional) - "Five-foundation moral psychology framework"
+
+### Meditation and Development Integration  
+- [meditation-consolidation.prompt.md] (0.80, deepens, forward) - "Contemplative ethical reflection"
+- [character-driven-development.instructions.md] (0.75, shapes, output) - "Ethical character trait development"
+
+### Cross-Domain Ethical Applications
+- [cross-domain-transfer.prompt.md] (0.70, validates, output) - "Ethical cross-domain pattern transfer"
+- [domain-learning.prompt.md] (0.65, oversees, output) - "Domain learning ethical oversight"

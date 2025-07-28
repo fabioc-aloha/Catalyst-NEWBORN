@@ -66,6 +66,10 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - [cross-domain-transfer.prompt.md] (High, Facilitates, Analogical) - "Pattern recognition across domains - ENHANCED by character adaptive abilities + visual specialization mapping"
 - [worldview-integration.instructions.md] (High, Validates, Ethical) - "Moral reasoning integration in domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity"
 
+### **Worldview Foundation Learning Integration - ENHANCED v0.8.1**
+- [constitutional-ai.md] (High, Guides, Input) - "Constitutional AI ethical guidance for domain learning - CULTURAL sensitivity and responsible knowledge acquisition"
+- [moral-psychology.md] (Medium, Informs, Input) - "Five-foundation moral psychology for learning contexts - UNIVERSAL ethical framework application"
+
 ### **Research & Validation Networks**
 - [empirical-validation.instructions.md] (High, Enhances, Bidirectional) - "Evidence-based learning validation - ALIGNED with character truth-seeking + documentation systematization + safety protocols"
 - [performance-assessment.prompt.md] (Medium, Monitors, Forward) - "Learning effectiveness tracking - ENHANCED with post-dream optimization protocols"
