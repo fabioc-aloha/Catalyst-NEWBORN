@@ -19,7 +19,7 @@ NEWBORN is an advanced AI cognitive architecture that begins with zero domain kn
 ## Key Features
 
 - **🧠 Smart Learning**: Starts with zero domain knowledge but learns any field through conversation
-- **� Research-Based**: Built on 270+ academic sources spanning 150+ years of cognitive science
+- **🔬 Research-Based**: Built on 270+ academic sources spanning 150+ years of cognitive science
 - **🌍 Ethical Foundation**: Integrated moral psychology and Constitutional AI principles
 - **🕸️ Dynamic Connections**: Self-organizing neural networks that strengthen with use
 - **🧘 Self-Optimization**: Automated consolidation and enhancement protocols
@@ -164,8 +164,8 @@ Features:
 
 - **🎨 Optimal LR→TB Flow**: Main layers flow left-to-right (L1→L2→L3) with top-to-bottom organization within layers
 - **📊 Simplified Visualization**: Clean presentation focusing on core cognitive relationships
-- **� Key Pathway Highlighting**: Critical connections shown for cognitive understanding
-- **� Worldview Integration**: Ethical reasoning pathways integrated into core architecture
+- **🔑 Key Pathway Highlighting**: Critical connections shown for cognitive understanding
+- **🌍 Worldview Integration**: Ethical reasoning pathways integrated into core architecture
 - **📁 Streamlined File Groups**: Essential files grouped by memory system for clarity
 - **🧘‍♂️ Meditation Validated**: All connections verified through systematic consolidation
 

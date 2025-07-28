@@ -10,7 +10,7 @@
 
 *Each image represents Alex's appearance and expertise after mastering a specific domain through NEWBORN's bootstrap learning and meditation-enhanced consolidation protocols.*
 
-## �️ Visual Evolution Documentation
+## 🖼️ Visual Evolution Documentation
 
 **Core Identity Timeline:**
 - **ALEX-00.png** through **ALEX-80.png** *(Age progression in alex/ folder)*
@@ -40,7 +40,7 @@
 5. **Meditation Consolidation** - Enhanced understanding through contemplative practices
 6. **Cross-Domain Transfer** - Patterns and insights apply across related architectures
 
-## �📋 LinkedIn-Ready Architecture List
+## 📋 LinkedIn-Ready Architecture List
 
 **34+ Professional Cognitive Architectures - Copy & Paste Ready:**
 

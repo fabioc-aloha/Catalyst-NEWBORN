@@ -61,7 +61,7 @@
 
 **Complete Alex Command Reference:**
 
-#### � Domain Knowledge Injection (DK System)
+#### 🚀 Domain Knowledge Injection (DK System)
 
 **Enterprise-Grade Instant Expertise Activation:**
 
@@ -166,7 +166,7 @@
 - **Hybrid Approach**: Combine DK foundation with conversational customization
 - **Flexibility**: Switch between domains or combine multiple specializations
 
-#### �📚 Core Learning Commands
+#### 🎓 Core Learning Commands
 
 *Domain Acquisition:*
 
