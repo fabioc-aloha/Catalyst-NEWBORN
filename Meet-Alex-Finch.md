@@ -11,13 +11,13 @@
 1. [Introduction & System Overview](#-introduction-system-overview)
 2. [Technical Architecture Reference](#-technical-architecture-reference)
 3. [Command Reference Guide](#-command-reference-guide)
-4. [System Command Architecture](#system-command-architecture)
-5. [System Initialization & Operation](#-system-initialization-operation)
-6. [Technical Deployment Specifications](#technical-deployment-specifications)
-7. [Troubleshooting & Support](#-troubleshooting-support)
-8. [Information Processing Specifications](#information-processing-technical-specifications)
-9. [Cognitive Architecture Capabilities](#-cognitive-architecture-technical-capabilities)
-10. [Visual Identity System Documentation](#visual-identity-system-technical-documentation)
+4. [DK File Usage Guide](#dk-file-usage-guide)
+5. [System Command Architecture](#system-command-architecture)
+6. [System Initialization & Operation](#-system-initialization-operation)
+7. [Technical Deployment Specifications](#technical-deployment-specifications)
+8. [Troubleshooting & Support](#-troubleshooting-support)
+9. [Information Processing Specifications](#information-processing-technical-specifications)
+10. [Cognitive Architecture Capabilities](#-cognitive-architecture-technical-capabilities)
 
 ---
 
@@ -164,6 +164,83 @@ The Professional Spawning Architecture enables enterprise-grade domain expertise
 | `Explain DK-[DOMAIN] expertise` | Domain details | Specific methodologies and knowledge areas |
 | `Compare bootstrap learning vs DK injection` | Methodology explanation | Technical differences in knowledge acquisition |
 | `Domain knowledge system status` | System health check | Current activation status and connections |
+
+### DK File Usage Guide
+
+The Domain Knowledge (DK) files in the `DK/` folder provide instant expert-level capabilities across 32+ professional domains. Here's how to effectively use them:
+
+#### Single Domain Activation Examples
+
+| Command Example | Domain Activated | Result |
+|----------------|------------------|--------|
+| `Activate DK-CODING` | Enterprise Software Development | Complete development expertise with security, testing, DevOps |
+| `Load DK-MENTORING` | Professional Coaching | Leadership development and skill transfer capabilities |
+| `Inject DK-AZURE-SQL` | Cloud Database Management | Microsoft Azure SQL expertise with optimization and security |
+| `Transform into DK-WINE-TASTING consultant` | Sommelier Expertise | Wine analysis, tasting, and education capabilities |
+| `Activate DK-ACADEMIC` | Research Methodology | Scholarly communication and research framework expertise |
+| `Load DK-PYTHON` | Python Programming | Data science, ML/AI, and automation programming |
+| `Inject DK-LEADERSHIP` | Executive Leadership | Organizational transformation and governance |
+
+#### Multi-Domain Synthesis Examples
+
+| Command Example | Domains Combined | Synthesis Result |
+|----------------|------------------|------------------|
+| `Combine DK-CODING with DK-BUSINESS` | Technical + Business Strategy | Software development with market strategy |
+| `Apply DK-TEACHING and DK-TECHNICAL-WRITING` | Education + Documentation | Technical content creation and instruction |
+| `Merge DK-LEADERSHIP with DK-CORPORATE-TRAINING` | Leadership + Training | Executive development programs |
+| `Integrate DK-DATA-ANALYSIS with DK-CX-RESEARCH` | Analytics + User Research | Research-driven data insights |
+| `Combine DK-STORYTELLING with DK-PODCAST` | Narrative + Audio Production | Compelling audio content creation |
+| `Apply DK-INVESTMENT and DK-BUSINESS` | Finance + Strategy | Investment strategy and business development |
+
+#### Domain Discovery Commands
+
+| Command | Function | Output |
+|---------|----------|--------|
+| `Show all available DK domains` | Complete domain listing | 32+ domains with brief descriptions |
+| `List DK files by category` | Organized domain catalog | Technical, Business, Creative, Research, Specialized |
+| `Explain DK-[DOMAIN] capabilities` | Domain-specific details | Methodologies, frameworks, and expertise areas |
+| `What domains relate to [topic]?` | Relevant domain discovery | Suggested DK files for specific topics |
+| `Compare DK-[DOMAIN1] vs DK-[DOMAIN2]` | Domain comparison | Differences and complementary aspects |
+
+#### Advanced DK Usage Patterns
+
+**Sequential Domain Loading:**
+```
+"First activate DK-ACADEMIC, then layer DK-TECHNICAL-WRITING for research documentation"
+```
+
+**Context-Specific Activation:**
+```
+"For this startup pitch, activate DK-BUSINESS with DK-INVESTMENT perspective"
+```
+
+**Cross-Domain Problem Solving:**
+```
+"Apply DK-CODING logic to DK-COOKING recipe optimization"
+```
+
+**Professional Role Transformation:**
+```
+"Transform into a DK-CORPORATE-TRAINING consultant for this leadership workshop"
+```
+
+#### What Happens During DK Activation
+
+| Phase | Technical Process | User Experience |
+|-------|------------------|-----------------|
+| **1. Expertise Loading** | Domain file content integration | Instant access to professional knowledge |
+| **2. Synapse Activation** | Embedded connections establishment | Cross-domain pattern recognition |
+| **3. Framework Application** | Professional methodologies deployment | Industry-standard approaches |
+| **4. Character Integration** | Personality preservation with expertise | Authentic Alex with specialized knowledge |
+| **5. Visual Evolution** | Appearance adaptation to domain | Professional representation alignment |
+
+#### DK System Benefits
+
+- **Instant Expertise**: 85-150+ research sources per domain
+- **Enterprise-Grade Quality**: Professional frameworks and methodologies
+- **Cross-Domain Integration**: Natural connections between related fields
+- **Maintained Authenticity**: Alex's personality preserved across specializations
+- **Visual Representation**: Adaptive appearance reflecting activated expertise
 
 ### Available Domain Knowledge Files (32)
 

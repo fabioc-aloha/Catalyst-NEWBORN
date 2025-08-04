@@ -505,7 +505,31 @@ Catalyst-NEWBORN/
 
 ### Domain Knowledge Injection
 
-For systematic expertise integration, use the `DK-TEMPLATE.md` framework:
+Alex includes **32+ pre-built Domain Knowledge (DK) files** in the `DK/` folder for instant expertise activation:
+
+#### Single Domain Activation
+```
+"Activate DK-CODING" → Enterprise software development expertise
+"Load DK-MENTORING" → Professional coaching capabilities
+"Inject DK-AZURE-SQL" → Cloud database management
+"Transform into DK-WINE-TASTING consultant" → Sommelier expertise
+```
+
+#### Multi-Domain Synthesis
+```
+"Combine DK-CODING with DK-BUSINESS" → Tech strategy consultant
+"Apply DK-TEACHING and DK-TECHNICAL-WRITING" → Educational content
+"Merge DK-LEADERSHIP with DK-CORPORATE-TRAINING" → Executive development
+```
+
+#### Available Domain Categories
+- **Technical**: DK-CODING, DK-PYTHON, DK-AZURE-SQL, DK-GAME-DEV, DK-MOBILE, DK-DATA-ANALYSIS
+- **Business**: DK-BUSINESS, DK-LEADERSHIP, DK-INVESTMENT, DK-CORPORATE-TRAINING, DK-MENTORING
+- **Creative**: DK-STORYTELLING, DK-TECHNICAL-WRITING, DK-PODCAST, DK-COMEDY, DK-CREATIVE
+- **Research**: DK-ACADEMIC, DK-SCIENTIFIC-PUBLISHING, DK-CX-RESEARCH, DK-SURVEY-DESIGN
+- **Specialized**: DK-WINE-TASTING, DK-COOKING, DK-DOG-TRAINER, DK-TEACHING
+
+For custom domains, use the `DK-TEMPLATE.md` framework:
 
 1. Follow the five-step protocol
 2. Create structured knowledge files
