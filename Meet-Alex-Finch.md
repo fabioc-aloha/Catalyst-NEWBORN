@@ -511,6 +511,17 @@ Upon Approval:
 
 ## 🚀 System Initialization & Operation
 
+### System Installation
+
+**Installation Method Selection:**
+
+| Method | Command | Use Case |
+|--------|---------|----------|
+| **Complete Installation** | `git clone https://github.com/fabioc-aloha/Catalyst-NEWBORN.git` | New deployments requiring full functionality |
+| **Sequential Installation** | Follow `SETUP-1-FOUNDATION.md` through `SETUP-3-ADVANCED-AUTOMATION.md` | Integration with existing environments or customized deployment |
+
+For detailed installation instructions, see the [Installation Methods](#installation-methods) section.
+
 ### Initialization Protocol
 
 **System Activation Sequence:**
@@ -535,16 +546,68 @@ Upon Approval:
 
 ### Technical Deployment Specifications
 
-**System Architecture Requirements:**
+#### Installation Methods
 
-| Component | Technical Requirement | Implementation Notes |
-|-----------|---------------------|---------------------|
-| **AI Framework** | GitHub Copilot Chat | VS Code integration required |
-| **File Architecture** | Three-file sequential deployment | Alex-Finch.md, Meet-Alex-Finch.md, Catalyst-Graph.ps1 |
-| **Memory Structure** | `.github/` directory organization | Procedural and episodic memory files |
-| **Primary Interface** | Meet-Alex-Finch.md | Technical reference documentation |
+The Alex Cognitive Architecture provides two distinct deployment methods, each optimized for different scenarios:
 
-**Sequential Deployment Protocol:**
+| Installation Method | Use Case | Technical Process |
+|---------------------|----------|-------------------|
+| **Repository Clone** | New installation | Complete system deployment via GitHub repository cloning |
+| **Sequential Setup** | Environment upgrade | Progressive capability enhancement through setup files |
+
+**Method 1: GitHub Repository Clone (Complete Installation)**
+
+```bash
+# Clone the entire Catalyst-NEWBORN repository
+git clone https://github.com/fabioc-aloha/Catalyst-NEWBORN.git
+
+# Change to the repository directory
+cd Catalyst-NEWBORN
+```
+
+This method:
+- Installs the complete Alex system with all components
+- Provides immediate access to all cognitive capabilities
+- Includes all memory files, domain knowledge, and embedded synapses
+- Enables instant domain learning and professional spawning capabilities
+- Ready for immediate use with no additional setup required
+
+**Method 2: Sequential Setup Files (Progressive Installation)**
+
+This approach uses three sequential setup files to progressively build the cognitive architecture:
+
+| Setup File | Purpose | Capabilities Added |
+|------------|---------|-------------------|
+| `SETUP-1-FOUNDATION.md` | Core architecture | 4-rule meta-cognitive framework, Alex identity |
+| `SETUP-2-ENHANCED-COGNITIVE.md` | Advanced learning | 7-rule framework, embedded synapses, ethical reasoning |
+| `SETUP-3-ADVANCED-AUTOMATION.md` | Automation | Dream protocols, lucid integration, automated maintenance |
+
+This method:
+- Allows integration of Alex capabilities into existing environments
+- Provides granular control over component installation
+- Enables progressive capability enhancement
+- Avoids duplication and dependency conflicts
+- Supports customized deployment scenarios
+
+**Deployment Method Selection Criteria:**
+
+| Requirement | Recommended Method |
+|-------------|-------------------|
+| New deployment with complete functionality | Repository Clone |
+| Integration with existing systems | Sequential Setup |
+| Minimal installation footprint | Sequential Setup (Foundation only) |
+| Progressive capability enhancement | Sequential Setup |
+| Immediate access to all domains | Repository Clone |
+| Custom deployment architecture | Sequential Setup |
+
+**System Requirements (Both Methods):**
+
+- GitHub Copilot Chat (VS Code integration required)
+- Git version control system
+- Access to GitHub repository
+- VS Code editor with Copilot integration
+
+#### Sequential Deployment Protocol
 
 | Step | Technical Process | Validation Method |
 |------|-----------------|------------------|
