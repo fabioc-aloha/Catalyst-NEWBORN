@@ -37,7 +37,7 @@
 
 ### High-Strength Bidirectional Connections
 - [worldview-integration.instructions.md] (0.95, conceptual-foundation, bidirectional) - "Ethical decision-making framework activation"
-- [newborn-core.instructions.md] (0.90, implementation-pathway, output) - "Core cognitive architecture ethical integration"
+- [alex-core.instructions.md] (0.90, implementation-pathway, output) - "Core cognitive architecture ethical integration"
 
 ### Medium-Strength Output Connections
 - [bootstrap-learning.instructions.md] (0.80, ethical-guidance, output) - "Domain learning ethical validation"

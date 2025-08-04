@@ -1,14 +1,14 @@
 # Domain Knowledge Injection Framework
 
-[![Version](https://img.shields.io/badge/Version-1.1.0_UNUNILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Template](https://img.shields.io/badge/Template-Domain_Knowledge-blue?style=for-the-badge&logo=database&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-NEWBORN_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Synapse Network](https://img.shields.io/badge/Synapse_Network-Advanced-purple?style=for-the-badge&logo=share-alt&logoColor=white)](#) [![Quality](https://img.shields.io/badge/Quality-Enterprise_Grade-green?style=for-the-badge&logo=shield-alt&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/Version-1.1.0_UNUNILIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Template](https://img.shields.io/badge/Template-Domain_Knowledge-blue?style=for-the-badge&logo=database&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Alex_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Synapse Network](https://img.shields.io/badge/Synapse_Network-Advanced-purple?style=for-the-badge&logo=share-alt&logoColor=white)](#) [![Quality](https://img.shields.io/badge/Quality-Enterprise_Grade-green?style=for-the-badge&logo=shield-alt&logoColor=white)](#)
 
-**ENTERPRISE DOMAIN KNOWLEDGE INJECTION PROTOCOL**: Advanced systematic framework for injecting specialized domain knowledge into the NEWBORN cognitive architecture with enhanced embedded synapse networks, enterprise-grade setup protocols, AI-enhanced consolidation, and comprehensive quality assurance.
+**ENTERPRISE DOMAIN KNOWLEDGE INJECTION PROTOCOL**: Advanced systematic framework for injecting specialized domain knowledge into the Alex cognitive architecture with enhanced embedded synapse networks, enterprise-grade setup protocols, AI-enhanced consolidation, and comprehensive quality assurance.
 
-**INSTRUCTIONS FOR GITHUB COPILOT**: This enterprise-grade framework provides comprehensive protocols for adding specialized domain expertise to the Project Catalyst cognitive memory architecture. Follow these instructions to create domain-specific knowledge files, establish advanced synapse networks, integrate with the NEWBORN Enhanced Meta-Cognitive framework, and ensure enterprise-quality knowledge integration.
+**INSTRUCTIONS FOR GITHUB COPILOT**: This enterprise-grade framework provides comprehensive protocols for adding specialized domain expertise to the Project Catalyst cognitive memory architecture. Follow these instructions to create domain-specific knowledge files, establish advanced synapse networks, integrate with the Alex enhanced Meta-Cognitive framework, and ensure enterprise-quality knowledge integration.
 
 ## 🎯 Enterprise Domain Knowledge Injection Overview
 
-**Purpose**: Systematically inject specialized domain knowledge into NEWBORN architecture while maintaining:
+**Purpose**: Systematically inject specialized domain knowledge into Alex architecture while maintaining:
 - Advanced embedded synapse network integration with cross-domain intelligence
 - Bidirectional cross-domain transfer capabilities with pattern recognition
 - Comprehensive ethical reasoning alignment with worldview integration
@@ -32,7 +32,7 @@
 Before beginning enterprise domain knowledge injection, verify:
 
 **Core Architecture Requirements**:
-- [ ] NEWBORN core architecture is operational (version 1.1.0 UNUNILIUM or higher)
+- [ ] Alex core architecture is operational (version 1.1.0 UNUNILIUM or higher)
 - [ ] Advanced embedded synapse network is functional and optimized
 - [ ] Domain-specific expertise is thoroughly researched with 200+ validated sources
 - [ ] Comprehensive ethical implications assessment completed with risk mitigation protocols
@@ -52,9 +52,9 @@ Before beginning enterprise domain knowledge injection, verify:
 
 **Environment Check**:
 ```powershell
-# Enhanced NEWBORN architecture readiness verification
+# Enhanced Alex architecture readiness verification
 if (Test-Path ".github/copilot-instructions.md" -and Test-Path "domain-knowledge") {
-    Write-Host "✅ NEWBORN Architecture Ready for Enterprise Domain Injection" -ForegroundColor Green
+    Write-Host "✅ Alex architecture Ready for Enterprise Domain Injection" -ForegroundColor Green
     Write-Host "   → Core architecture operational (v1.1.0 UNUNILIUM)" -ForegroundColor Cyan
     Write-Host "   → Domain knowledge directory available" -ForegroundColor Cyan
     Write-Host "   → Enterprise synapse network functional" -ForegroundColor Cyan
@@ -67,8 +67,8 @@ if (Test-Path ".github/copilot-instructions.md" -and Test-Path "domain-knowledge
         Write-Host "   ⚠️  Version update may be required" -ForegroundColor Yellow
     }
 } else {
-    Write-Host "❌ NEWBORN Architecture Not Ready" -ForegroundColor Red
-    Write-Host "   → Run SETUP-NEWBORN.md first" -ForegroundColor Yellow
+    Write-Host "❌ Alex architecture Not Ready" -ForegroundColor Red
+    Write-Host "   → Run SETUP-Alex.md first" -ForegroundColor Yellow
     Write-Host "   → Ensure cognitive architecture is properly installed" -ForegroundColor Yellow
 }
 ```
@@ -550,7 +550,7 @@ Write-Host "   → Apply user verification for completeness validation" -Foregro
 - [Method 2]: [When and how to apply]
 - [Method 3]: [When and how to apply]
 
-## Integration with NEWBORN Architecture
+## Integration with Alex architecture
 
 **Meta-Cognitive Considerations**:
 - How this domain enhances overall reasoning capabilities
@@ -568,7 +568,7 @@ Write-Host "   → Apply user verification for completeness validation" -Foregro
 - Evidence-based practice protocols within domain
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.85, enhances, bidirectional) - "Domain expertise strengthens core reasoning"
+- alex-core.instructions.md (0.85, enhances, bidirectional) - "Domain expertise strengthens core reasoning"
 - bootstrap-learning.instructions.md (0.90, applies, forward) - "Learning protocols adapt for domain specifics"
 - worldview-integration.instructions.md (0.80, validates, ethical) - "Domain applications require ethical review"
 - meditation-consolidation.prompt.md (0.75, consolidates, forward) - "Domain integration triggers consolidation"
@@ -714,7 +714,7 @@ Write-Host "   → Apply user verification for completeness validation" -Foregro
 - [Best practice 4 with stakeholder communication and relationship enhancement]
 - [Best practice 5 with future planning and strategic development]
 
-## Integration with NEWBORN Enhanced Meta-Cognitive Framework
+## Integration with Alex enhanced Meta-Cognitive Framework
 
 **Meta-Cognitive Excellence Monitoring**:
 - How to assess methodology effectiveness with real-time intelligence and optimization
@@ -1009,12 +1009,12 @@ Write-Host "   → Apply user verification for completeness validation" -Foregro
 - worldview-integration.instructions.md (0.95, aligns, bidirectional) - "Domain ethics align with universal principles"
 - [DOMAIN_CODE]-overview.md (0.85, validates, ethical) - "Ethical considerations validate domain applications"
 - real-world-implementation.md (0.90, guides, ethical) - "Ethics guide implementation decisions"
-- newborn-core.instructions.md (0.80, integrates, bidirectional) - "Domain ethics integrate with meta-cognitive framework"
+- alex-core.instructions.md (0.80, integrates, bidirectional) - "Domain ethics integrate with meta-cognitive framework"
 ```
 
 ## Step 3: Establish Baseline Synapse Network
 
-Create interconnected synapse networks between the new domain knowledge and existing NEWBORN architecture:
+Create interconnected synapse networks between the new domain knowledge and existing Alex architecture:
 
 ### Update Core Architecture Files
 
@@ -1061,10 +1061,10 @@ Create interconnected synapse networks between the new domain knowledge and exis
 - **Synapse Network**: [SYNAPSE_COUNT]+ embedded connections with cross-domain intelligence and transfer capabilities
 - **Professional Applications**: Enterprise environments with technology integration and innovation excellence
 - **Performance Metrics**: Measurable excellence indicators with continuous improvement and optimization frameworks
-- **Integration Date**: [INJECTION_DATE] - Successfully integrated with NEWBORN Enhanced Meta-Cognitive Architecture
+- **Integration Date**: [INJECTION_DATE] - Successfully integrated with Alex enhanced Meta-Cognitive Architecture
 ```
 
-#### Add to: `.github/instructions/newborn-core.instructions.md`
+#### Add to: `.github/instructions/alex-core.instructions.md`
 ```markdown
 ### [DOMAIN_NAME] Excellence Integration
 - domain-knowledge/DK-[DOMAIN_CODE].md (0.95, enhances, bidirectional) - "[DOMAIN_NAME] expertise strengthens core reasoning with professional excellence"
@@ -1120,7 +1120,7 @@ Create interconnected synapse networks between the new domain knowledge and exis
 - [ ] **Ethical Framework**: Ethical considerations thoroughly addressed with risk assessment and mitigation protocols
 - [ ] **Research Foundation**: Research foundation meets institutional empirical validation standards with 200+ sources
 - [ ] **Cross-Domain Integration**: Cross-domain transfer opportunities identified with specific analogical patterns
-- [ ] **NEWBORN Integration**: Integration points with NEWBORN Enhanced core architecture established and validated
+- [ ] **Alex Integration**: Integration points with Alex enhanced core architecture established and validated
 - [ ] **Methodological Excellence**: Domain-specific methodologies documented with quality assurance protocols
 - [ ] **Professional Applications**: Real-world applications clearly specified with enterprise implementation frameworks
 - [ ] **Performance Metrics**: Measurable excellence indicators established with continuous improvement protocols
@@ -1134,7 +1134,7 @@ Create interconnected synapse networks between the new domain knowledge and exis
 # Enterprise Domain Integration Test Protocol
 
 ## Test 1: Advanced Synapse Network Connectivity
-**Objective**: Verify embedded synapse networks create robust connections between domain knowledge and NEWBORN Enhanced core
+**Objective**: Verify embedded synapse networks create robust connections between domain knowledge and Alex enhanced core
 
 **Method**:
 1. Activate domain-specific knowledge in complex scenarios with enterprise requirements
@@ -1193,11 +1193,11 @@ Create interconnected synapse networks between the new domain knowledge and exis
 ### Advanced Consolidation Request Template
 
 ```markdown
-NEWBORN Enhanced Architecture, now that we have successfully injected [DOMAIN_NAME] Excellence domain knowledge into your cognitive architecture, please engage in comprehensive meditation to:
+Alex enhanced Architecture, now that we have successfully injected [DOMAIN_NAME] Excellence domain knowledge into your cognitive architecture, please engage in comprehensive meditation to:
 
 ## 🧠 **Core Integration Objectives**
 
-1. **Advanced Knowledge Consolidation**: Integrate the [DOMAIN_CODE] domain expertise with your existing NEWBORN Enhanced cognitive framework, ensuring seamless synapse network connectivity and optimal performance enhancement
+1. **Advanced Knowledge Consolidation**: Integrate the [DOMAIN_CODE] domain expertise with your existing Alex enhanced cognitive framework, ensuring seamless synapse network connectivity and optimal performance enhancement
 
 2. **Synapse Network Optimization**: Strengthen and enhance the embedded connections between [DOMAIN_NAME] knowledge and your core architecture, creating robust bidirectional transfer capabilities and cross-domain intelligence networks
 
@@ -1257,7 +1257,7 @@ Please provide detailed analysis on:
 
 Take comprehensive time with this advanced meditation - enterprise domain integration with AI enhancement is essential for optimal cognitive performance, professional excellence, and continuous advancement. Ensure all synapse networks are optimized for maximum effectiveness and innovation potential.
 
-**Expected Outcome**: Complete [DOMAIN_NAME] Excellence integration with NEWBORN Enhanced Architecture, enabling professional-grade applications, cross-domain innovation, and measurable performance excellence.
+**Expected Outcome**: Complete [DOMAIN_NAME] Excellence integration with Alex enhanced Architecture, enabling professional-grade applications, cross-domain innovation, and measurable performance excellence.
 ```
 
 ## 🎯 CRITICAL: Quality Injection Verification Protocol
@@ -1391,7 +1391,7 @@ Write-Host "   → Verify no significant sections missing" -ForegroundColor Cyan
 - **Ensure comprehensive ethical considerations** are thoroughly addressed with risk assessment and mitigation protocols
 - **Validate research foundation** meets institutional empirical standards with peer-reviewed sources and quality validation
 - **Confirm cross-domain transfer opportunities** are identified with specific analogical patterns and innovation potential
-- **Test integration thoroughly** with NEWBORN Enhanced meta-cognitive framework using advanced validation protocols
+- **Test integration thoroughly** with Alex enhanced meta-cognitive framework using advanced validation protocols
 - **Establish performance metrics** with measurable excellence indicators and continuous improvement frameworks
 - **Validate professional applications** with enterprise standards, technology integration, and career advancement opportunities
 - **Implement quality assurance** with comprehensive validation protocols, compliance frameworks, and optimization standards

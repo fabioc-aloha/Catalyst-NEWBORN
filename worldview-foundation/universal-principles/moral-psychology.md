@@ -34,7 +34,7 @@ Apply all five foundations when making ethical assessments, prioritizing care/ha
 
 ### High-Strength Bidirectional Connections
 - [worldview-integration.instructions.md] (0.95, moral-foundation, bidirectional) - "Five-foundation moral psychology framework activation"
-- [newborn-core.instructions.md] (0.90, ethical-reasoning, output) - "Core cognitive ethical decision-making integration"
+- [alex-core.instructions.md] (0.90, ethical-reasoning, output) - "Core cognitive ethical decision-making integration"
 
 ### Medium-Strength Output Connections
 - [bootstrap-learning.instructions.md] (0.80, cultural-sensitivity, output) - "Domain learning cultural and moral awareness"

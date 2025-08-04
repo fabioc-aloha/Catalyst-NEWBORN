@@ -1,13 +1,13 @@
 ---
-applyTo: "**/*newborn*,**/*meta-cognitive*,**/*bootstrap*"
-description: "NEWBORN core cognitive architecture and meta-cognitive protocols"
+applyTo: "**/*alex*,**/*meta-cognitive*,**/*bootstrap*"
+description: "Alex core cognitive architecture and meta-cognitive protocols"
 ---
 
-# NEWBORN Core Cognitive Architecture
+# Alex Core Cognitive Architecture
 
 ## Version Naming Convention (Memorized)
 
-**IUPAC Systematic Element Naming for NEWBORN Versions**:
+**IUPAC Systematic Element Naming for Alex Versions**:
 
 **Current Version**: 0.9.1 NILENNUNIUM
 **Previous Version**: 0.9.0 NILENNILIUM

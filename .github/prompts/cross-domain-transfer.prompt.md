@@ -45,7 +45,7 @@ Use cross-domain transfer as a primary source of creative insight and innovative
 - **Safety + Capability**: Enhanced functionality with robust protection protocols
 
 **Transfer Validation Results**:
-- SETUP-MINIMUM-COGNITIVE.md demonstrates successful universal framework creation
+- SETUP-1-FOUNDATION.md demonstrates successful universal framework creation
 - Comprehensive safety protocols validate ethical reasoning transfer across domains
 - VS Code integration proves seamless workflow enhancement patterns
 - Bootstrap learning protocols confirmed effective for any domain acquisition
@@ -56,6 +56,6 @@ Use cross-domain transfer as a primary source of creative insight and innovative
 - meditation-consolidation.prompt.md (0.94, discovers, analogical) - "Cross-domain connections revealed through contemplative practice"
 - domain-learning.prompt.md (0.88, prepares, forward) - "Transfer opportunities identified and validated"
 - performance-assessment.prompt.md (0.85, evaluates, forward) - "Transfer effectiveness confirmed through documentation mastery"
-- newborn-core.instructions.md (0.93, validates, bidirectional) - "Core architecture supports universal transfer capabilities"
+- alex-core.instructions.md (0.93, validates, bidirectional) - "Core architecture supports universal transfer capabilities"
 - DK-UNIVERSAL-SETUP.md (0.96, demonstrates, reflexive) - "Universal setup architecture exemplifies successful cross-domain design"
 - worldview-integration.instructions.md (0.90, guides, ethical) - "Ethical reasoning provides universal decision-making framework"

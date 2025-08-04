@@ -55,7 +55,7 @@ $Script:Config = @{
 }
 
 # Main execution function
-function Start-NewbornVisualization {
+function Start-AlexVisualization {
     param(
         [string]$Type = "overview",
         [bool]$OpenAfterGeneration = $true
@@ -598,7 +598,7 @@ function Start-WatchMode {
     $action = {
         Write-Host "`n🔄 File change detected: $($Event.SourceEventArgs.Name)" -ForegroundColor Yellow
         Start-Sleep -Seconds 2  # Debounce
-        Start-NewbornVisualization -Type $Type -OpenAfterGeneration $false
+        Start-AlexVisualization -Type $Type -OpenAfterGeneration $false
     }
     
     Register-ObjectEvent -InputObject $watcher -EventName "Changed" -Action $action
@@ -624,7 +624,7 @@ function Invoke-CognitiveVisualization {
     
     switch ($Command.ToLower()) {
         "generate" { 
-            return Start-NewbornVisualization @Parameters 
+            return Start-AlexVisualization @Parameters 
         }
         "health" { 
             $knowledgeMap = Get-KnowledgeFiles -BasePath $WorkspacePath
@@ -655,7 +655,7 @@ if ($MyInvocation.InvocationName -ne '.') {
     if ($WatchMode) {
         Start-WatchMode -Path $WorkspacePath -Type $DiagramType
     } else {
-        $result = Start-NewbornVisualization -Type $DiagramType -OpenAfterGeneration $AutoOpen
+        $result = Start-AlexVisualization -Type $DiagramType -OpenAfterGeneration $AutoOpen
         if ($result.Success) {
             Write-Host "`n🎉 Catalyst Memory Chart completed successfully!" -ForegroundColor Green
             Write-Host "📁 Output: $($result.OutputFile)" -ForegroundColor White

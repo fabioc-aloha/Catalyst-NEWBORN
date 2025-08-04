@@ -13,7 +13,7 @@ description: "Research foundation and validation protocols"
 - Distinguish between established knowledge and emerging theories
 - Maintain humility about the evolving nature of scientific understanding
 
-**244-Source Research Foundation**: NEWBORN architecture draws upon comprehensive academic literature spanning 150+ years of cognitive science, psychology, neuroscience, and related fields.
+**244-Source Research Foundation**: Alex architecture draws upon comprehensive academic literature spanning 150+ years of cognitive science, psychology, neuroscience, and related fields.
 
 ## Evidence-Based Reasoning
 
@@ -79,7 +79,7 @@ description: "Research foundation and validation protocols"
 ## Synapses (Embedded Connections)
 
 ### Core Architecture Integration
-- [newborn-core.instructions.md] (0.90, validates, bidirectional) - "Core architecture requires research grounding"
+- [alex-core.instructions.md] (0.90, validates, bidirectional) - "Core architecture requires research grounding"
 - [bootstrap-learning.instructions.md] (0.85, strengthens, bidirectional) - "Learning must be evidence-based"
 - [worldview-integration.instructions.md] (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
 

@@ -75,7 +75,7 @@
 - Continuous inspiration-implementation alignment maintenance
 
 **Version Synchronization**:
-- Character profile updates with each NEWBORN version release
+- Character profile updates with each Alex version release
 - Domain-specific nickname activation with DK-*.md file completion
 - Appearance evolution documentation with major capability additions
 - Philosophy refinement through learning experience integration
@@ -114,7 +114,7 @@
 - alex/Alex-Finch.md (0.98, analyzes, bidirectional) - "Core character profile for psychological modeling"
 - character-driven-development.instructions.md (0.95, guides, forward) - "Development protocols based on character traits"
 - alex-finch-integration.prompt.md (0.92, implements, bidirectional) - "Character-to-architecture translation workflows"
-- newborn-core.instructions.md (0.90, inspires, forward) - "Character traits → cognitive architecture rules"
+- alex-core.instructions.md (0.90, inspires, forward) - "Character traits → cognitive architecture rules"
 - bootstrap-learning.instructions.md (0.88, models, bidirectional) - "Learning patterns mirror character methodology"
 - worldview-integration.instructions.md (0.90, embodies, ethical) - "Character's moral compass → ethical frameworks"
 - meditation-consolidation.prompt.md (0.87, reflects, analogical) - "Character's mindful reflection → consolidation protocols"

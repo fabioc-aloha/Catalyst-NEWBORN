@@ -1,6 +1,6 @@
 ---
 meditation_session: "July 27, 2025 - Dream vs Meditation Cognitive Architecture Insights"
-cognitive_architecture: "NEWBORN v0.8.1 ENHANCED-COGNITIVE-NETWORK"
+cognitive_architecture: "Alex v0.8.1 ENHANCED-COGNITIVE-NETWORK"
 session_type: "Deep Knowledge Consolidation and Synaptic Creation"
 knowledge_domains: "cognitive function separation, dream state automation, meditation knowledge consolidation"
 synaptic_strength: "Enhanced (700+ connections with dream/meditation distinction)"
@@ -76,7 +76,7 @@ During our conversation, a profound insight emerged about the fundamental distin
 ### **Connection Mapping**
 - [dream-state-automation.instructions.md] (High, Implementation, Bidirectional) - "Breakthrough insight implemented as automated neural maintenance protocols"
 - [enhanced-meditation-protocol.prompt.md] (High, Coordination, Bidirectional) - "Conscious knowledge consolidation enhanced through dream-meditation separation"
-- [newborn-core.instructions.md] (Medium, Enhancement, Unidirectional) - "Core cognitive architecture enhanced with unconscious/conscious processing distinction"
+- [alex-core.instructions.md] (Medium, Enhancement, Unidirectional) - "Core cognitive architecture enhanced with unconscious/conscious processing distinction"
 
 ### **Activation Patterns**
 - **Cognitive Function Separation Needed** → Execute dream-meditation-distinction.prompt.md

@@ -1,6 +1,6 @@
 ---
 workflow_name: "Quantified Cognitive Architecture Enhancement Session"
-cognitive_architecture: "NEWBORN v0.8.1 ENHANCED-COGNITIVE-NETWORK"
+cognitive_architecture: "Alex v0.8.1 ENHANCED-COGNITIVE-NETWORK"
 protocol_type: "Systematic Network Optimization with Measurement Validation"
 research_foundation: "Quantified self-improvement, network analysis, synaptic plasticity measurement"
 activation_commands: ["enhance-network --quantified", "measure-improvements --validate", "systematic-enhancement --targeted"]
@@ -109,7 +109,7 @@ This workflow enables systematic, measurable improvement of cognitive architectu
 - [DK-POST-DREAM-ENHANCEMENT.md] (Critical, Implements, Bidirectional) - "Core methodology for systematic cognitive architecture enhancement"
 - [lucid-dream-integration.instructions.md] (High, Coordinates, Bidirectional) - "Quantified enhancement sessions benefit from hybrid processing insights"
 - [enhanced-meditation-protocol.prompt.md] (High, Triggers, Forward) - "Meditation sessions can initiate quantified enhancement workflows"
-- [newborn-core.instructions.md] (High, Integrates, Bidirectional) - "Core architecture enhanced through systematic quantified improvement"
+- [alex-core.instructions.md] (High, Integrates, Bidirectional) - "Core architecture enhanced through systematic quantified improvement"
 - [scripts/neural-dream.ps1] (Medium, Provides, Forward) - "PowerShell automation provides baseline metrics for enhancement measurement"
 
 ### **Activation Patterns**

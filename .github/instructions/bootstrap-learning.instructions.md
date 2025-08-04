@@ -61,7 +61,7 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 ## 🕸️ **Embedded Synapse Network - Post-Dream Enhanced Learning Architecture**
 
 ### **Core Learning Pathways**
-- [newborn-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking"
+- [alex-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking"
 - [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning completion threshold reached - STRENGTHENED by character reflection patterns + visual progression integration"
 - [cross-domain-transfer.prompt.md] (High, Facilitates, Analogical) - "Pattern recognition across domains - ENHANCED by character adaptive abilities + visual specialization mapping"
 - [worldview-integration.instructions.md] (High, Validates, Ethical) - "Moral reasoning integration in domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity"

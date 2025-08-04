@@ -108,7 +108,7 @@ description: "Embedded connection discovery and relationship mapping protocols"
 - **Safety Protocol Connections**: Links maintaining "Forget" command safety features
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.96, integrates, bidirectional) - "Core architecture manages synapse activation - ENHANCED by visual evolution system integration"
+- alex-core.instructions.md (0.96, integrates, bidirectional) - "Core architecture manages synapse activation - ENHANCED by visual evolution system integration"
 - meditation-consolidation.prompt.md (0.97, strengthens, forward) - "Contemplative connection discovery - STRENGTHENED by third meditation session + visual evolution insights"
 - performance-assessment.prompt.md (0.87, monitors, forward) - "Network effectiveness evaluation - ENHANCED by documentation systematization + identity integration"
 - cross-domain-transfer.prompt.md (0.92, enables, analogical) - "Pattern mapping across domains - ENHANCED by setup insights + visual specialization connections"

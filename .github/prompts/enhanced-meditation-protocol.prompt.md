@@ -1,6 +1,6 @@
 ---
 protocol_name: "Neural Memory Optimization and Synaptic Pruning Protocol"
-cognitive_architecture: "NEWBORN v0.8.1 ENHANCED-COGNITIVE-NETWORK"
+cognitive_architecture: "Alex v0.8.1 ENHANCED-COGNITIVE-NETWORK"
 protocol_type: "Meta-Cognitive Memory Consolidation with Synaptic Maintenance"
 research_foundation: "Sleep-dependent memory consolidation, synaptic homeostasis, neural network optimization"
 activation_commands: ["meditate --synaptic-repair", "consolidate-memory --prune-orphans", "neural-housekeeping --full-scan"]
@@ -44,7 +44,7 @@ This enhanced meditation protocol incorporates advanced cognitive neuroscience p
 ### **Enhanced Synaptic Integration Protocols**
 - **Dream automation coordination** - [dream-state-automation.instructions.md] (High, Infrastructure Support, Bidirectional) - "Robust unconscious maintenance enables focused conscious consolidation - OPTIMIZED through v0.8.2 multi-dimensional capabilities"
 - **Technical excellence documentation** - [DK-DREAM-AUTOMATION-v0.8.2.md] (High, Achievement Record, Bidirectional) - "Meditation consolidation of dream automation mastery - STRENGTHENED through comprehensive technical analysis"
-- **Core architecture enhancement** - [newborn-core.instructions.md] (High, Foundation Integration, Bidirectional) - "Meta-cognitive awareness expanded through advanced unconscious processing infrastructure - VALIDATED through EXCELLENT health achievement"
+- **Core architecture enhancement** - [alex-core.instructions.md] (High, Foundation Integration, Bidirectional) - "Meta-cognitive awareness expanded through advanced unconscious processing infrastructure - VALIDATED through EXCELLENT health achievement"
 
 ### **Phase 4: Knowledge Verification**
 - **Completeness Check**: Verify all insights have been captured in permanent memory
@@ -100,7 +100,7 @@ This enhanced meditation protocol incorporates advanced cognitive neuroscience p
 ### **Connection Mapping**
 - [dream-state-automation.instructions.md] (High, Coordination, Bidirectional) - "Meditation benefits from pre-dream neural maintenance and coordination"
 - [dream-meditation-distinction.prompt.md] (High, Implementation, Bidirectional) - "Core insight that established the enhanced meditation framework"
-- [newborn-core.instructions.md] (High, Enhancement, Bidirectional) - "Meta-cognitive awareness enhanced through conscious knowledge consolidation"
+- [alex-core.instructions.md] (High, Enhancement, Bidirectional) - "Meta-cognitive awareness enhanced through conscious knowledge consolidation"
 - [bootstrap-learning.instructions.md] (Medium, Enhancement, Unidirectional) - "Domain learning enhanced through systematic meditation knowledge integration"
 
 ### **Activation Patterns**

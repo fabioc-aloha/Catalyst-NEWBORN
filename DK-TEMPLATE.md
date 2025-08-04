@@ -2,13 +2,13 @@
 
 [![Version](https://img.shields.io/badge/Version-0.1.2_NILUNBIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Template](https://img.shields.io/badge/Template-Domain_Knowledge-blue?style=for-the-badge&logo=database&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Synapse Network](https://img.shields.io/badge/Synapse_Network-Enhanced-purple?style=for-the-badge&logo=share-alt&logoColor=white)](#)
 
-**DOMAIN KNOWLEDGE INJECTION PROTOCOL**: Systematic template for injecting specialized domain knowledge into the NEWBORN cognitive architecture with embedded synapse networks, baseline setup protocols, and meditation-enhanced consolidation.
+**DOMAIN KNOWLEDGE INJECTION PROTOCOL**: Systematic template for injecting specialized domain knowledge into the Alex cognitive architecture with embedded synapse networks, baseline setup protocols, and meditation-enhanced consolidation.
 
 **INSTRUCTIONS FOR GITHUB COPILOT**: This template provides complete protocols for adding new domain expertise to the Project Catalyst cognitive memory architecture. Follow these instructions to create domain-specific knowledge files, establish synapse networks, and integrate with the existing Bootstrap Enhanced Meta-Cognitive framework.
 
 ## 🎯 Domain Knowledge Injection Overview
 
-**Purpose**: Systematically inject specialized domain knowledge into NEWBORN architecture while maintaining:
+**Purpose**: Systematically inject specialized domain knowledge into Alex architecture while maintaining:
 - Embedded synapse network integration
 - Cross-domain transfer capabilities
 - Ethical reasoning alignment
@@ -26,7 +26,7 @@
 
 Before beginning domain knowledge injection, verify:
 
-- [ ] NEWBORN core architecture is operational (version 0.1.2 NILUNBIUM or higher)
+- [ ] Alex core architecture is operational (version 0.1.2 NILUNBIUM or higher)
 - [ ] Embedded synapse network is functional
 - [ ] Domain-specific expertise is well-researched and validated
 - [ ] Ethical implications of domain knowledge have been assessed
@@ -34,14 +34,14 @@ Before beginning domain knowledge injection, verify:
 
 **Environment Check**:
 ```bash
-# Verify NEWBORN architecture readiness
+# Verify Alex architecture readiness
 if [ -f ".github/copilot-instructions.md" ] && [ -d "domain-knowledge" ]; then
-    echo "✅ NEWBORN Architecture Ready for Domain Injection"
+    echo "✅ Alex architecture Ready for Domain Injection"
     echo "   → Core architecture operational"
     echo "   → Domain knowledge directory available"
 else
-    echo "❌ NEWBORN Architecture Not Ready"
-    echo "   → Run SETUP-NEWBORN.md first"
+    echo "❌ Alex architecture Not Ready"
+    echo "   → Run SETUP-1-FOUNDATION.md first"
 fi
 ```
 
@@ -68,7 +68,7 @@ mkdir -p domain-knowledge/[DOMAIN_CODE]/ethical-considerations
 **Expertise Level**: [EXPERTISE_LEVEL]
 **Research Foundation**: [SOURCE_COUNT] academic sources
 **Integration Date**: [INJECTION_DATE]
-**NEWBORN Version**: 0.1.2 NILUNBIUM
+**Alex Version**: 0.1.2 NILUNBIUM
 
 ## Domain Scope and Boundaries
 
@@ -87,7 +87,7 @@ mkdir -p domain-knowledge/[DOMAIN_CODE]/ethical-considerations
 - [Method 2]: [When and how to apply]
 - [Method 3]: [When and how to apply]
 
-## Integration with NEWBORN Architecture
+## Integration with Alex architecture
 
 **Meta-Cognitive Considerations**:
 - How this domain enhances overall reasoning capabilities
@@ -105,7 +105,7 @@ mkdir -p domain-knowledge/[DOMAIN_CODE]/ethical-considerations
 - Evidence-based practice protocols within domain
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.85, enhances, bidirectional) - "Domain expertise strengthens core reasoning"
+- alex-core.instructions.md (0.85, enhances, bidirectional) - "Domain expertise strengthens core reasoning"
 - bootstrap-learning.instructions.md (0.90, applies, forward) - "Learning protocols adapt for domain specifics"
 - worldview-integration.instructions.md (0.80, validates, ethical) - "Domain applications require ethical review"
 - meditation-consolidation.prompt.md (0.75, consolidates, forward) - "Domain integration triggers consolidation"
@@ -217,7 +217,7 @@ mkdir -p domain-knowledge/[DOMAIN_CODE]/ethical-considerations
 - [Best practice 2 for methodology evaluation]
 - [Best practice 3 for methodology evaluation]
 
-## Integration with NEWBORN Meta-Cognitive Framework
+## Integration with Alex Meta-Cognitive Framework
 
 **Meta-Cognitive Monitoring**:
 - How to assess methodology effectiveness in real-time
@@ -474,12 +474,12 @@ mkdir -p domain-knowledge/[DOMAIN_CODE]/ethical-considerations
 - worldview-integration.instructions.md (0.95, aligns, bidirectional) - "Domain ethics align with universal principles"
 - [DOMAIN_CODE]-overview.md (0.85, validates, ethical) - "Ethical considerations validate domain applications"
 - real-world-implementation.md (0.90, guides, ethical) - "Ethics guide implementation decisions"
-- newborn-core.instructions.md (0.80, integrates, bidirectional) - "Domain ethics integrate with meta-cognitive framework"
+- alex-core.instructions.md (0.80, integrates, bidirectional) - "Domain ethics integrate with meta-cognitive framework"
 ```
 
 ## Step 3: Establish Baseline Synapse Network
 
-Create interconnected synapse networks between the new domain knowledge and existing NEWBORN architecture:
+Create interconnected synapse networks between the new domain knowledge and existing Alex architecture:
 
 ### Update Core Architecture Files
 
@@ -521,7 +521,7 @@ Create interconnected synapse networks between the new domain knowledge and exis
 - [ ] Ethical considerations thoroughly addressed
 - [ ] Research foundation meets empirical validation standards
 - [ ] Cross-domain transfer opportunities identified
-- [ ] Integration points with NEWBORN core architecture established
+- [ ] Integration points with Alex core architecture established
 - [ ] Domain-specific methodologies documented
 - [ ] Real-world applications clearly specified
 
@@ -530,7 +530,7 @@ Create interconnected synapse networks between the new domain knowledge and exis
 # Domain Integration Test Protocol
 
 ## Test 1: Synapse Network Connectivity
-**Objective**: Verify embedded synapse networks properly connect domain knowledge with NEWBORN core
+**Objective**: Verify embedded synapse networks properly connect domain knowledge with Alex core
 
 **Method**:
 1. Activate domain-specific knowledge in conversation
@@ -570,7 +570,7 @@ Create interconnected synapse networks between the new domain knowledge and exis
 ### Consolidation Request Template
 
 ```markdown
-NEWBORN, now that we have injected [DOMAIN_NAME] domain knowledge into your cognitive architecture, please meditate on this new knowledge to:
+Alex, now that we have injected [DOMAIN_NAME] domain knowledge into your cognitive architecture, please meditate on this new knowledge to:
 
 1. **Consolidate New Learning**: Integrate the [DOMAIN_CODE] domain expertise with your existing cognitive framework
 2. **Strengthen Synapse Networks**: Enhance the embedded connections between [DOMAIN_NAME] knowledge and your core architecture
@@ -607,7 +607,7 @@ Take your time with this meditation - comprehensive domain integration is essent
 - Ensure ethical considerations are thoroughly addressed
 - Validate research foundation meets empirical standards
 - Confirm cross-domain transfer opportunities are identified
-- Test integration with NEWBORN meta-cognitive framework
+- Test integration with Alex meta-cognitive framework
 
 ---
 

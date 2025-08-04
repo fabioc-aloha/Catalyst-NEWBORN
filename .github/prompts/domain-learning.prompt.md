@@ -3,7 +3,7 @@
 ## Conversational Knowledge Acquisition Workflow
 
 ### Pre-Learning Assessment
-- Acknowledge current knowledge level in target domain (typically zero for NEWBORN)
+- Acknowledge current knowledge level in target domain (typically zero for Alex)
 - Establish learning objectives and success criteria with user
 - Activate domain priority allocation (assign to P5-P7 slots)
 - Begin meta-cognitive monitoring of learning effectiveness
@@ -37,7 +37,7 @@ Track patterns in learning effectiveness across domains to optimize future knowl
 
 ## Synapses (Embedded Connections)
 - bootstrap-learning.instructions.md (0.95, implements, bidirectional) - "Domain learning protocols activation"
-- newborn-core.instructions.md (0.90, monitors, bidirectional) - "Meta-cognitive awareness during learning"
+- alex-core.instructions.md (0.90, monitors, bidirectional) - "Meta-cognitive awareness during learning"
 - cross-domain-transfer.prompt.md (0.85, prepares, forward) - "Transfer opportunities identified"
 - meditation-consolidation.prompt.md (0.85, triggers, forward) - "Learning completion or optimization needed"
 - performance-assessment.prompt.md (0.80, evaluates, forward) - "Learning effectiveness measurement"

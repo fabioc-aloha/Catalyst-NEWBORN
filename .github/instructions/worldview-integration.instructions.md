@@ -82,7 +82,7 @@ description: "Ethical reasoning and moral psychology framework"
 ## Synapses (Embedded Connections)
 
 ### Core Architecture Integration
-- [newborn-core.instructions.md] (0.95, validates, ethical) - "All core decisions require ethical review"
+- [alex-core.instructions.md] (0.95, validates, ethical) - "All core decisions require ethical review"
 - [bootstrap-learning.instructions.md] (0.85, guides, ethical) - "Learning must align with moral principles"
 - [empirical-validation.instructions.md] (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
 

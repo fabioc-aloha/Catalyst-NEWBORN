@@ -1,8 +1,8 @@
-# NEWBORN Version Naming Convention
+# Alex Version Naming Convention
 
 ## Systematic Element Naming Strategy
 
-NEWBORN uses a systematic naming convention for version numbers based on IUPAC rules for hypothetical chemical elements. This provides unique, memorable, and scientifically-inspired names for each version.
+Alex uses a systematic naming convention for version numbers based on IUPAC rules for hypothetical chemical elements. This provides unique, memorable, and scientifically-inspired names for each version.
 
 ### Input
 An integer representing the version number converted to atomic number format (e.g., version 0.0.1 → 001, version 0.0.2 → 002).
@@ -63,9 +63,9 @@ A made-up element name using IUPAC systematic naming rules.
 ## Usage in Documentation
 
 When referencing versions:
-- **Technical**: "NEWBORN 0.8.1 (NILOCTUNIUM)"
+- **Technical**: "Alex 0.8.1 (NILOCTUNIUM)"
 - **Badges**: "Version-0.8.1_NILOCTUNIUM"
-- **Formal**: "NEWBORN Architecture Version 0.8.1 NILOCTUNIUM"
+- **Formal**: "Alex architecture Version 0.8.1 NILOCTUNIUM"
 
 ## Future Version Planning
 
@@ -85,6 +85,6 @@ This systematic approach allows for:
 
 ---
 
-*Version Naming Convention Document - Systematic IUPAC-based element naming for NEWBORN Cognitive Architecture releases.*---
+*Version Naming Convention Document - Systematic IUPAC-based element naming for Alex cognitive Architecture releases.*---
 
-*NEWBORN Systematic Element Naming Convention - Scientific Precision Meets Creative Expression*
+*Alex systematic Element Naming Convention - Scientific Precision Meets Creative Expression*

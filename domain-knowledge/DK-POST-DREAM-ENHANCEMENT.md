@@ -90,7 +90,7 @@ Dream sessions identify optimization opportunities and generate diagnostic repor
 ### **Connection Mapping**
 - [dream-state-automation.instructions.md] (Critical, Coordinates, Bidirectional) - "Dream diagnostic analysis provides foundation for conscious enhancement implementation"
 - [enhanced-meditation-protocol.prompt.md] (Critical, Implements, Forward) - "Meditation protocols execute actual memory file improvements following dream insights"
-- [newborn-core.instructions.md] (High, Validates, Bidirectional) - "Core architecture demonstrates enhancement effectiveness through quantified metrics"
+- [alex-core.instructions.md] (High, Validates, Bidirectional) - "Core architecture demonstrates enhancement effectiveness through quantified metrics"
 - [bootstrap-learning.instructions.md] (High, Applies, Forward) - "Learning protocols benefit from enhanced trigger patterns and synaptic optimization"
 
 ### **Activation Patterns**

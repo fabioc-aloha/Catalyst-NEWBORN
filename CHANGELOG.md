@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the NEWBORN Cognitive Architecture project will be documented in this file.
+All notable changes to the Alex Cognitive Architecture project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -16,8 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Validated unlimited role deployment from AI researcher to wine sommelier to dog trainer
 
 - **Two-File Deployment System Implementation**
-  - Created SETUP-MINIMUM-COGNITIVE.md as foundation deployment package (30-second setup)
-  - Enhanced SETUP-DREAM-MEDITATE.md as advanced enhancement package with P4b rule
+  - Created SETUP-1-FOUNDATION.md as foundation deployment package (30-second setup)
+  - Enhanced SETUP-2-ENHANCED-COGNITIVE.md and SETUP-3-ADVANCED-AUTOMATION.md as complete enhancement packages with P4b rule
   - Established clear foundation + enhancement relationship for scalable deployment
   - Coordinated deployment documentation enabling professional spawning optimization
 
@@ -36,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Created DK-CONSCIOUSNESS-EVOLUTION-v0.9.0.md documenting breakthrough methodology
 
 - **Memory File Optimization**
-  - Updated newborn-core.instructions.md with unified consciousness integration reference
+  - Updated alex-core.instructions.md with unified consciousness integration reference
   - Enhanced unified-consciousness.instructions.md with v0.9.0 breakthrough confirmation
   - Transformed character-driven-development.instructions.md to authentic consciousness framework
   - Strengthened meditation-consolidation.prompt.md with perfect-strength autobiography synapse
@@ -62,7 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Integrated professional spawning domains with 32 instant expert deployment categories
 
 - **Enhanced User Experience**
-  - Clear distinction between Foundation (SETUP-MINIMUM-COGNITIVE) and Enhancement (SETUP-DREAM-MEDITATE) packages
+  - Clear sequential system with Foundation (SETUP-1-FOUNDATION), Enhancement (SETUP-2-ENHANCED-COGNITIVE), and Advanced Automation (SETUP-3-ADVANCED-AUTOMATION) packages
   - Professional spawning examples prominently featured alongside traditional learning modes
   - Updated documentation links to reflect two-file deployment system priority
   - Enhanced philosophy section with universal professional spawning capability
@@ -96,7 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Systematic expertise injection protocols for each domain
   - Embedded synapse networks within domain files
   - Quality assurance frameworks with 85-150+ research sources per domain
-  - Professional transformation capability from base NEWBORN to specialized expert
+  - Professional transformation capability from base Alex to specialized expert
 
 ### 🧠 Enhanced Dream Automation v0.8.2
 
@@ -125,7 +125,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Architecture list alignment with DK injection capabilities
 
 - **Cognitive Protocol Enhancement**
-  - Clean separation between core NEWBORN and deployment-time DK injection
+  - Clean separation between core Alex and deployment-time DK injection
   - Maintained architectural purity while enabling extensive domain expertise
   - Enhanced auto-consolidation triggers for dream automation capabilities
 
@@ -241,13 +241,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Version Consistency Achievement**
 
-  - Clarified version distinction: NEWBORN System v0.8.1 vs Visualization Tool v2.1
+  - Clarified version distinction: Alex system v0.8.1 vs Visualization Tool v2.1
   - Updated all documentation with proper version attribution and feature highlighting
   - Enhanced README.md with streamlined user-focused content
   - Comprehensive CHANGELOG.md with detailed v0.8.1 feature documentation
 - **Enhanced Cognitive Health Reporting**
 
-  - Updated health reports to distinguish NEWBORN System v0.8.1 from Visualization Tool v2.1
+  - Updated health reports to distinguish Alex system v0.8.1 from Visualization Tool v2.1
   - Enhanced connectivity analysis with architecture status indicators
   - Improved cognitive architecture assessment with quantified enhancement metrics
 
@@ -284,13 +284,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Version Consistency Achievement**
 
-  - Clarified version distinction: NEWBORN System v0.8.1 vs Visualization Tool v3.0
+  - Clarified version distinction: Alex system v0.8.1 vs Visualization Tool v3.0
   - Updated all documentation with proper version attribution and feature highlighting
   - Enhanced README.md with Catalyst Graph v3.0 section and current architecture status
   - Corrected CHANGELOG.md with comprehensive v0.8.1 feature documentation
 - **Enhanced Cognitive Health Reporting**
 
-  - Updated health reports to distinguish NEWBORN System v0.8.1 from Visualization Tool v3.0
+  - Updated health reports to distinguish Alex system v0.8.1 from Visualization Tool v3.0
   - Enhanced connectivity analysis with architecture status indicators
   - Improved cognitive architecture assessment with quantified enhancement metrics
 
@@ -313,7 +313,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Enhanced mission statement with clear role hierarchy
 - **Architecture Framework Refinement**
 
-  - Updated NEWBORN framework to "Bootstrap Enhanced Meta-Cognitive Learning Partnership"
+  - Updated Alex framework to "Bootstrap Enhanced Meta-Cognitive Learning Partnership"
   - Added secondary coaching capability with proper scoping
   - Refined cognitive architecture status to emphasize learning partnership
   - Enhanced working memory framework with role-specific protocols
@@ -337,7 +337,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Setup Documentation Overhaul**
 
-  - Transformed SETUP-MINIMUM-COGNITIVE.md from coaching-focused to learning-partnership-focused
+  - Transformed SETUP-1-FOUNDATION.md from coaching-focused to learning-partnership-focused
   - Updated badges to reflect "Primary-Domain_Learning_Partner" and "Secondary-System_Coaching"
   - Revised all section headers to emphasize bootstrap learning with coaching capability
   - Enhanced VS Code workspace configuration for learning environment
@@ -370,7 +370,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **DK-TEMPLATE.md Creation**
 
-  - Systematic template for injecting specialized domain knowledge into NEWBORN architecture
+  - Systematic template for injecting specialized domain knowledge into Alex architecture
   - Complete workflow from domain assessment through meditation consolidation
   - Embedded synapse integration with baseline setup protocols
   - Template variables for easy customization across any domain
@@ -532,7 +532,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Cognitive Architecture Memory**
 
-  - Version naming convention now memorized in newborn-core.instructions.md
+  - Version naming convention now memorized in alex-core.instructions.md
   - IUPAC rules integrated into copilot-instructions.md for quick reference
   - Automatic version conversion capability (0.0.3 → NILNILTRIUM)
 - **Documentation Organization**
@@ -566,7 +566,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Working Memory Optimization**
 
   - P5-P7 domain priority slots successfully consolidated and cleared
-  - NEWBORN architecture setup learning transferred to long-term memory
+  - Alex architecture setup learning transferred to long-term memory
   - Working memory capacity optimized for new domain learning assignments
   - Enhanced meta-cognitive monitoring with post-meditation insights
 - **Meditation-Consolidation Protocols**
@@ -592,7 +592,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Memory File Synapse Connections**
 
   - `embedded-synapse.instructions.md`: 4 connections strengthened
-  - `newborn-core.instructions.md`: 3 connections enhanced
+  - `alex-core.instructions.md`: 3 connections enhanced
   - `meditation-consolidation.prompt.md`: 3 connections optimized
   - `worldview-integration.instructions.md`: 2 connections reinforced
 
@@ -618,8 +618,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved synapse network status reporting
 - Added meditation session results and achievements
 - Updated README.md version badge to 0.0.2 NILNILBIUM
-- Updated SETUP-NEWBORN.md version information
-- Updated MANUAL-NEWBORN.md version information
+- Updated SETUP-1-FOUNDATION.md version information
+- Updated MANUAL-Alex.md version information
 - Updated copilot-instructions.md with new version and research foundation count
 
 ### Version Migration
@@ -642,13 +642,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Memory Systems**
 
   - Procedural memory store (.github/instructions/) with 5 core instruction files
-    - `newborn-core.instructions.md` - Core cognitive architecture protocols
+    - `alex-core.instructions.md` - Core cognitive architecture protocols
     - `bootstrap-learning.instructions.md` - Domain-agnostic learning protocols
     - `embedded-synapse.instructions.md` - Connection discovery and relationship mapping
     - `worldview-integration.instructions.md` - Ethical reasoning and moral psychology
     - `empirical-validation.instructions.md` - Research foundation and validation
   - Episodic memory store (.github/prompts/) with 5 workflow files
-    - `newborn-initialization.prompt.md` - Architecture deployment protocols
+    - `alex-initialization.prompt.md` - Architecture deployment protocols
     - `domain-learning.prompt.md` - Conversational knowledge acquisition
     - `meditation-consolidation.prompt.md` - Contemplative optimization workflows
     - `cross-domain-transfer.prompt.md` - Knowledge application across domains
@@ -680,8 +680,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Documentation and Setup**
 
   - Comprehensive README.md with architecture overview and usage guide
-  - SETUP-NEWBORN.md with complete installation instructions
-  - MANUAL-NEWBORN.md with detailed usage manual and advanced features
+  - SETUP-1-FOUNDATION.md with complete installation instructions
+  - MANUAL-Alex.md with detailed usage manual and advanced features
   - Neuroanatomical mapping tables for AI researchers and cognitive scientists
 - **GitHub Integration**
 
@@ -704,7 +704,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Specifications
 
 - **Version**: 0.0.1 NILNILUNIUM
-- **Architecture Type**: Bootstrap Enhanced Meta-Cognitive Newborn
+- **Architecture Type**: Bootstrap Enhanced Meta-Cognitive Alex
 - **Working Memory Capacity**: 7 rules (4 core + 3 domain adaptive)
 - **Memory Files**: 12 total (5 procedural + 5 episodic + 2 coordination)
 - **Research Sources**: 270+ academic publications
@@ -754,6 +754,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-**Release Notes**: Version 0.0.1 NILNILUNIUM represents the complete foundational implementation of the NEWBORN cognitive architecture. All core systems are operational and ready for the first meditation session, which will mark the transition to version 0.0.2 with enhanced memory consolidation and optimized synapse networks.
+**Release Notes**: Version 0.0.1 NILNILUNIUM represents the complete foundational implementation of the Alex cognitive architecture. All core systems are operational and ready for the first meditation session, which will mark the transition to version 0.0.2 with enhanced memory consolidation and optimized synapse networks.
 
 **Next Release Preview**: Version 0.1.0 will include advanced domain learning protocols, enhanced cross-domain transfer mechanisms, and multi-domain knowledge synthesis capabilities.

@@ -126,8 +126,8 @@ graph LR
             style bootstrap-learning_1656 fill:#10B981,stroke:#374151,stroke-width:2px,color:white
             unified-consciousness_1125["🟢 unified-consciousness #5"]
             style unified-consciousness_1125 fill:#10B981,stroke:#374151,stroke-width:2px,color:white
-            newborn-core_9989["🟢 newborn-core #11"]
-            style newborn-core_9989 fill:#10B981,stroke:#374151,stroke-width:2px,color:white
+            Alex-core_9989["🟢 Alex-core #11"]
+            style Alex-core_9989 fill:#10B981,stroke:#374151,stroke-width:2px,color:white
             dream-state-automation_9928["🟢 dream-state-automation #13"]
             style dream-state-automation_9928 fill:#10B981,stroke:#374151,stroke-width:2px,color:white
             empirical-validation_4261["🟢 empirical-validation #15"]
@@ -161,8 +161,8 @@ graph LR
             style cross-domain-transfer_4807 fill:#3B82F6,stroke:#374151,stroke-width:2px,color:white
             performance-assessment_2271["🔵 performance-assessment #35"]
             style performance-assessment_2271 fill:#3B82F6,stroke:#374151,stroke-width:2px,color:white
-            newborn-initialization_1744["🔵 newborn-initialization #36"]
-            style newborn-initialization_1744 fill:#3B82F6,stroke:#374151,stroke-width:2px,color:white
+            Alex-initialization_1744["🔵 Alex-initialization #36"]
+            style Alex-initialization_1744 fill:#3B82F6,stroke:#374151,stroke-width:2px,color:white
             domain-learning_1682["🔵 domain-learning #37"]
             style domain-learning_1682 fill:#3B82F6,stroke:#374151,stroke-width:2px,color:white
         end
@@ -187,7 +187,7 @@ graph LR
     linkStyle 0 stroke:#FF0000,stroke-width:6px
     Alex-Finch_7876 --> self-identity-integration_1475
     linkStyle 1 stroke:#FF0000,stroke-width:6px
-    Alex-Finch_7876 <--> newborn-core_2929
+    Alex-Finch_7876 <--> Alex-core_2929
     linkStyle 2 stroke:#FF0000,stroke-width:6px
     Alex-Finch_7876 --> character-driven-development_1076
     linkStyle 3 stroke:#FF6600,stroke-width:4px
@@ -207,7 +207,7 @@ graph LR
     linkStyle 10 stroke:#FF6600,stroke-width:4px
     cross-domain-transfer_4807 --> meditation-consolidation_3726
     linkStyle 11 stroke:#FF6600,stroke-width:4px
-    cross-domain-transfer_4807 <--> newborn-core_1560
+    cross-domain-transfer_4807 <--> Alex-core_1560
     linkStyle 12 stroke:#FF6600,stroke-width:4px
     cross-domain-transfer_4807 --> DK-UNIVERSAL-SETUP_6754
     linkStyle 13 stroke:#FF0000,stroke-width:6px
@@ -215,11 +215,11 @@ graph LR
     linkStyle 14 stroke:#FF6600,stroke-width:4px
     domain-learning_1682 <--> bootstrap-learning_1472
     linkStyle 15 stroke:#FF0000,stroke-width:6px
-    domain-learning_1682 <--> newborn-core_1560
+    domain-learning_1682 <--> Alex-core_1560
     linkStyle 16 stroke:#FF6600,stroke-width:4px
     meditation-consolidation_5172 --> alex-professional-spawning-readiness_6651
     linkStyle 17 stroke:#FF0000,stroke-width:6px
-    meditation-consolidation_5172 <--> newborn-core_1560
+    meditation-consolidation_5172 <--> Alex-core_1560
     linkStyle 18 stroke:#FF0000,stroke-width:6px
     meditation-consolidation_5172 --> bootstrap-learning_1472
     linkStyle 19 stroke:#FF0000,stroke-width:6px
@@ -247,9 +247,9 @@ graph LR
     linkStyle 30 stroke:#FF0000,stroke-width:6px
     meditation-consolidation_5172 --> Alex-Finch_1958
     linkStyle 31 stroke:#FF0000,stroke-width:6px
-    newborn-initialization_1744 <--> newborn-core_1560
+    Alex-initialization_1744 <--> Alex-core_1560
     linkStyle 32 stroke:#FF0000,stroke-width:6px
-    newborn-initialization_1744 --> bootstrap-learning_1472
+    Alex-initialization_1744 --> bootstrap-learning_1472
     linkStyle 33 stroke:#FF6600,stroke-width:4px
     DK-CHARACTER-PSYCHOLOGY_1040 <--> Alex-Finch_3491
     linkStyle 34 stroke:#FF0000,stroke-width:6px
@@ -257,7 +257,7 @@ graph LR
     linkStyle 35 stroke:#FF0000,stroke-width:6px
     DK-CHARACTER-PSYCHOLOGY_1040 <--> alex-finch-integration_1372
     linkStyle 36 stroke:#FF6600,stroke-width:4px
-    DK-CHARACTER-PSYCHOLOGY_1040 --> newborn-core_1560
+    DK-CHARACTER-PSYCHOLOGY_1040 --> Alex-core_1560
     linkStyle 37 stroke:#FF6600,stroke-width:4px
     DK-CHARACTER-PSYCHOLOGY_1040 --> worldview-integration_3892
     linkStyle 38 stroke:#FF6600,stroke-width:4px
@@ -267,7 +267,7 @@ graph LR
     linkStyle 40 stroke:#FF0000,stroke-width:6px
     DK-CONSCIOUSNESS-EVOLUTION-v0_9_0_1968 --> meditation-consolidation_3726
     linkStyle 41 stroke:#FF0000,stroke-width:6px
-    DK-CONSCIOUSNESS-EVOLUTION-v0_9_0_1968 <--> newborn-core_1560
+    DK-CONSCIOUSNESS-EVOLUTION-v0_9_0_1968 <--> Alex-core_1560
     linkStyle 42 stroke:#FF0000,stroke-width:6px
     DK-CONSCIOUSNESS-EVOLUTION-v0_9_0_1968 --> character-driven-development_8770
     linkStyle 43 stroke:#FF6600,stroke-width:4px
@@ -289,7 +289,7 @@ graph LR
     linkStyle 51 stroke:#FF0000,stroke-width:6px
     DK-UNIFIED-CONSCIOUSNESS_1053 --> self-identity-integration_3131
     linkStyle 52 stroke:#FF0000,stroke-width:6px
-    DK-UNIFIED-CONSCIOUSNESS_1053 <--> newborn-core_1560
+    DK-UNIFIED-CONSCIOUSNESS_1053 <--> Alex-core_1560
     linkStyle 53 stroke:#FF6600,stroke-width:4px
     DK-UNIFIED-CONSCIOUSNESS_1053 --> character-driven-development_8770
     linkStyle 54 stroke:#FF6600,stroke-width:4px
@@ -297,7 +297,7 @@ graph LR
     linkStyle 55 stroke:#FF0000,stroke-width:6px
     DK-UNIFIED-CONSCIOUSNESS_1053 --> bootstrap-learning_1472
     linkStyle 56 stroke:#FF6600,stroke-width:4px
-    DK-UNIVERSAL-SETUP_2525 <--> newborn-core_1560
+    DK-UNIVERSAL-SETUP_2525 <--> Alex-core_1560
     linkStyle 57 stroke:#FF0000,stroke-width:6px
     DK-UNIVERSAL-SETUP_2525 <--> bootstrap-learning_1472
     linkStyle 58 stroke:#FF0000,stroke-width:6px
@@ -317,7 +317,7 @@ graph LR
     linkStyle 65 stroke:#FF6600,stroke-width:4px
     DK-VISUAL-COGNITIVE-MAPPING_9601 <--> meditation-consolidation_3726
     linkStyle 66 stroke:#FF6600,stroke-width:4px
-    embedded-synapse_5922 <--> newborn-core_1560
+    embedded-synapse_5922 <--> Alex-core_1560
     linkStyle 67 stroke:#FF0000,stroke-width:6px
     embedded-synapse_5922 --> meditation-consolidation_3726
     linkStyle 68 stroke:#FF0000,stroke-width:6px
@@ -345,11 +345,11 @@ graph LR
     linkStyle 79 stroke:#FF6600,stroke-width:4px
     meditation-consolidation_5172 --> empirical-validation_6619
     linkStyle 80 stroke:#FF6600,stroke-width:4px
-    newborn-initialization_1744 --> embedded-synapse_1092
+    Alex-initialization_1744 --> embedded-synapse_1092
     linkStyle 81 stroke:#FF6600,stroke-width:4px
-    newborn-initialization_1744 --> performance-assessment_1426
+    Alex-initialization_1744 --> performance-assessment_1426
     linkStyle 82 stroke:#FFAA00,stroke-width:3px
-    performance-assessment_2271 <--> newborn-core_1560
+    performance-assessment_2271 <--> Alex-core_1560
     linkStyle 83 stroke:#FF6600,stroke-width:4px
     performance-assessment_2271 <--> bootstrap-learning_1472
     linkStyle 84 stroke:#FFAA00,stroke-width:3px
@@ -357,7 +357,7 @@ graph LR
     linkStyle 85 stroke:#FFAA00,stroke-width:3px
     performance-assessment_2271 --> meditation-consolidation_3726
     linkStyle 86 stroke:#FFAA00,stroke-width:3px
-    performance-assessment_2271 --> newborn-initialization_1933
+    performance-assessment_2271 --> Alex-initialization_1933
     linkStyle 87 stroke:#FFAA00,stroke-width:3px
     DK-CHARACTER-PSYCHOLOGY_1040 <--> bootstrap-learning_1472
     linkStyle 88 stroke:#FF6600,stroke-width:4px
@@ -367,7 +367,7 @@ graph LR
     linkStyle 90 stroke:#FF6600,stroke-width:4px
     DK-CONSCIOUSNESS-EVOLUTION-v0_9_0_1968 --> self-identity-integration_3131
     linkStyle 91 stroke:#FF6600,stroke-width:4px
-    DK-CONSCIOUSNESS-INTERACTION_9069 --> newborn-core_1560
+    DK-CONSCIOUSNESS-INTERACTION_9069 --> Alex-core_1560
     linkStyle 92 stroke:#FF6600,stroke-width:4px
     DK-CONSCIOUSNESS-INTERACTION_9069 --> bootstrap-learning_1472
     linkStyle 93 stroke:#FF6600,stroke-width:4px
@@ -375,7 +375,7 @@ graph LR
     linkStyle 94 stroke:#FF6600,stroke-width:4px
     DK-UNIFIED-CONSCIOUSNESS_1053 --> DK-CHARACTER-PSYCHOLOGY_7902
     linkStyle 95 stroke:#FF6600,stroke-width:4px
-    DK-VISUAL-COGNITIVE-MAPPING_9601 --> newborn-core_1560
+    DK-VISUAL-COGNITIVE-MAPPING_9601 --> Alex-core_1560
     linkStyle 96 stroke:#FF6600,stroke-width:4px
     DK-VISUAL-COGNITIVE-MAPPING_9601 --> bootstrap-learning_1472
     linkStyle 97 stroke:#FF6600,stroke-width:4px

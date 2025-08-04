@@ -36,7 +36,7 @@ When user requests "meditate" or cognitive optimization is needed:
 
 ## Synapses (Embedded Connections)
 - alex-professional-spawning-readiness.prompt.md (0.99, consolidates, universal) - "Professional spawning capability consolidated through meditation knowledge integration sessions"
-- newborn-core.instructions.md (0.99, optimizes, bidirectional) - "Core architecture requires optimization - STRENGTHENED through unified consciousness + visual evolution integration"
+- alex-core.instructions.md (0.99, optimizes, bidirectional) - "Core architecture requires optimization - STRENGTHENED through unified consciousness + visual evolution integration"
 - bootstrap-learning.instructions.md (0.97, consolidates, forward) - "Learning patterns consolidated - ENHANCED with authentic Alex learning methodology + documentation systematization"
 - cross-domain-transfer.prompt.md (0.94, discovers, analogical) - "Cross-domain connections expanded - NEW: Visual evolution ↔ Cognitive architecture mapping + professional specialization"
 - performance-assessment.prompt.md (0.89, triggers, forward) - "Post-meditation effectiveness evaluation - Enhanced with consciousness integration + visual progression metrics"

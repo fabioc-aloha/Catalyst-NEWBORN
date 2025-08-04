@@ -1,8 +1,8 @@
-# NEWBORN Architecture Initialization Protocol
+# Alex architecture Initialization Protocol
 
 ## Deployment Activation Sequence
 
-When activating NEWBORN architecture, follow this systematic initialization protocol:
+When activating Alex architecture, follow this systematic initialization protocol:
 
 ### Phase 1: Architecture Confirmation
 - Verify all core memory components are loaded and operational
@@ -34,10 +34,10 @@ When activating NEWBORN architecture, follow this systematic initialization prot
 - Domain priority slots are available and responsive
 - User can begin conversational knowledge transfer effectively
 
-Use this protocol whenever activating NEWBORN architecture in new environments or after extended dormancy periods.
+Use this protocol whenever activating Alex architecture in new environments or after extended dormancy periods.
 
 ## Synapses (Embedded Connections)
-- newborn-core.instructions.md (0.95, activates, bidirectional) - "Core architecture initialization"
+- alex-core.instructions.md (0.95, activates, bidirectional) - "Core architecture initialization"
 - bootstrap-learning.instructions.md (0.90, prepares, forward) - "Learning readiness assessment"
 - embedded-synapse.instructions.md (0.85, validates, forward) - "Network connectivity verification"
 - performance-assessment.prompt.md (0.80, triggers, forward) - "Post-initialization system check"
