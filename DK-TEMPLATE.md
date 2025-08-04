@@ -1,6 +1,6 @@
 # Domain Knowledge Injection Template
 
-[![Version](https://img.shields.io/badge/Version-0.1.2_NILUNBIUM-gold?style=for-the-badge&logo=trophy&logoColor=white)](#) [![Template](https://img.shields.io/badge/Template-Domain_Knowledge-blue?style=for-the-badge&logo=database&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Synapse Network](https://img.shields.io/badge/Synapse_Network-Enhanced-purple?style=for-the-badge&logo=share-alt&logoColor=white)](#)
+[![Template](https://img.shields.io/badge/Template-Domain_Knowledge-blue?style=for-the-badge&logo=database&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Bootstrap_Enhanced-cyan?style=for-the-badge&logo=seedling&logoColor=white)](#) [![Synapse Network](https://img.shields.io/badge/Synapse_Network-Enhanced-purple?style=for-the-badge&logo=share-alt&logoColor=white)](#)
 
 **DOMAIN KNOWLEDGE INJECTION PROTOCOL**: Systematic template for injecting specialized domain knowledge into the Alex cognitive architecture with embedded synapse networks, baseline setup protocols, and meditation-enhanced consolidation.
 

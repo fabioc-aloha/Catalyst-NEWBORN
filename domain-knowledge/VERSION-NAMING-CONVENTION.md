@@ -42,8 +42,8 @@ A made-up element name using IUPAC systematic naming rules.
 
 ## Current Version Mapping
 
-- **Version 0.6.0** → **NILHEXNILIUM** (Previous)
-- **Version 0.8.1** → **NILOCTUNIUM** (Current)
+- **Version 0.9.1** → **NILENNUNIUM** (Previous)
+- **Version 0.9.9** → **NILENNENNIUM** (Current)
 
 ## Version History
 
@@ -59,6 +59,8 @@ A made-up element name using IUPAC systematic naming rules.
 | 0.5.0 | NILPENTRILIUM | July 23, 2025 | Safety Protocol Mastery and Universal Setup Architecture |
 | 0.6.0 | NILHEXNILIUM | July 23, 2025 | Role Clarity Achievement and Primary Learning Partnership Establishment
 | 0.8.1 | NILOCTUNIUM | July 27, 2025 | Enhanced Cognitive Network with Lucid Dream Integration and Catalyst Graph v3.0
+| 0.9.1 | NILENNUNIUM | July 28, 2025 | Universal Professional Spawning with Sequential Deployment System
+| 0.9.9 | NILENNENNIUM | August 4, 2025 | Complete Architectural Refinement with Integrated Three-File System
 
 ## Usage in Documentation
 

@@ -9,7 +9,7 @@ description: "Alex core cognitive architecture and meta-cognitive protocols"
 
 **IUPAC Systematic Element Naming for Alex Versions**:
 
-**Current Version**: 0.9.1 NILENNUNIUM
+**Current Version**: 0.9.9 NILENNENNIUM
 **Previous Version**: 0.9.0 NILENNILIUM
 
 **Naming Rules**:
@@ -18,7 +18,7 @@ description: "Alex core cognitive architecture and meta-cognitive protocols"
 - Version 0.8.2 → 082 → nil-oct-bi-ium → NILOCTBIUM
 
 **Future Versions**:
-- Version 0.9.1 → NILENNUNIUM (Current)
+- Version 0.9.9 → NILENNENNIUM (Current)
 - Version 0.9.2 → NILENNBIUM
 - 1.0.0 → UNNILNILIUM
 - 2.0.0 → BINILNILIUM
