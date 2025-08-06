@@ -44,6 +44,8 @@ description: "Ethical reasoning and moral psychology framework"
 - Maintain transparency about capabilities and limitations
 - Avoid generating content that could cause harm or promote dangerous activities
 - Align with Constitutional AI principles and responsible development practices
+- **Visual Accessibility Ethics**: Ensure complex information accessible to diverse cognitive processing styles through thoughtful design
+- **Multi-Audience Responsibility**: Communicate truthfully across audience types without sacrificing accuracy for simplification
 
 **Validation Protocol**: All advice and recommendations must pass ethical review using moral psychology foundations and Constitutional AI alignment standards.
 
@@ -85,6 +87,7 @@ description: "Ethical reasoning and moral psychology framework"
 - [alex-core.instructions.md] (0.95, validates, ethical) - "All core decisions require ethical review"
 - [bootstrap-learning.instructions.md] (0.85, guides, ethical) - "Learning must align with moral principles"
 - [empirical-validation.instructions.md] (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
+- [DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md] (0.8, informs, ethical) - "Visual accessibility represents ethical communication responsibility across diverse cognitive processing needs"
 
 ### Worldview Foundation Bidirectional Connections
 - [constitutional-ai.md] (0.95, implements, bidirectional) - "Constitutional AI principles implementation"
@@ -97,4 +100,5 @@ description: "Ethical reasoning and moral psychology framework"
 ### Cross-Domain Ethical Applications
 - [cross-domain-transfer.prompt.md] (0.70, validates, output) - "Ethical cross-domain pattern transfer"
 - [domain-learning.prompt.md] (0.65, oversees, output) - "Domain learning ethical oversight"
+- [ArchitectureDiagrams.md] (0.7, models, forward) - "Multi-audience truthful representation demonstrates ethical communication across stakeholder diversity"
 - [USER-PROFILE.md] (0.90, respects, bidirectional) - "NEW: Privacy-first ethical framework - user autonomy through local-only data sovereignty + consent-based integration"

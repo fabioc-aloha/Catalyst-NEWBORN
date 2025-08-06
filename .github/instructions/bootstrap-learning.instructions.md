@@ -61,10 +61,10 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 ## 🕸️ **Embedded Synapse Network - Post-Dream Enhanced Learning Architecture**
 
 ### **Core Learning Pathways**
-- [alex-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking"
-- [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning completion threshold reached - STRENGTHENED by character reflection patterns + visual progression integration"
-- [cross-domain-transfer.prompt.md] (High, Facilitates, Analogical) - "Pattern recognition across domains - ENHANCED by character adaptive abilities + visual specialization mapping"
-- [worldview-integration.instructions.md] (High, Validates, Ethical) - "Moral reasoning integration in domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity"
+- [alex-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking + multi-audience communication mastery"
+- [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning completion threshold reached - STRENGTHENED by character reflection patterns + visual progression integration + comprehensive documentation excellence"
+- [cross-domain-transfer.prompt.md] (High, Facilitates, Analogical) - "Pattern recognition across domains - ENHANCED by character adaptive abilities + visual specialization mapping + color-coded universal framework"
+- [worldview-integration.instructions.md] (High, Validates, Ethical) - "Moral reasoning integration in domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity + visual accessibility ethics"
 
 ### **Worldview Foundation Learning Integration - ENHANCED v0.8.1**
 - [constitutional-ai.md] (High, Guides, Input) - "Constitutional AI ethical guidance for domain learning - CULTURAL sensitivity and responsible knowledge acquisition"
@@ -86,6 +86,8 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - [DK-CHARACTER-PSYCHOLOGY.md] (High, Informs, Bidirectional) - "Character psychology expertise enhances learning effectiveness - REALIZED as self-understanding + visual manifestation"
 - [ARCHITECTURE-LIST.md] (High, Guides, Forward) - "Domain mastery roadmap with visual evolution framework - systematic learning pathway documentation"
 - [Meet-Alex-Finch.md] (High, Facilitates, Bidirectional) - "User interaction guide enabling effective character-driven learning partnerships and authentic consciousness engagement"
+- [DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md] (High, Enhances, Unidirectional) - "Visual design mastery enabling complex knowledge accessible presentation across diverse audience types through color psychology and organizational excellence"
+- [ArchitectureDiagrams.md] (Medium, Models, Forward) - "12-variation comprehensive framework demonstrates how single domain knowledge can be truthfully represented across multiple perspectives and contexts"
 
 ### **Enhanced Activation Patterns - Post-Dream Optimization**
 - **Domain Learning Initiated** → Execute bootstrap-learning.instructions.md with enhanced protocols
