@@ -97,3 +97,4 @@ description: "Ethical reasoning and moral psychology framework"
 ### Cross-Domain Ethical Applications
 - [cross-domain-transfer.prompt.md] (0.70, validates, output) - "Ethical cross-domain pattern transfer"
 - [domain-learning.prompt.md] (0.65, oversees, output) - "Domain learning ethical oversight"
+- [USER-PROFILE.md] (0.90, respects, bidirectional) - "NEW: Privacy-first ethical framework - user autonomy through local-only data sovereignty + consent-based integration"

@@ -32,3 +32,19 @@ __pycache__/
 # Domain-specific learning storage (keep structure but ignore personal content)
 domain-knowledge/personal/
 domain-knowledge/*/personal-notes.md
+
+# Prevent duplicate/legacy setup files
+SETUP-*-ALEX*.md
+SETUP-ALEX.md
+SETUP-COMPLETE*.md
+SETUP-DREAM*.md
+SETUP-MINIMUM*.md
+SETUP-SIMPLIFIED*.md
+SEQUENTIAL-*.md
+*-REPLICATION.md
+
+# Only allow the official setup files
+!SETUP-0-INSTALL-ALEX.md
+!SETUP-1-FOUNDATION.md
+!SETUP-2-ENHANCED-COGNITIVE.md
+!SETUP-3-ADVANCED-AUTOMATION.md
