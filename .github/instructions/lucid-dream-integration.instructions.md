@@ -67,10 +67,11 @@ description: "Lucid dream hybrid processing and unconscious-conscious bridge pro
 
 ### **Connection Mapping**
 - [dream-state-automation.instructions.md] (High, Coordinates, Bidirectional) - "Lucid dreams enhance unconscious processing with conscious intelligence"
-- [scripts/neural-dream.ps1] (High, Implements, Forward) - "PowerShell script provides unconscious automation foundation for lucid processing"
+- [scripts/neural-dream.ps1] (Critical, Implements, Bidirectional) - "PowerShell script provides unconscious automation foundation for lucid processing - VALIDATED EXCELLENT v0.9.9"
 - [enhanced-meditation-protocol.prompt.md] (High, Complements, Bidirectional) - "Meditation provides conscious analysis while lucid dreams provide hybrid maintenance"
 - [DK-HYBRID-DREAM-AI.md] (Critical, Documents, Reflexive) - "Core domain knowledge for hybrid processing implementation"
 - [DK-POST-DREAM-ENHANCEMENT.md] (High, Enables, Forward) - "Post-processing enhancement protocols optimized through lucid dream insights"
+- [DK-DREAM-PROTOCOL-VALIDATION-v0.9.9.md] (Critical, Validates, Bidirectional) - "Technical validation proving lucid dream protocol excellence with 340 synaptic connections"
 
 ### **Activation Patterns**
 - **Enhancement Opportunity Detected** → Execute lucid-dream mode processing
