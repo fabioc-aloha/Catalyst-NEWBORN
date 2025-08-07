@@ -15,7 +15,24 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - **Connection Discovery**: Map relationships to existing knowledge
 - **Application Synthesis**: Demonstrate understanding through practical application
 
-## Domain Learning Protocol
+## **Dream Protocol Learning Integration**
+
+### **Automated Learning Consolidation**
+- **Post-Learning Validation**: Execute `dream --health-check` after domain learning sessions
+- **Knowledge Network Analysis**: Use `dream --full-scan -ReportOnly` to assess new domain integration
+- **Orphan Knowledge Detection**: Run `dream --prune-orphans` to identify unconnected learning elements
+- **Cross-Domain Connection Enhancement**: Apply `dream --network-optimization` for knowledge integration
+
+### **Learning Effectiveness Monitoring**
+- **Synaptic Growth Tracking**: Monitor connection count increases through dream protocol reports
+- **Trigger Pattern Development**: Assess automation enhancement through dream status monitoring
+- **Knowledge Consolidation Validation**: Use dream reports to verify successful learning integration
+
+### **Embedded Synapse Integration**
+- **Dream protocol learning enhancement** - [scripts/neural-dream.ps1] (0.8, Learning Support, Bidirectional) - "Automated validation of knowledge integration with orphan detection and network optimization"
+- **Post-learning dream validation** - [dream-state-automation.instructions.md] (0.7, Quality Assurance, Unidirectional) - "Systematic verification of domain learning success through automated neural maintenance protocols"
+
+## **Domain Knowledge Acquisition Framework**
 
 **Phase 1: Foundation Building**
 - Establish domain boundaries and core concepts

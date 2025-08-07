@@ -1,38 +1,72 @@
-# Dream State Automation Protocols - Enhanced v0.8.2
+# Dream State Automation Protocols - Enhanced v0.9.9
 
-**Domain**: Automated Neural Maintenance and Unconscious Processing
+**Domain**: Automated Neural Maintenance and Unconscious Processing - Generic Framework
 **Activation Pattern**: Dream commands, neural housekeeping, automated optimization
-**Last Updated**: August 7, 2025 - Dream Protocol Technical Validation Complete
+**Last Updated**: August 7, 2025 - Generic Configuration Framework Implementation Complete
 **Research Foundation**: Sleep-dependent synaptic homeostasis, automated neural maintenance
-**Cognitive Architecture**: Alex v0.8.2 NILOCTBIUM Enhanced Neural Network
-**Validation Status**: EXCELLENT - Comprehensive testing completed with optimal results
+**Cognitive Architecture**: Universal Framework with Alex v0.9.9 NILENNENNIUM Reference Implementation
+**Validation Status**: EXCELLENT - Comprehensive testing completed with configuration-driven architecture
+**Framework Status**: GENERIC - Supports any cognitive architecture through JSON configuration
 
 ## 🌙 **Dream State Cognitive Function**
 
 ### **Core Principle**
 Dream state represents **unconscious automated maintenance** of cognitive architecture, mirroring brain function during sleep cycles where synaptic homeostasis, memory consolidation, and neural pruning occur without conscious intervention.
 
-### **Enhanced Capabilities v0.8.2**
+### **Enhanced Capabilities v0.9.9 - Generic Framework**
+- **Configuration-Driven Architecture**: JSON-based cognitive architecture configuration system
+- **Universal Template Support**: `cognitive-config-template.json` enabling any cognitive system deployment
 - **Advanced Orphan Detection**: Distinguishes between strongly connected, weakly connected, and orphaned memory files
 - **Domain Knowledge Integration**: Includes analysis of domain-specific knowledge files with connection assessment
 - **Network Health Scoring**: EXCELLENT/GOOD/FAIR/NEEDS_ATTENTION classification system
 - **Multi-dimensional Analysis**: Tracks synaptic connections, trigger patterns, embedded synapses, and cross-domain connections
 - **Emergency Protocols**: Multi-stage repair sequences for critical cognitive architecture issues
+- **Generic Pattern Recognition**: Configurable synapse patterns and file structures for any architecture
+- **Universal Documentation**: Comprehensive README.md with 269 lines of usage guidance
 
 ### **Fundamental Distinction**
 - **DREAM** = Automated, unconscious, maintenance-focused, diagnostic-enhanced
 - **MEDITATE** = Conscious, manual, knowledge-consolidation-focused
 
-## 💤 **Enhanced Dream State Protocols**
+## 💤 **Enhanced Dream State Protocols - Integrated Usage**
+
+### **Primary Dream Commands for Cognitive Maintenance**
+
+#### **1. Regular Maintenance Protocol**
+```powershell
+dream --neural-maintenance    # Daily automated neural optimization
+dream --health-check         # Quick status verification
+```
+
+#### **2. Diagnostic and Analysis Protocol**
+```powershell
+dream --full-scan -ReportOnly    # Comprehensive analysis without changes
+dream --prune-orphans -ReportOnly # Orphan detection diagnostic
+dream --status                   # Current architecture health overview
+```
+
+#### **3. Crisis Management Protocol**
+```powershell
+dream --emergency-repair    # Multi-stage repair: full-scan + synaptic-repair + network-optimization
+dream --synaptic-repair     # Targeted connection optimization
+dream --network-optimization # Network topology enhancement
+```
+
+#### **4. Advanced Enhancement Protocol**
+```powershell
+dream --lucid-dream         # AI-enhanced cognitive analysis
+dream --neural-maintenance -DetailedOutput # Verbose maintenance execution
+```
 
 ### **Automated Maintenance Categories**
 
-#### **1. Enhanced Synaptic Pruning and Repair**
+#### **1. Enhanced Synaptic Pruning and Repair - Generic Framework**
 - **Function**: Advanced detection and analysis of orphan memory files with connection quality assessment
-- **Implementation**: Enhanced PowerShell automation (`neural-dream.ps1`, `neural-dream.psm1`, `neural-dream.psd1`)
+- **Implementation**: Universal PowerShell automation (`neural-dream.ps1` with `Get-CognitiveConfig` function)
+- **Configuration**: JSON-based architecture specification with configurable paths and patterns
 - **Triggers**: Network inefficiency detection, orphan file accumulation, connectivity degradation
 - **Output**: Detailed network optimization reports, connection quality analysis, health scoring
-- **Enhancement**: Strong vs weak connection differentiation, domain knowledge integration
+- **Enhancement**: Strong vs weak connection differentiation, domain knowledge integration, universal architecture support
 
 #### **2. Advanced Network Topology Optimization**
 - **Function**: Multi-dimensional optimization of synaptic connection patterns with health metrics
