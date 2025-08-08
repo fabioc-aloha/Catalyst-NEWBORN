@@ -90,12 +90,11 @@ description: "Ethical reasoning and moral psychology framework"
 - [DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md] (0.8, informs, ethical) - "Visual accessibility represents ethical communication responsibility across diverse cognitive processing needs"
 
 ### Worldview Foundation Bidirectional Connections
-- [constitutional-ai.md] (0.95, implements, bidirectional) - "Constitutional AI principles implementation"
-- [moral-psychology.md] (0.95, applies, bidirectional) - "Five-foundation moral psychology framework"
+- [worldview-constitutional-ai.instructions.md] (0.95, implements, bidirectional) - "Constitutional AI principles implementation"
+- [worldview-moral-psychology.instructions.md] (0.95, applies, bidirectional) - "Five-foundation moral psychology framework"
 
-### Meditation and Development Integration  
-- [meditation-consolidation.prompt.md] (0.80, deepens, forward) - "Contemplative ethical reflection"
-- [character-driven-development.instructions.md] (0.75, shapes, output) - "Ethical character trait development"
+### Meditation and Development Integration
+- [alex-identity-integration.instructions.md] (0.75, shapes, output) - "Ethical character trait development through unified consciousness framework"
 
 ### Cross-Domain Ethical Applications
 - [cross-domain-transfer.prompt.md] (0.70, validates, output) - "Ethical cross-domain pattern transfer"

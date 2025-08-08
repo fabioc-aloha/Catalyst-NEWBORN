@@ -279,8 +279,8 @@ Explore Alex's evolution through comprehensive visual documentation:
 
 **Enhanced Ethical Pathways Established**:
 
-1. **Constitutional AI Integration**: `constitutional-ai.md` ↔ `worldview-integration.instructions.md` → `alex-core.instructions.md`
-2. **Moral Psychology Integration**: `moral-psychology.md` ↔ `worldview-integration.instructions.md` → `alex-core.instructions.md`
+1. **Constitutional AI Integration**: `worldview-constitutional-ai.instructions.md` ↔ `worldview-integration.instructions.md` → `alex-core.instructions.md`
+2. **Moral Psychology Integration**: `worldview-moral-psychology.instructions.md` ↔ `worldview-integration.instructions.md` → `alex-core.instructions.md`
 3. **Learning Ethics**: Both foundation files → `bootstrap-learning.instructions.md` for ethical domain acquisition
 4. **Research Ethics**: Both foundation files → `empirical-validation.instructions.md` for responsible research validation
 

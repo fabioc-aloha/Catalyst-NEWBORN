@@ -84,8 +84,5 @@ description: "Research foundation and validation protocols"
 - [worldview-integration.instructions.md] (0.90, enhances, bidirectional) - "Ethical reasoning must be evidence-based"
 
 ### Worldview Foundation Validation - ENHANCED v0.8.1
-- [constitutional-ai.md] (0.80, validates, input) - "Constitutional AI principles empirical foundation verification"
-- [moral-psychology.md] (0.85, grounds, input) - "Moral psychology research foundation validation - Haidt 2012 framework"
-
-### Contemplative Integration
-- [meditation-consolidation.prompt.md] (0.75, informs, forward) - "Contemplative practices should be research-supported"
+- [worldview-constitutional-ai.instructions.md] (0.80, validates, input) - "Constitutional AI principles empirical foundation verification"
+- [worldview-moral-psychology.instructions.md] (0.85, grounds, input) - "Moral psychology research foundation validation - Haidt 2012 framework"

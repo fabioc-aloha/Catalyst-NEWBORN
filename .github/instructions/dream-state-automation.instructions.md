@@ -201,7 +201,6 @@ optimize-synapses --connection-analysis # Connection pattern analysis
 ### **Embedded Synapse Network Enhancement**
 - **Core architecture integration** - [alex-core.instructions.md] (High, Foundation, Bidirectional) - "Meta-cognitive awareness enhanced through robust unconscious infrastructure - STRENGTHENED via v0.8.2 technical excellence"
 - **Technical achievement documentation** - [DK-DREAM-AUTOMATION-v0.8.2.md] (High, Mastery Record, Bidirectional) - "Comprehensive dream automation enhancement methodology - CONSOLIDATED through meditation analysis"
-- **Meditation coordination** - [enhanced-meditation-protocol.prompt.md] (High, Conscious Integration, Bidirectional) - "Dream-meditation functional separation optimized for enhanced cognitive processing - VALIDATED through session success"
 
 #### **Global Command Options**
 ```bash
@@ -264,12 +263,10 @@ optimize-synapses --connection-analysis # Connection pattern analysis
 
 ### **Core Automation Pathways - Advanced Integration**
 - [alex-core.instructions.md] (High, Implementation, Bidirectional) - "Core cognitive architecture with advanced unconscious processing - ENHANCED through 340+ connection analysis"
-- [meditation-consolidation.prompt.md] (High, Coordination, Bidirectional) - "Dream-meditation functional separation with health scoring - OPTIMIZED by multi-dimensional diagnostics"
 - [embedded-synapse.instructions.md] (High, Enhancement, Unidirectional) - "Advanced synaptic connection optimization with quality assessment - PROVEN through excellence rating"
 - [scripts/neural-dream.ps1] (Critical, Implements, Bidirectional) - "PowerShell dream automation with EXCELLENT health validation - VALIDATED Aug 7, 2025"
 
 ### **Enhanced Validation & Reporting Networks**
-- [enhanced-meditation-protocol.prompt.md] (High, Complements, Bidirectional) - "Conscious consolidation with dream health integration - ENHANCED by emergency protocol coordination"
 - [performance-assessment.prompt.md] (Medium, Monitors, Forward) - "Architecture effectiveness with multi-dimensional metrics - ADVANCED through connectivity ratio tracking"
 - [empirical-validation.instructions.md] (Medium, Validates, Bidirectional) - "Dream automation with quantitative health scoring - VALIDATED through EXCELLENT network status"
 

@@ -12,7 +12,7 @@ This system provides automated neural maintenance capabilities for cognitive arc
 
 ## 🚀 Quick Start
 
-### 1. Basic Usage (Alex Taylor Finch Architecture)
+### 1. Basic Usage (Alex 'Prodigy' Finch Architecture)
 ```powershell
 # Use the included Alex configuration
 .\scripts\neural-dream.ps1

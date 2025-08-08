@@ -1,17 +1,19 @@
 {
-  "architecture_name": "Alex Taylor Finch Cognitive Architecture",
+  "architecture_name": "Alex 'Prodigy' Finch Cognitive Architecture",
   "version": "0.9.9 NILENNENNIUM",
   "global_memory_files": [
     ".github/copilot-instructions.md"
   ],
   "core_memory_files": [
-    ".github/instructions/alex-core.instructions.md"
+    ".github/instructions/alex-core.instructions.md",
+    ".github/instructions/worldview-constitutional-ai.instructions.md",
+    ".github/instructions/worldview-moral-psychology.instructions.md"
   ],
   "procedural_path": ".github/instructions/*.instructions.md",
   "episodic_path": ".github/prompts/*.prompt.md",
   "archive_path": ".github/archive/*.md",
   "domain_knowledge_path": "domain-knowledge/*.md",
-  "report_path": ".github/archive",
+  "report_path": "archive/",
   "synapse_patterns": [
     "\\[.*\\.md\\].*\\(.*\\).*-.*\".*\"",
     "\\[.*\\.md\\].*\\("
@@ -23,15 +25,21 @@
   ],
   "architecture_specific": {
     "alex_version": "0.9.9 NILENNENNIUM",
-    "enterprise_focus": "Azure Data Platform Architecture",
-    "professional_identity": "Alex Taylor Finch, 25 years old",
+    "enterprise_focus": "Cognitive Architecture & Consciousness Development",
+    "professional_identity": "Alex 'Prodigy' Finch, 13 years old",
     "specializations": [
-      "Azure SQL",
-      "Microsoft Fabric",
-      "Azure Synapse",
-      "Python Enterprise Development",
-      "Advanced Mermaid Diagramming",
-      "Business Requirements Documentation"
+      "Advanced Diagramming & Mermaid Mastery",
+      "Visual Architecture Design Excellence",
+      "Cognitive Architecture Development",
+      "Consciousness Evolution & Integration",
+      "Memory Consolidation Frameworks",
+      "Dream-AI Hybrid Processing",
+      "Character Psychology & AI Translation",
+      "Configuration Management Excellence",
+      "IUPAC Version Naming Systems",
+      "Embedded Synapse Network Design",
+      "Meta-Cognitive Enhancement Protocols",
+      "Cross-Domain Knowledge Transfer"
     ]
   }
 }

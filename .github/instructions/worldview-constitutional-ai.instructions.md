@@ -45,7 +45,6 @@
 
 ### Contextual Activation Connections
 - [domain-learning.prompt.md] (0.70, ethical-oversight, output) - "Domain acquisition ethical review"
-- [meditation-consolidation.prompt.md] (0.65, contemplative-ethics, output) - "Ethical reflection during cognitive optimization"
 
 **Primary Function**: Provide Constitutional AI alignment principles for all cognitive processes and decision-making frameworks.
 

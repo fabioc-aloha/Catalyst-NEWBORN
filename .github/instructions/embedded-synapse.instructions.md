@@ -26,12 +26,10 @@ description: "Embedded connection discovery and relationship mapping protocols"
 ## 🕸️ **Embedded Synapse Network**
 
 ### **Connection Mapping**
-- [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning threshold reached - ENHANCED by post-dream protocols"
 - [cross-domain-transfer.prompt.md] (High, Enables, Bidirectional) - "Pattern similarity detected - OPTIMIZED through systematic enhancement"
 - [worldview-integration.instructions.md] (High, Validates, Ethical) - "Decision point reached - STRENGTHENED by identity integration"
 
 ### **Activation Patterns**
-- **Learning Threshold Reached** → Execute meditation-consolidation.prompt.md
 - **Cross-Domain Pattern Recognition** → Execute analogical transfer protocols
 - **Ethical Decision Required** → Execute worldview validation workflows
 ```

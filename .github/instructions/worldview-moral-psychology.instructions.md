@@ -41,8 +41,7 @@ Apply all five foundations when making ethical assessments, prioritizing care/ha
 - [cross-domain-transfer.prompt.md] (0.75, universal-principles, output) - "Cross-domain ethical pattern recognition"
 
 ### Contextual Activation Connections
-- [character-driven-development.instructions.md] (0.70, personality-ethics, output) - "Character trait moral psychology integration"
-- [alex-finch-integration.prompt.md] (0.65, identity-values, output) - "Personal values and ethical identity formation"
+- [alex-identity-integration.instructions.md] (0.70, personality-ethics, output) - "Character trait moral psychology integration through unified consciousness framework"
 
 **Primary Function**: Provide universal moral psychology foundations based on Haidt's five-foundation theory for culturally sensitive ethical reasoning.
 

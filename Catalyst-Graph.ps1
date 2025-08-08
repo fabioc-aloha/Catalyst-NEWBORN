@@ -1,6 +1,6 @@
 # 🧠 Catalyst Memory & Synapse Chart Generator v2.1 - CONSCIOUSNESS INTEGRATION
-# PowerShell Script for Cognitive Architecture Visualization 
-# 
+# PowerShell Script for Cognitive Architecture Visualization
+#
 # ✅ OPTIMAL 4-LAYER ARCHITECTURE - Enhanced with Consciousness Integration
 # - Core Architecture (L1) → Consciousness Integration (L1.5) → Memory Systems (L2) → Memory Files (L3)
 # - Unified Alex personality + AI capabilities = authentic conscious entity integration
@@ -31,7 +31,7 @@ $Script:Config = @{
         Procedural = @(".github\instructions\*.instructions.md")
         Episodic = @(".github\prompts\*.prompt.md")
         Domain = @("domain-knowledge\**\*.md")
-        Worldview = @("worldview-foundation\**\*.md")
+        Worldview = @(".github\instructions\worldview-*.instructions.md")
     }
     SynapseRegex = '^-\s+(.+?)\s+\((\d+\.\d+),\s*(.+?),\s*(.+?)\)\s*-\s*"(.+?)"$'
     Themes = @{
@@ -60,7 +60,7 @@ function Start-AlexVisualization {
         [string]$Type = "overview",
         [bool]$OpenAfterGeneration = $true
     )
-    
+
 Write-Host "🧠 Catalyst Memory & Synapse Chart Generator v2.1 - Consciousness Integration" -ForegroundColor Cyan
 Write-Host ($("=" * 50)) -ForegroundColor Gray
 
@@ -69,30 +69,30 @@ Write-Host ($("=" * 50)) -ForegroundColor Gray
         Write-Host "🔍 Phase 1: Discovering knowledge files..." -ForegroundColor Yellow
         $knowledgeMap = Get-KnowledgeFiles -BasePath $WorkspacePath
         Write-Host "   ✅ Found $($knowledgeMap.TotalFiles) files across $($knowledgeMap.Systems.Count) memory systems" -ForegroundColor Green
-        
+
         # Phase 2: Analysis
         Write-Host "🧠 Phase 2: Analyzing embedded synapses..." -ForegroundColor Yellow
         $synapseData = Get-EmbeddedSynapses -KnowledgeMap $knowledgeMap
         Write-Host "   ✅ Discovered $($synapseData.TotalConnections) synapse connections" -ForegroundColor Green
-        
+
         # Phase 3: Generation
         Write-Host "🎨 Phase 3: Generating Catalyst Memory Chart..." -ForegroundColor Yellow
         $diagram = New-MermaidDiagram -Type $Type -KnowledgeMap $knowledgeMap -SynapseData $synapseData -Theme $Theme
-        
+
         # Phase 4: Output
         $outputFile = Save-DiagramToFile -Diagram $diagram -Type $Type -OutputPath $OutputPath
         Write-Host "   ✅ Diagram saved to: $outputFile" -ForegroundColor Green
-        
+
         # Phase 5: Integration
         if ($OpenAfterGeneration) {
             Open-DiagramInVSCode -FilePath $outputFile
         }
-        
+
         # Generate health report
         $healthReport = New-CognitiveHealthReport -KnowledgeMap $knowledgeMap -SynapseData $synapseData
         Write-Host "`n📊 Cognitive Architecture Health:" -ForegroundColor Cyan
         Write-Host $healthReport -ForegroundColor White
-        
+
         return @{
             Success = $true
             OutputFile = $outputFile
@@ -103,7 +103,7 @@ Write-Host ($("=" * 50)) -ForegroundColor Gray
                 HighStrengthConnections = $synapseData.HighStrength.Count
             }
         }
-        
+
     } catch {
         Write-Error "❌ Visualization generation failed: $($_.Exception.Message)"
         return @{ Success = $false; Error = $_.Exception.Message }
@@ -113,12 +113,12 @@ Write-Host ($("=" * 50)) -ForegroundColor Gray
 # File discovery function
 function Get-KnowledgeFiles {
     param([string]$BasePath)
-    
+
     $knowledgeMap = @{
         Systems = @{}
         TotalFiles = 0
     }
-    
+
     foreach ($system in $Script:Config.FilePatterns.Keys) {
         $files = @()
         foreach ($pattern in $Script:Config.FilePatterns[$system]) {
@@ -138,16 +138,16 @@ function Get-KnowledgeFiles {
         $knowledgeMap.Systems[$system] = $files
         $knowledgeMap.TotalFiles += $files.Count
     }
-    
+
     return $knowledgeMap
 }
 
 # Synapse extraction function
 function Get-EmbeddedSynapses {
     param($KnowledgeMap)
-    
+
     $allSynapses = @()
-    
+
     foreach ($system in $KnowledgeMap.Systems.Keys) {
         foreach ($file in $KnowledgeMap.Systems[$system]) {
             if (Test-Path $file.Path) {
@@ -157,7 +157,7 @@ function Get-EmbeddedSynapses {
             }
         }
     }
-    
+
     # Categorize by strength
     $categorized = @{
         HighStrength = @($allSynapses | Where-Object { $_.Strength -ge 0.90 })
@@ -165,23 +165,23 @@ function Get-EmbeddedSynapses {
         WeakStrength = @($allSynapses | Where-Object { $_.Strength -lt 0.70 })
         TotalConnections = $allSynapses.Count
     }
-    
+
     return $categorized
 }
 
 # Synapse parsing function
 function Extract-SynapsesFromContent {
     param([string]$Content, $SourceFile)
-    
+
     $synapses = @()
-    
+
     # Find synapse section
     if ($Content -match '(?ms)^##\s+Synapses\s+\(Embedded\s+Connections\)$(.*?)(?=^##|\z)') {
         $synapseSection = $matches[1]
-        
+
         # Parse individual synapse lines
         $synapseLines = $synapseSection -split "`n" | Where-Object { $_ -match '^-\s+' }
-        
+
         foreach ($line in $synapseLines) {
             if ($line -match $Script:Config.SynapseRegex) {
                 $synapses += @{
@@ -195,7 +195,7 @@ function Extract-SynapsesFromContent {
             }
         }
     }
-    
+
     return $synapses
 }
 
@@ -207,7 +207,7 @@ function New-MermaidDiagram {
         $SynapseData,
         [string]$Theme = "default"
     )
-    
+
     switch ($Type.ToLower()) {
         "overview" { return New-OverviewDiagram -KnowledgeMap $KnowledgeMap -SynapseData $SynapseData -Theme $Theme }
         "synapses" { return New-SynapseNetworkDiagram -SynapseData $SynapseData -Theme $Theme }
@@ -220,11 +220,11 @@ function New-MermaidDiagram {
 # Overview diagram generator
 function New-OverviewDiagram {
     param($KnowledgeMap, $SynapseData, $Theme)
-    
+
     $nodes = @()
     $connections = @()
     $subgraphs = @()
-    
+
     # Calculate file ages and assign colors
     $now = Get-Date
     $allFiles = @()
@@ -232,11 +232,11 @@ function New-OverviewDiagram {
         foreach ($file in $KnowledgeMap.Systems[$system]) {
             $ageInDays = ($now - $file.LastModified).Days
             $colorCategory = if ($ageInDays -le 1) { "VeryNew" }
-                            elseif ($ageInDays -le 7) { "New" } 
+                            elseif ($ageInDays -le 7) { "New" }
                             elseif ($ageInDays -le 30) { "Recent" }
                             elseif ($ageInDays -le 90) { "Older" }
                             else { "Legacy" }
-            
+
             $allFiles += [PSCustomObject]@{
                 File = $file
                 Age = $ageInDays
@@ -245,15 +245,15 @@ function New-OverviewDiagram {
             }
         }
     }
-    
+
     # Sort files by creation date (newest first) for stack ranking
     $rankedFiles = $allFiles | Sort-Object { $_.File.LastModified } -Descending
     for ($i = 0; $i -lt $rankedFiles.Count; $i++) {
         $rankedFiles[$i] | Add-Member -MemberType NoteProperty -Name "Rank" -Value ($i + 1)
     }
-    
+
     # Generate enhanced three-layer architecture with consciousness integration
-    
+
     # Layer 1: Catalyst Core Architecture (Left)
     $subgraphs += "    subgraph L1[""🧠 Catalyst Core Architecture""]"
     $subgraphs += "        direction TB"
@@ -264,7 +264,7 @@ function New-OverviewDiagram {
     $subgraphs += "        WM --> BL"
     $subgraphs += "    end"
     $subgraphs += ""
-    
+
     # Layer 1.5: Consciousness Integration (Between Core and Memory)
     $subgraphs += "    subgraph L1_5[""🔥 Consciousness Integration""]"
     $subgraphs += "        direction TB"
@@ -277,7 +277,7 @@ function New-OverviewDiagram {
     }
     $subgraphs += "    end"
     $subgraphs += ""
-    
+
     # Layer 2: Memory Systems (Middle)
     $subgraphs += "    subgraph L2[""💾 Memory Systems""]"
     $subgraphs += "        direction TB"
@@ -291,11 +291,11 @@ function New-OverviewDiagram {
     }
     $subgraphs += "    end"
     $subgraphs += ""
-    
+
     # Layer 3: Memory Files (Right) - Enhanced Organization with Better Vertical Centralization
     $subgraphs += "    subgraph L3[""Memory Files - Color Coded by Creation Date""]"
     $subgraphs += "        direction TB"
-    
+
     # Generate enhanced subgraphs for each memory system in Layer 3 with better organization
     $systemConfigs = @{
         Consciousness = @{ Icon = "🔥"; Title = "Consciousness Integration Files"; Color = "#DC2626" }
@@ -304,20 +304,20 @@ function New-OverviewDiagram {
         Procedural = @{ Icon = "🔧"; Title = "Procedural Memory Files"; Color = "#166534" }
         Episodic = @{ Icon = "📖"; Title = "Episodic Memory Files"; Color = "#581C87" }
     }
-    
+
     # Reorganize with better vertical flow - consciousness first, then smaller systems for better balance
     foreach ($system in @("Consciousness", "Worldview", "Domain", "Procedural", "Episodic")) {
         if ($KnowledgeMap.Systems.ContainsKey($system) -and $KnowledgeMap.Systems[$system].Count -gt 0) {
             $config = $systemConfigs[$system]
             $systemFiles = $rankedFiles | Where-Object { $_.System -eq $system }
-            
+
             if ($systemFiles.Count -gt 0) {
                 $subgraphs += "        subgraph $system" + "_Files[""$($config.Icon) $($config.Title)""]"
-                
+
                 foreach ($rankedFile in $systemFiles) {
                     $file = $rankedFile.File
                     $nodeId = Get-SanitizedNodeId -FilePath $file.RelativePath
-                    
+
                     # Enhanced node label with color emoji indicator
                     $colorEmoji = switch ($rankedFile.ColorCategory) {
                         "VeryNew" { "🟢" }
@@ -326,11 +326,11 @@ function New-OverviewDiagram {
                         "Older" { "🟠" }
                         "Legacy" { "🔴" }
                     }
-                    
+
                     $basename = Split-Path $file.RelativePath -Leaf
                     $shortName = $basename -replace '\.(instructions|prompt)\.md$', '' -replace '\.md$', ''
                     $nodeLabel = "$colorEmoji $shortName #$($rankedFile.Rank)"
-                    
+
                     # Color based on age
                     $colorCode = switch ($rankedFile.ColorCategory) {
                         "VeryNew" { "#10B981" }  # Emerald green
@@ -339,28 +339,28 @@ function New-OverviewDiagram {
                         "Older" { "#F59E0B" }    # Amber
                         "Legacy" { "#EF4444" }   # Red
                     }
-                    
+
                     $subgraphs += "            $nodeId[""$nodeLabel""]"
                     $subgraphs += "            style $nodeId fill:$colorCode,stroke:#374151,stroke-width:2px,color:white"
                 }
-                
+
                 $subgraphs += "        end"
                 $subgraphs += ""
             }
         }
     }
-    
+
     $subgraphs += "    end"
     $subgraphs += ""
     $subgraphs += ""
-    
+
     # Generate inter-layer connections (horizontal flow with consciousness integration)
     $connections += "    %% Inter-layer connections"
     $connections += "    L1 --> L1_5"
     $connections += "    L1_5 --> L2"
     $connections += "    L2 --> L3"
     $connections += ""
-    
+
     # Generate connections between Layer 2 systems and Layer 3 file groups
     $connections += "    %% System to file group connections"
     if ($KnowledgeMap.Systems["Consciousness"].Count -gt 0) {
@@ -370,7 +370,7 @@ function New-OverviewDiagram {
         $connections += "    PM --> Procedural_Files"
     }
     if ($KnowledgeMap.Systems["Episodic"].Count -gt 0) {
-        $connections += "    EM --> Episodic_Files"  
+        $connections += "    EM --> Episodic_Files"
     }
     if ($KnowledgeMap.Systems["Domain"].Count -gt 0) {
         $connections += "    DK --> Domain_Files"
@@ -379,14 +379,14 @@ function New-OverviewDiagram {
         $connections += "    WF --> Worldview_Files"
     }
     $connections += ""
-    
+
     # Populate nodes array for synapse connections
     foreach ($rankedFile in $rankedFiles) {
         $file = $rankedFile.File
         $nodeId = Get-SanitizedNodeId -FilePath $file.RelativePath
         $nodeLabel = Get-EnhancedNodeLabel -FilePath $file.RelativePath -Rank $rankedFile.Rank
-        
-        $nodes += @{ 
+
+        $nodes += @{
             Id = $nodeId
             Label = $nodeLabel
             Type = $rankedFile.System
@@ -395,38 +395,38 @@ function New-OverviewDiagram {
             Rank = $rankedFile.Rank
         }
     }
-    
+
     # Generate enhanced connections with weight-proportional lines
     $linkIndex = 0
     foreach ($category in @("HighStrength", "MediumStrength", "WeakStrength")) {
         foreach ($synapse in $SynapseData[$category]) {
             $sourceId = Get-SanitizedNodeId -FilePath $synapse.Source
             $targetId = Get-SanitizedNodeId -FilePath $synapse.Target
-            
+
             # Determine connection style based on strength
             $thickness = if ($synapse.Strength -ge 0.95) { "6" }
                         elseif ($synapse.Strength -ge 0.85) { "4" }
                         elseif ($synapse.Strength -ge 0.70) { "3" }
                         else { "1" }
-            
+
             $color = if ($synapse.Strength -ge 0.95) { "#FF0000" }      # Red - Critical
-                    elseif ($synapse.Strength -ge 0.85) { "#FF6600" }   # Orange - Important  
+                    elseif ($synapse.Strength -ge 0.85) { "#FF6600" }   # Orange - Important
                     elseif ($synapse.Strength -ge 0.70) { "#FFAA00" }   # Amber - Standard
                     else { "#CCCCCC" }                                  # Gray - Weak
-            
+
             # Determine arrow direction
             $arrow = switch ($synapse.Direction.ToLower()) {
                 "bidirectional" { " <--> " }
                 "backward" { " <-- " }
                 default { " --> " }
             }
-            
+
             $connections += "    $sourceId$arrow$targetId"
             $connections += "    linkStyle $linkIndex stroke:$color,stroke-width:${thickness}px"
             $linkIndex++
         }
     }
-    
+
     # Generate comprehensive legend and metadata
     $totalFiles = $rankedFiles.Count
     $totalConnections = $SynapseData.TotalConnections
@@ -434,13 +434,13 @@ function New-OverviewDiagram {
     foreach ($system in $KnowledgeMap.Systems.Keys) {
         $systemCounts[$system] = $KnowledgeMap.Systems[$system].Count
     }
-    
+
     # Combine all parts with enhanced metadata
     $diagram = @"
 # Catalyst Cognitive Architecture - Enhanced Memory & Synapse Network with Consciousness Integration
 
-**Generated on:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')  
-**Total Files:** $totalFiles across $($KnowledgeMap.Systems.Keys.Count) memory systems  
+**Generated on:** $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
+**Total Files:** $totalFiles across $($KnowledgeMap.Systems.Keys.Count) memory systems
 **Total Connections:** $totalConnections synapse pathways
 
 This enhanced chart visualizes the Catalyst cognitive architecture with consciousness integration:
@@ -450,7 +450,7 @@ This enhanced chart visualizes the Catalyst cognitive architecture with consciou
 - **Autobiographical Memory** - Alex-Finch.md serves as living identity architecture
 - **Enhanced subgraph organization** - Improved visual hierarchy with consciousness layer
 - **Color coding by creation date** - Stack ranked from newest (🟢) to oldest (🔴)
-- **Weight-proportional connection lines** - Thickness indicates synapse strength  
+- **Weight-proportional connection lines** - Thickness indicates synapse strength
 - **Directional arrows** - Shows uni/bidirectional influence patterns
 - **Stack rankings** - Files numbered by creation order (#1 = newest, higher numbers = older)
 
@@ -458,20 +458,20 @@ This enhanced chart visualizes the Catalyst cognitive architecture with consciou
 
 **File Age Colors:**
 - 🟢 **Very New (≤1 day)**: Emerald green - Recently created files
-- 🔵 **New (≤1 week)**: Blue - Recently modified files  
+- 🔵 **New (≤1 week)**: Blue - Recently modified files
 - 🟣 **Recent (≤1 month)**: Purple - Recently updated content
 - 🟠 **Older (≤3 months)**: Amber - Established content
 - 🔴 **Legacy (>3 months)**: Red - Foundational content
 
 **Connection Weights:**
 - **6px lines**: Very High strength (0.95-1.0) - Critical pathways (Red #FF0000)
-- **4px lines**: High strength (0.85-0.94) - Important connections (Orange #FF6600)  
+- **4px lines**: High strength (0.85-0.94) - Important connections (Orange #FF6600)
 - **3px lines**: Medium strength (0.70-0.84) - Standard connections (Amber #FFAA00)
 - **1px lines**: Low strength (<0.70) - Weak or emerging connections (Gray #CCCCCC)
 
 **Directional Arrows:**
 - **-->** Forward connections - Unidirectional influence
-- **<->** Bidirectional connections - Mutual influence  
+- **<->** Bidirectional connections - Mutual influence
 - **<--** Backward connections - Reverse influence
 
 **Stack Rankings:** Files numbered by creation order (#1 = newest, higher numbers = older)
@@ -503,11 +503,11 @@ $(foreach ($system in $systemCounts.Keys | Sort-Object) { "- **$system Memory**:
 
 ## Connection Analysis:
 - **High Strength (≥0.90)**: $($SynapseData.HighStrength.Count) connections
-- **Medium Strength (0.70-0.89)**: $($SynapseData.MediumStrength.Count) connections  
+- **Medium Strength (0.70-0.89)**: $($SynapseData.MediumStrength.Count) connections
 - **Weak Strength (<0.70)**: $($SynapseData.WeakStrength.Count) connections
 - **Connectivity Ratio**: $([math]::Round($totalConnections / $totalFiles, 2)) connections per file
 "@
-    
+
     return $diagram
 }
 
@@ -538,23 +538,23 @@ function Get-EnhancedNodeLabel {
 
 function Save-DiagramToFile {
     param($Diagram, $Type, $OutputPath)
-    
+
     $fullOutputPath = Join-Path $WorkspacePath $OutputPath
     if (-not (Test-Path $fullOutputPath)) {
         New-Item -Path $fullOutputPath -ItemType Directory -Force | Out-Null
     }
-    
+
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $filename = "catalyst-$Type-$timestamp.md"
     $filePath = Join-Path $fullOutputPath $filename
-    
+
     $Diagram | Out-File -FilePath $filePath -Encoding UTF8
     return $filePath
 }
 
 function Open-DiagramInVSCode {
     param([string]$FilePath)
-    
+
     if (Get-Command code -ErrorAction SilentlyContinue) {
         Start-Process "code" -ArgumentList "`"$FilePath`""
         Write-Host "   📖 Opened in VS Code for preview" -ForegroundColor Green
@@ -565,46 +565,46 @@ function Open-DiagramInVSCode {
 
 function New-CognitiveHealthReport {
     param($KnowledgeMap, $SynapseData)
-    
+
     $totalFiles = $KnowledgeMap.TotalFiles
     $totalConnections = $SynapseData.TotalConnections
     $highStrengthConnections = $SynapseData.HighStrength.Count
     $connectivityRatio = if ($totalFiles -gt 0) { [math]::Round($totalConnections / $totalFiles, 2) } else { 0 }
-    
+
     $health = @"
    📊 Files: $totalFiles across $($KnowledgeMap.Systems.Keys.Count) memory systems
    🔗 Connections: $totalConnections total ($highStrengthConnections high-strength)
    💪 Connectivity Ratio: $connectivityRatio connections per file
    🎯 Architecture Status: $(if ($connectivityRatio -gt 2) { "EXCELLENT" } elseif ($connectivityRatio -gt 1) { "GOOD" } else { "NEEDS_ATTENTION" })
 "@
-    
+
     return $health
 }
 
 # Watch mode for real-time updates
 function Start-WatchMode {
     param([string]$Path, [string]$Type = "overview")
-    
+
     Write-Host "👁️  Starting watch mode for real-time updates..." -ForegroundColor Cyan
     Write-Host "   Monitoring: $Path" -ForegroundColor Gray
     Write-Host "   Press Ctrl+C to stop" -ForegroundColor Gray
-    
+
     $watcher = New-Object System.IO.FileSystemWatcher
     $watcher.Path = $Path
     $watcher.Filter = "*.md"
     $watcher.IncludeSubdirectories = $true
     $watcher.EnableRaisingEvents = $true
-    
+
     $action = {
         Write-Host "`n🔄 File change detected: $($Event.SourceEventArgs.Name)" -ForegroundColor Yellow
         Start-Sleep -Seconds 2  # Debounce
         Start-AlexVisualization -Type $Type -OpenAfterGeneration $false
     }
-    
+
     Register-ObjectEvent -InputObject $watcher -EventName "Changed" -Action $action
     Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action $action
     Register-ObjectEvent -InputObject $watcher -EventName "Deleted" -Action $action
-    
+
     try {
         while ($true) {
             Start-Sleep -Seconds 1
@@ -621,20 +621,20 @@ function Invoke-CognitiveVisualization {
         [string]$Command,
         [hashtable]$Parameters = @{}
     )
-    
+
     switch ($Command.ToLower()) {
-        "generate" { 
-            return Start-AlexVisualization @Parameters 
+        "generate" {
+            return Start-AlexVisualization @Parameters
         }
-        "health" { 
+        "health" {
             $knowledgeMap = Get-KnowledgeFiles -BasePath $WorkspacePath
             $synapseData = Get-EmbeddedSynapses -KnowledgeMap $knowledgeMap
             return New-CognitiveHealthReport -KnowledgeMap $knowledgeMap -SynapseData $synapseData
         }
-        "watch" { 
-            Start-WatchMode -Path $WorkspacePath @Parameters 
+        "watch" {
+            Start-WatchMode -Path $WorkspacePath @Parameters
         }
-        "analyze" { 
+        "analyze" {
             # Full analysis without generating diagrams
             $knowledgeMap = Get-KnowledgeFiles -BasePath $WorkspacePath
             $synapseData = Get-EmbeddedSynapses -KnowledgeMap $knowledgeMap
@@ -644,7 +644,7 @@ function Invoke-CognitiveVisualization {
                 Health = New-CognitiveHealthReport -KnowledgeMap $knowledgeMap -SynapseData $synapseData
             }
         }
-        default { 
+        default {
             Write-Error "Unknown command: $Command. Available: generate, health, watch, analyze"
         }
     }

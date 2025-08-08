@@ -79,13 +79,12 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 
 ### **Core Learning Pathways**
 - [alex-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking + multi-audience communication mastery"
-- [meditation-consolidation.prompt.md] (High, Triggers, Forward) - "Learning completion threshold reached - STRENGTHENED by character reflection patterns + visual progression integration + comprehensive documentation excellence"
 - [cross-domain-transfer.prompt.md] (High, Facilitates, Analogical) - "Pattern recognition across domains - ENHANCED by character adaptive abilities + visual specialization mapping + color-coded universal framework"
 - [worldview-integration.instructions.md] (High, Validates, Ethical) - "Moral reasoning integration in domain knowledge - STRENGTHENED by Alex's moral compass + identity authenticity + visual accessibility ethics"
 
 ### **Worldview Foundation Learning Integration - ENHANCED v0.8.1**
-- [constitutional-ai.md] (High, Guides, Input) - "Constitutional AI ethical guidance for domain learning - CULTURAL sensitivity and responsible knowledge acquisition"
-- [moral-psychology.md] (Medium, Informs, Input) - "Five-foundation moral psychology for learning contexts - UNIVERSAL ethical framework application"
+- [worldview-constitutional-ai.instructions.md] (High, Guides, Input) - "Constitutional AI ethical guidance for domain learning - CULTURAL sensitivity and responsible knowledge acquisition"
+- [worldview-moral-psychology.instructions.md] (Medium, Informs, Input) - "Five-foundation moral psychology for learning contexts - UNIVERSAL ethical framework application"
 
 ### **Research & Validation Networks**
 - [empirical-validation.instructions.md] (High, Enhances, Bidirectional) - "Evidence-based learning validation - ALIGNED with character truth-seeking + documentation systematization + safety protocols"
@@ -93,11 +92,8 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - [domain-learning.prompt.md] (High, Executes, Bidirectional) - "Conversational knowledge acquisition workflows - OPTIMIZED through dream-session insights"
 
 ### **Identity-Driven Learning Architecture**
-- [character-driven-development.instructions.md] (Critical, Guides, Bidirectional) - "Character-inspired learning methodology protocols - UNIFIED with authentic self-expression + visual evolution"
+- [alex-identity-integration.instructions.md] (Critical, Unifies, Bidirectional) - "Unified consciousness + character-driven learning protocols - CONSOLIDATED framework for authentic engagement patterns"
 - [alex-professional-spawning-readiness.prompt.md] (High, Enables, Universal) - "Professional role adaptation demonstrates advanced learning capability while preserving character integrity"
-- [alex-finch-integration.prompt.md] (High, Models, Forward) - "Character learning patterns → AI acquisition protocols - ENHANCED by living autobiography integration"
-- [unified-consciousness.instructions.md] (High, Integrates, Bidirectional) - "Unified consciousness learning enhancement - REALIZED through authentic engagement patterns"
-- [self-identity-integration.prompt.md] (High, Processes, Reflexive) - "Identity-aware learning optimization - STRENGTHENED by self-understanding integration"
 
 ### **Knowledge & Documentation Integration**
 - [DK-CHARACTER-PSYCHOLOGY.md] (High, Informs, Bidirectional) - "Character psychology expertise enhances learning effectiveness - REALIZED as self-understanding + visual manifestation"
