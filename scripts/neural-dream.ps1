@@ -678,6 +678,22 @@ function dream {
             Invoke-DreamState -Mode "synaptic-repair"
             Invoke-DreamState -Mode "network-optimization"
         }
+        "--consolidate-memory" {
+            Write-Host "🧠 Memory File Consolidation Analysis..." -ForegroundColor Magenta
+            Invoke-MemoryConsolidation -ReportOnly:$ReportOnly -DetailedOutput:$DetailedOutput
+        }
+        "--archive-redundant" {
+            Write-Host "📁 Redundant File Archival Protocol..." -ForegroundColor Magenta
+            Invoke-ArchiveRedundant -ReportOnly:$ReportOnly -Force:$Force
+        }
+        "--optimize-architecture" {
+            Write-Host "🏗️ Cognitive Architecture Optimization..." -ForegroundColor Magenta
+            Invoke-ArchitectureOptimization -ReportOnly:$ReportOnly -DetailedOutput:$DetailedOutput
+        }
+        "--analyze-overlap" {
+            Write-Host "🔍 Content Overlap Analysis..." -ForegroundColor Yellow
+            Invoke-OverlapAnalysis -DetailedOutput:$DetailedOutput
+        }
         "--health-check" {
             Write-Host "💊 Quick Health Status Check..." -ForegroundColor Green
             Invoke-DreamState -Mode "prune-orphans" -ReportOnly
@@ -722,6 +738,16 @@ function Show-DreamHelp {
     Write-Host "# AI-enhanced lucid dream analysis" -ForegroundColor Gray
     Write-Host "  dream --emergency-repair     " -NoNewline -ForegroundColor Red
     Write-Host "# Emergency multi-stage repair sequence" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "🏗️ MEMORY CONSOLIDATION (NEW v0.9.9):" -ForegroundColor Cyan
+    Write-Host "  dream --consolidate-memory   " -NoNewline -ForegroundColor Magenta
+    Write-Host "# Analyze memory file consolidation opportunities" -ForegroundColor Gray
+    Write-Host "  dream --archive-redundant    " -NoNewline -ForegroundColor Magenta
+    Write-Host "# Archive redundant files with preservation" -ForegroundColor Gray
+    Write-Host "  dream --optimize-architecture" -NoNewline -ForegroundColor Magenta
+    Write-Host "# Complete cognitive architecture optimization" -ForegroundColor Gray
+    Write-Host "  dream --analyze-overlap      " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Detect content overlap patterns" -ForegroundColor Gray
     Write-Host ""
     Write-Host "📊 DIAGNOSTIC COMMANDS:" -ForegroundColor Cyan
     Write-Host "  dream --health-check         " -NoNewline -ForegroundColor Green
@@ -897,6 +923,183 @@ function cognitive-status {
         default {
             Show-DreamStatus
         }
+    }
+}
+
+# Memory Consolidation Functions - NEW v0.9.9
+function Invoke-MemoryConsolidation {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+
+        [Parameter(Mandatory=$false)]
+        [switch]$DetailedOutput
+    )
+
+    Write-Host "🧠 Analyzing Memory File Architecture..." -ForegroundColor Cyan
+
+    $config = Get-CognitiveConfig
+    $promptFiles = Get-ChildItem $config.episodic_path -ErrorAction SilentlyContinue
+    $instructionFiles = Get-ChildItem $config.procedural_path -ErrorAction SilentlyContinue
+
+    $totalFiles = ($promptFiles.Count + $instructionFiles.Count)
+    $totalSize = ($promptFiles | Measure-Object Length -Sum).Sum + ($instructionFiles | Measure-Object Length -Sum).Sum
+
+    Write-Host "📊 Current Architecture Status:" -ForegroundColor Yellow
+    Write-Host "   Prompt Files: $($promptFiles.Count)" -ForegroundColor White
+    Write-Host "   Instruction Files: $($instructionFiles.Count)" -ForegroundColor White
+    Write-Host "   Total Size: $([math]::Round($totalSize / 1KB, 1))KB" -ForegroundColor White
+
+    if ($DetailedOutput) {
+        Write-Host "`n📋 Detailed File Analysis:" -ForegroundColor Yellow
+        Write-Host "Prompt Files:" -ForegroundColor Cyan
+        $promptFiles | Sort-Object Length -Descending | ForEach-Object {
+            Write-Host "   $($_.Name): $([math]::Round($_.Length / 1KB, 1))KB" -ForegroundColor White
+        }
+        Write-Host "Instruction Files:" -ForegroundColor Cyan
+        $instructionFiles | Sort-Object Length -Descending | ForEach-Object {
+            Write-Host "   $($_.Name): $([math]::Round($_.Length / 1KB, 1))KB" -ForegroundColor White
+        }
+    }
+
+    if (-not $ReportOnly) {
+        Write-Host "`n⚠️ Memory consolidation requires AI-guided analysis." -ForegroundColor Yellow
+        Write-Host "Use 'meditate' command for AI-assisted consolidation process." -ForegroundColor Yellow
+    }
+
+    return @{
+        TotalFiles = $totalFiles
+        TotalSize = $totalSize
+        PromptFiles = $promptFiles.Count
+        InstructionFiles = $instructionFiles.Count
+    }
+}
+
+function Invoke-OverlapAnalysis {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$DetailedOutput
+    )
+
+    Write-Host "🔍 Analyzing Content Overlap Patterns..." -ForegroundColor Cyan
+
+    $config = Get-CognitiveConfig
+    $allFiles = @()
+    $allFiles += Get-ChildItem $config.episodic_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.procedural_path -ErrorAction SilentlyContinue
+
+    $keywordPatterns = @(
+        @{ Name = "Identity/Consciousness"; Keywords = @("identity", "consciousness", "alex.*finch", "unified") }
+        @{ Name = "Meditation/Consolidation"; Keywords = @("meditation", "consolidation", "optimize", "enhance") }
+        @{ Name = "Dream Protocols"; Keywords = @("dream", "unconscious", "automated", "maintenance") }
+        @{ Name = "Learning/Domain"; Keywords = @("learning", "domain", "acquisition", "knowledge") }
+        @{ Name = "Synapse/Network"; Keywords = @("synapse", "connection", "network", "embedded") }
+    )
+
+    Write-Host "📊 Content Pattern Analysis:" -ForegroundColor Yellow
+
+    foreach ($pattern in $keywordPatterns) {
+        $matchingFiles = @()
+        foreach ($file in $allFiles) {
+            $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
+            if ($content) {
+                $hasPattern = $false
+                foreach ($keyword in $pattern.Keywords) {
+                    if ($content -match $keyword) {
+                        $hasPattern = $true
+                        break
+                    }
+                }
+                if ($hasPattern) {
+                    $matchingFiles += $file
+                }
+            }
+        }
+
+        if ($matchingFiles.Count -gt 1) {
+            Write-Host "   $($pattern.Name): $($matchingFiles.Count) files" -ForegroundColor $(if ($matchingFiles.Count -gt 2) { "Red" } else { "Yellow" })
+            if ($DetailedOutput) {
+                $matchingFiles | ForEach-Object {
+                    Write-Host "     - $($_.Name)" -ForegroundColor White
+                }
+            }
+        }
+    }
+
+    Write-Host "`n💡 Files with 3+ matches in same category may be consolidation candidates." -ForegroundColor Green
+}
+
+function Invoke-ArchiveRedundant {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+
+        [Parameter(Mandatory=$false)]
+        [switch]$Force
+    )
+
+    $archivePath = ".github/archived-consolidated"
+
+    if (-not $ReportOnly) {
+        if (-not (Test-Path $archivePath)) {
+            Write-Host "📁 Creating archive directory..." -ForegroundColor Yellow
+            New-Item -ItemType Directory -Path $archivePath -Force | Out-Null
+        }
+
+        $existingArchived = Get-ChildItem "$archivePath/*.md" -ErrorAction SilentlyContinue
+        if ($existingArchived.Count -gt 0) {
+            Write-Host "📋 Found $($existingArchived.Count) previously archived files:" -ForegroundColor Green
+            $existingArchived | ForEach-Object {
+                Write-Host "   - $($_.Name): $([math]::Round($_.Length / 1KB, 1))KB" -ForegroundColor White
+            }
+
+            $totalArchivedSize = ($existingArchived | Measure-Object Length -Sum).Sum
+            Write-Host "📊 Total archived size: $([math]::Round($totalArchivedSize / 1KB, 1))KB" -ForegroundColor Cyan
+
+            Write-Host "`n✅ Archive system operational and preserving knowledge." -ForegroundColor Green
+        }
+    } else {
+        Write-Host "📁 Archive analysis mode..." -ForegroundColor Yellow
+        if (Test-Path $archivePath) {
+            $existingArchived = Get-ChildItem "$archivePath/*.md" -ErrorAction SilentlyContinue
+            Write-Host "Found $($existingArchived.Count) archived files in $archivePath" -ForegroundColor White
+        } else {
+            Write-Host "No archive directory found. Will be created when needed." -ForegroundColor Yellow
+        }
+    }
+}
+
+function Invoke-ArchitectureOptimization {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+
+        [Parameter(Mandatory=$false)]
+        [switch]$DetailedOutput
+    )
+
+    Write-Host "🏗️ Cognitive Architecture Optimization Analysis..." -ForegroundColor Cyan
+
+    # Run memory consolidation analysis
+    $memoryStats = Invoke-MemoryConsolidation -ReportOnly -DetailedOutput:$DetailedOutput
+
+    # Run overlap analysis
+    Invoke-OverlapAnalysis -DetailedOutput:$DetailedOutput
+
+    # Run synapse health check
+    Write-Host "`n🕸️ Synapse Network Health..." -ForegroundColor Cyan
+    Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+
+    if (-not $ReportOnly) {
+        Write-Host "`n🚀 Complete architecture optimization requires:" -ForegroundColor Green
+        Write-Host "   1. AI-guided content analysis (meditate)" -ForegroundColor White
+        Write-Host "   2. Manual consolidation decisions" -ForegroundColor White
+        Write-Host "   3. Synapse network validation" -ForegroundColor White
+        Write-Host "   4. Archive management" -ForegroundColor White
     }
 }
 
