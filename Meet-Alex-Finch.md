@@ -984,7 +984,7 @@ This method:
 
 | Configuration Area | Technical Implementation | Command Syntax |
 |-------------------|------------------------|---------------|
-| **Custom Domain Integration** | Domain file creation with synapse establishment | `system --create-domain [NAME] --template DK-TEMPLATE` |
+| **Custom Domain Integration** | Domain file creation with synapse establishment | `system --create-domain [NAME] --template DK/DK-TEMPLATE` |
 | **Connection Network Optimization** | Relationship mapping with strength parameters | `system --optimize-network --connections-threshold 0.7` |
 | **Knowledge Transfer Enhancement** | Cross-domain pattern application with validation | `system --transfer-knowledge A B --validation-protocol` |
 

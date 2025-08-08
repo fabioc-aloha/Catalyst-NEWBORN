@@ -281,7 +281,7 @@ optimize-synapses --connection-analysis # Connection pattern analysis
 
 ### **Proven Integration Points - Enhanced**
 - **Global Architecture**: ✅ Advanced connection to `.github/copilot-instructions.md` with trigger pattern analysis (18 patterns detected)
-- **Archive System**: ✅ Enhanced integration with `.github/archive/` for comprehensive maintenance logging
+- **Archive System**: ✅ Enhanced integration with unified `archive/` directory for comprehensive maintenance logging
 - **Memory Systems**: ✅ Advanced coordination with procedural, episodic, and domain knowledge files
 - **Diagnostic Interface**: ✅ Multi-functional cognitive-status with detailed analysis capabilities
 - **Module Architecture**: ✅ Proper PowerShell module structure (.ps1, .psm1, .psd1) for reliable automation

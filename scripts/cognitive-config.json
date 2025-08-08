@@ -11,9 +11,9 @@
   ],
   "procedural_path": ".github/instructions/*.instructions.md",
   "episodic_path": ".github/prompts/*.prompt.md",
-  "archive_path": ".github/archive/*.md",
+  "archive_path": "archive/*.md",
   "domain_knowledge_path": "domain-knowledge/*.md",
-  "report_path": "archive/",
+  "report_path": "archive",
   "synapse_patterns": [
     "\\[.*\\.md\\].*\\(.*\\).*-.*\".*\"",
     "\\[.*\\.md\\].*\\("

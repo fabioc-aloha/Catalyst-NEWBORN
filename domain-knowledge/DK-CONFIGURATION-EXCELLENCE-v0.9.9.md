@@ -25,7 +25,7 @@ Successfully identified and corrected critical configuration discrepancies, achi
 | Procedural Memory | `.github/instructions/*.instructions.md` | 9 files | ✅ Verified |
 | Episodic Memory | `.github/prompts/*.prompt.md` | 12 files | ✅ Verified |
 | Domain Knowledge | `domain-knowledge/*.md` | 10 files | ✅ Verified |
-| Archive Files | `.github/archive/*.md` | 37+ files | ✅ Verified |
+| Archive Files | `archive/*.md` | 37+ files | ✅ Verified |
 | Global Memory | `.github/copilot-instructions.md` | 1 file | ✅ Verified |
 | Core Memory | `.github/instructions/alex-core.instructions.md` | 1 file | ✅ Verified |
 

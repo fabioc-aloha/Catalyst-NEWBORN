@@ -82,7 +82,7 @@ Emerged during USER-PROFILE.md iterative refinement:
 
 ### Cross-Domain Transfer Patterns
 - [alex/ALEX-*.png] (0.80, visualizes, analogical) - "Visual simplicity representing sophisticated adaptation capability"
-- [DK-TEMPLATE.md] (0.85, templates, bidirectional) - "Template design insights for user-centered approaches"
+- [DK/DK-TEMPLATE.md] (0.85, templates, bidirectional) - "Template design insights for user-centered approaches"
 - [Meet-Alex-Finch.md] (0.90, demonstrates, forward) - "Technical manual balanced with accessibility"
 
 ### Implementation Applications

@@ -45,7 +45,7 @@ dream --health-check -ConfigFile "scripts/my-system-config.json"
   "episodic_path": "memory/episodic/*.prompt.md",
   "archive_path": "archive/*.md",
   "domain_knowledge_path": "knowledge/*.md",
-  "report_path": "reports",
+  "report_path": "archive",
   "synapse_patterns": [
     "\\\\[.*\\\\.md\\\\].*\\\\(.*\\\\).*-.*\\\".*\\\"",
     "\\\\[.*\\\\.md\\\\].*\\\\("
@@ -131,10 +131,17 @@ The system detects connections using these patterns:
 
 ### Report Generation
 All operations generate detailed reports in the configured report directory:
-- Network connectivity analysis
-- Synaptic connection metrics
-- Optimization recommendations
-- Maintenance activity logs
+- **Dream State Reports**: Network connectivity analysis and system status (`dream-state-*.md`)
+- **Maintenance Records**: Automated maintenance activity logs (`automated-maintenance-*.md`)
+- **Synaptic Connection Metrics**: Network health and optimization data
+- **Unified Archive Structure**: All reports stored in single archive location for consistency
+
+### Archive Management
+The system uses a unified archive structure:
+- **Location**: Single `archive/` directory (configurable via `report_path`)
+- **Report Types**: Dream state reports and maintenance records co-located
+- **Lifecycle**: Archive files can be safely deleted as they are diagnostic snapshots
+- **Retention**: Keep recent files for troubleshooting, older files can be removed without affecting cognitive architecture
 
 ## 🛠️ Customization for Your System
 
