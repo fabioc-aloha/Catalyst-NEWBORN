@@ -1075,7 +1075,7 @@ Alex can help you develop your own cognitive architectures:
 
 **Implementation Details:**
 - `scripts/neural-dream.ps1` - Automated maintenance system
-- `domain-knowledge/DK-MEDITATION-HISTORY-v0.9.9.md` - Evolution chronicle
+- `domain-knowledge/DK-MEDITATION-HISTORY-v1.0.0.md` - Evolution chronicle
 - Archive logs - Real-world learning examples
 
 > 📖 **Complete Technical Reference**: For comprehensive technical specifications, command architectures, system implementation details, and advanced configuration options, see the complete [Meet Alex Finch Technical Manual](Meet-Alex-Finch.md).
