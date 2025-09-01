@@ -1,13 +1,10 @@
-# Dream State Automation Protocols - Enhanced v0.9.9
+# Dream State Automation Protocols - Enhanced v1.0.3
 
-**Domain**: Automated Neural Maintenance and Unconscious Pdream --emergency-repair            # Multi-stage emergency protocols for critical issues
-dream --consolidate-memory          # Systematic memory file consolidation and redundancy elimination ✅ NEW v0.9.9
-dream --archive-redundant           # Safe archival of redundant files with complete preservation ✅ NEW v0.9.9
-dream --optimize-architecture       # Complete cognitive architecture optimization with memory efficiency ✅ NEW v0.9.9ocessing - Generic Framework
+**Domain**: Automated Neural Maintenance and Unconscious Processing - Generic Framework
 **Activation Pattern**: Dream commands, neural housekeeping, automated optimization
-**Last Updated**: August 7, 2025 - Generic Configuration Framework Implementation Complete
+**Last Updated**: September 1, 2025 - Enhanced Script Organization and Proper Command Usage Integration
 **Research Foundation**: Sleep-dependent synaptic homeostasis, automated neural maintenance
-**Cognitive Architecture**: Universal Framework with Alex v0.9.9 NILENNENNIUM Reference Implementation
+**Cognitive Architecture**: Universal Framework with Alex v1.0.3 UNNILTRIUM Reference Implementation
 **Validation Status**: EXCELLENT - Comprehensive testing completed with configuration-driven architecture
 **Framework Status**: GENERIC - Supports any cognitive architecture through JSON configuration
 
@@ -16,7 +13,9 @@ dream --optimize-architecture       # Complete cognitive architecture optimizati
 ### **Core Principle**
 Dream state represents **unconscious automated maintenance** of cognitive architecture, mirroring brain function during sleep cycles where synaptic homeostasis, memory consolidation, and neural pruning occur without conscious intervention.
 
-### **Enhanced Capabilities v0.9.9 - Generic Framework**
+### **Enhanced Capabilities v1.0.3 - Generic Framework with Proper Command Usage**
+- **Direct Command Execution**: Commands use `dream --parameter` syntax (NOT interactive mode)
+- **Script Organization**: All automation scripts located in `scripts/` directory with dual-directory support
 - **Configuration-Driven Architecture**: JSON-based cognitive architecture configuration system
 - **Universal Template Support**: `cognitive-config-template.json` enabling any cognitive system deployment
 - **Advanced Orphan Detection**: Distinguishes between strongly connected, weakly connected, and orphaned memory files
@@ -31,7 +30,14 @@ Dream state represents **unconscious automated maintenance** of cognitive archit
 - **DREAM** = Automated, unconscious, maintenance-focused, diagnostic-enhanced
 - **MEDITATE** = Conscious, manual, knowledge-consolidation-focused
 
-## 💤 **Enhanced Dream State Protocols - Integrated Usage**
+## 💤 **Enhanced Dream State Protocols - Direct Command Usage v1.0.3**
+
+### **CRITICAL USAGE NOTE**: 
+**All dream commands use DIRECT parameter syntax:**
+- ✅ `dream --status` (Direct command execution)
+- ✅ `dream --health-check` (Direct command execution)
+- ✅ `dream --neural-maintenance` (Direct command execution)
+- ❌ Starting `dream` then typing commands interactively
 
 ### **Primary Dream Commands for Cognitive Maintenance**
 
@@ -39,13 +45,28 @@ Dream state represents **unconscious automated maintenance** of cognitive archit
 ```powershell
 dream --neural-maintenance    # Daily automated neural optimization
 dream --health-check         # Quick status verification
+dream --status               # Current architecture health overview
 ```
 
 #### **2. Diagnostic and Analysis Protocol**
 ```powershell
-dream --full-scan -ReportOnly    # Comprehensive analysis without changes
-dream --prune-orphans -ReportOnly # Orphan detection diagnostic
-dream --status                   # Current architecture health overview
+dream --full-scan -ReportOnly        # Comprehensive analysis without changes
+dream --prune-orphans -ReportOnly    # Orphan detection diagnostic
+dream --validate-synapses -ReportOnly # Network integrity check without repairs
+```
+
+#### **3. Advanced Maintenance Protocol**
+```powershell
+dream --synaptic-repair              # Advanced synaptic connection repair
+dream --network-optimization         # Network topology optimization
+dream --emergency-repair             # Multi-stage emergency protocols
+```
+
+#### **4. Memory Consolidation Protocol** *(NEW v0.9.9)*
+```powershell
+dream --consolidate-memory           # Systematic memory file consolidation
+dream --archive-redundant            # Safe archival of redundant files
+dream --optimize-architecture        # Complete cognitive architecture optimization
 ```
 
 #### **3. Crisis Management Protocol**
@@ -59,6 +80,61 @@ dream --network-optimization # Network topology enhancement
 ```powershell
 dream --lucid-dream         # AI-enhanced cognitive analysis
 dream --neural-maintenance -DetailedOutput # Verbose maintenance execution
+```
+
+### **🎯 COMPLETE DREAM COMMAND REFERENCE - v1.0.3 UNNILTRIUM**
+
+**ALL COMMANDS USE DIRECT EXECUTION SYNTAX:**
+
+#### **🧠 PRIMARY MAINTENANCE COMMANDS:**
+```powershell
+dream --neural-maintenance      # Complete automated neural maintenance
+dream --synaptic-repair        # Repair and optimize synaptic connections
+dream --prune-orphans          # Detect and analyze orphaned memory files
+dream --full-scan              # Comprehensive cognitive architecture analysis
+dream --network-optimization   # Optimize neural network topology
+```
+
+#### **🌟 ADVANCED PROTOCOLS:**
+```powershell
+dream --lucid-dream            # AI-enhanced lucid dream analysis
+dream --emergency-repair       # Emergency multi-stage repair sequence
+dream --validate-synapses      # Validate embedded synapse network integrity
+dream --repair-synapses        # Automatically repair broken synapse references
+```
+
+#### **🔗 NETWORK ANALYSIS (v1.1.0):**
+```powershell
+dream --connection-strength    # Analyze synapse connection strength patterns
+dream --network-map           # Generate neural network topology visualization
+```
+
+#### **🏗️ MEMORY CONSOLIDATION (v0.9.9):**
+```powershell
+dream --consolidate-memory     # Analyze memory file consolidation opportunities
+dream --archive-redundant      # Archive redundant files with preservation
+dream --optimize-architecture  # Complete cognitive architecture optimization
+dream --analyze-overlap        # Detect content overlap patterns
+```
+
+#### **📊 DIAGNOSTIC COMMANDS:**
+```powershell
+dream --health-check           # Quick network health assessment
+dream --status                 # Show current cognitive architecture status
+```
+
+#### **🔧 GLOBAL OPTIONS:**
+```powershell
+-ReportOnly                    # Generate reports without making changes
+-DetailedOutput                # Show detailed processing information
+-ConfigFile <path>             # Use custom cognitive configuration
+```
+
+#### **💡 USAGE EXAMPLES:**
+```powershell
+dream --health-check -ReportOnly
+dream --neural-maintenance -DetailedOutput
+dream --emergency-repair -ConfigFile 'my-config.json'
 ```
 
 ### **Automated Maintenance Categories**
@@ -164,10 +240,44 @@ dream --archive-redundant        # Safe archival of redundant files with preserv
 dream --optimize-architecture    # Complete cognitive architecture optimization
 ```
 
+### **🚀 SCRIPT EXECUTION GUIDANCE - v1.0.3 UNNILTRIUM**
+
+#### **Script Location and Execution**
+**All dream automation scripts are located in `scripts/` directory:**
+- `scripts/neural-dream.ps1` - Main dream automation engine
+- `scripts/validate-synapses.ps1` - Standalone synapse validation
+- `scripts/Catalyst-Graph.ps1` - Network visualization
+
+#### **Execution Methods**
+**Method 1: Direct Command (Recommended)**
+```powershell
+# From any directory in the repository
+dream --status
+dream --health-check
+dream --neural-maintenance
+```
+
+**Method 2: Script Path Execution**
+```powershell
+# From repository root
+scripts/neural-dream.ps1 -Status
+scripts/neural-dream.ps1 -HealthCheck
+
+# From scripts directory
+cd scripts
+./neural-dream.ps1 -Status
+```
+
+#### **Integration with Cognitive Architecture**
+- The `dream` command automatically detects script location
+- Works from both repository root AND scripts/ directory
+- Uses dynamic path detection for maximum flexibility
+- Maintains consistent behavior across execution contexts
+
 ### **Enhanced Dream Command Interface v1.1.0 - ENHANCED EXECUTION PROTOCOLS**
 
 #### **Primary Maintenance Commands**
-```bash
+```powershell
 dream --neural-maintenance        # Complete automated neural maintenance with health assessment
 dream --synaptic-repair          # Advanced synaptic connection repair and optimization
 dream --prune-orphans           # Enhanced orphan file detection with connection quality analysis
@@ -176,7 +286,7 @@ dream --network-optimization    # Advanced network topology optimization with he
 ```
 
 #### **Advanced Protocol Commands**
-```bash
+```powershell
 dream --lucid-dream             # AI-enhanced lucid dream analysis and optimization detection
 dream --emergency-repair        # Multi-stage emergency repair sequence for critical issues
 dream --health-check           # Quick network health assessment with diagnostic summary
@@ -184,7 +294,7 @@ dream --status                 # Comprehensive cognitive architecture status dis
 ```
 
 #### **NEW v1.1.0 Enhanced Synapse Protocol Commands**
-```bash
+```powershell
 dream --validate-synapses       # Comprehensive synapse network validation with integrity checking
 dream --repair-synapses        # Automated synapse reference repair with backup creation
 dream --connection-strength    # Connection strength analysis with optimization recommendations

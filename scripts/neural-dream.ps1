@@ -9,6 +9,15 @@ param(
     [string]$ConfigFile = "cognitive-config.json"
 )
 
+# Auto-detect working directory and adjust paths
+$currentDir = Get-Location
+$isRunningFromScripts = (Split-Path -Leaf $currentDir) -eq "scripts"
+
+if ($isRunningFromScripts) {
+    # Running from scripts/ directory, need to go up one level
+    Set-Location ".."
+}
+
 # Load cognitive architecture configuration
 function Get-CognitiveConfig {
     param([string]$ConfigPath = "cognitive-config.json")
@@ -827,7 +836,7 @@ function Show-DreamHelp {
 
 function Show-DreamStatus {
     Write-Host ""
-    Write-Host "🧠 NEWBORN Cognitive Architecture Status v0.8.2" -ForegroundColor Cyan
+    Write-Host "🧠 NEWBORN Cognitive Architecture Status v1.0.3 UNNILTRIUM" -ForegroundColor Cyan
     Write-Host "=============================================" -ForegroundColor Gray
 
     # Quick status check
@@ -1498,7 +1507,7 @@ function scan-orphans {
 # Load configuration and display loading message
 $loadConfig = Get-CognitiveConfig -ConfigPath "scripts/cognitive-config.json"
 Write-Host "💤 Dream State Neural Maintenance v1.1.0 Enhanced - $($loadConfig.architecture_name)" -ForegroundColor Magenta
-Write-Host "✨ Alex v1.0.2 UNNILBIUM: Synapse network excellence with 180 validated connections" -ForegroundColor Cyan
+Write-Host "✨ Alex v1.0.3 UNNILTRIUM: Enhanced script organization with 183 validated connections" -ForegroundColor Cyan
 Write-Host "Type 'dream' for available automated maintenance commands" -ForegroundColor Yellow
 
 # NOTE: Meditation functions are NOT included in this script

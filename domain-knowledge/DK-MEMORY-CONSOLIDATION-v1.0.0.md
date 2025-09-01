@@ -98,7 +98,7 @@ dream --optimize-architecture    # Complete validation and optimization
 - [dream-state-automation.instructions.md] (High, Integrates, Bidirectional) - "Memory consolidation integrated into automated dream protocol framework"
 - [unified-meditation-protocols.prompt.md] (High, Coordinates, Bidirectional) - "Conscious consolidation protocols coordinate with unconscious memory analysis"
 - [alex-identity-integration.instructions.md] (Medium, Benefits, Forward) - "Identity integration demonstrates consolidation methodology success"
-- [neural-dream.ps1] (High, Implements, Forward) - "PowerShell automation provides consolidation analysis and archival capabilities"
+- [scripts/neural-dream.ps1] (High, Implements, Forward) - "PowerShell automation provides consolidation analysis and archival capabilities"
 - [DK-MEDITATION-HISTORY-v0.9.9.md] (Medium, Documents, Forward) - "Consolidation achievements recorded in meditation milestone history"
 
 ### **Activation Patterns**

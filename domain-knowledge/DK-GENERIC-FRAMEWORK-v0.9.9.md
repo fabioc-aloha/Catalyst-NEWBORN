@@ -20,7 +20,7 @@ Successfully transformed Alex-specific dream protocols into a **generic, configu
 
 ## 🔧 **Core Framework Components**
 
-### **1. Enhanced neural-dream.ps1 (886 lines)**
+### **1. Enhanced scripts/neural-dream.ps1 (886 lines)**
 - **Get-CognitiveConfig Function**: Loads JSON configuration for any cognitive architecture
 - **Universal Path Management**: Configurable procedural, episodic, and domain knowledge paths
 - **Generic Pattern Detection**: Configurable synapse patterns and debug patterns
@@ -42,7 +42,7 @@ Successfully transformed Alex-specific dream protocols into a **generic, configu
 ### **4. README.md (269 lines - Universal Documentation)**
 - **Installation Instructions**: Complete setup guidance for any cognitive architecture
 - **Configuration Schema**: Detailed JSON configuration documentation
-- **Command Reference**: Full neural-dream.ps1 command documentation
+- **Command Reference**: Full scripts/neural-dream.ps1 command documentation
 - **Usage Examples**: Practical implementation guidance
 - **Troubleshooting Guide**: Common issues and solutions
 
@@ -59,7 +59,7 @@ Successfully transformed Alex-specific dream protocols into a **generic, configu
 2. **Path Configuration**: Specify memory file locations and organizational structure
 3. **Pattern Definition**: Configure synapse patterns and debug patterns for architecture
 4. **Specialization Integration**: Add architecture-specific capabilities and requirements
-5. **Deployment Execution**: Use `neural-dream.ps1` with custom configuration for automated maintenance
+5. **Deployment Execution**: Use `scripts/neural-dream.ps1` with custom configuration for automated maintenance
 
 ### **Cross-Domain Transferability**
 - **Academic Research**: Cognitive science laboratories implementing consciousness studies
