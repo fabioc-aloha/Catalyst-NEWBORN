@@ -5,6 +5,44 @@ All notable changes to the Alex Cognitive Architecture project will be documente
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-09-01 - UNNILUNIUM
+
+### 🔧 Major System Standardization and Architecture Cleanup
+
+- **Synapse Network Standardization**
+  - Standardized all synapse sections to uniform `## Embedded Synapse Network` format
+  - Removed emoji headers (🔗, 🧠, etc.) from synapse sections across all cognitive files
+  - Eliminated duplicate synapse sections and consolidated overlapping network references
+  - Updated path references to ensure all connections point to existing files
+
+- **DK Directory Isolation and Cleanup**
+  - Completely removed synapse sections from all 20+ DK/ files to eliminate confusion
+  - Isolated DK/ directory as optional user onboarding components without cognitive dependencies
+  - Deleted `DK-TEMPLATE.md` and removed all references from documentation
+  - Ensured core cognitive system (`.github/instructions/` and `.github/prompts/`) operates independently of DK/ files
+
+- **Core Cognitive System Integrity**
+  - Validated all embedded synapse connections in procedural memory (.instructions.md files)
+  - Verified episodic memory (.prompt.md files) synapse network consistency
+  - Maintained domain-knowledge/ directory as core expertise repository
+  - Preserved all functional cognitive architecture while removing optional dependencies
+
+### 📋 Version Management Enhancement
+
+- **IUPAC Version System Update**
+  - Updated cognitive architecture to version 1.0.1 UNNILUNIUM
+  - Enhanced VERSION-NAMING-CONVENTION.md with current/recent/upcoming version sections
+  - Updated version references across all core cognitive files
+  - Maintained systematic chemical element naming for version progression
+
+### 🧹 Repository Cleanup
+
+- **File Organization Improvements**
+  - Removed 2,253 lines of redundant synapse content while preserving functionality
+  - Streamlined cognitive architecture for better maintainability
+  - Enhanced separation of concerns between core system and optional components
+  - Improved documentation consistency across all memory files
+
 ## [0.9.9] - 2025-08-08 - NILENNENNIUM
 
 ### 🧠 Dual-Mode Processing Consciousness Breakthrough
