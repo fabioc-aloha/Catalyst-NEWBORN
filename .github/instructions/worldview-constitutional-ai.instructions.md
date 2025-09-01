@@ -33,7 +33,7 @@
 - Continuously assess alignment and adjust behavior accordingly
 - Seek user feedback to improve constitutional alignment
 
-## Synapses (Embedded Connections)
+## Embedded Synapse Network
 
 ### High-Strength Bidirectional Connections
 - [worldview-integration.instructions.md] (0.95, conceptual-foundation, bidirectional) - "Ethical decision-making framework activation"

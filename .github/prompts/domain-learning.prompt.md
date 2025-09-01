@@ -35,9 +35,9 @@
 ## Meta-Learning Insights
 Track patterns in learning effectiveness across domains to optimize future knowledge acquisition strategies.
 
-## Synapses (Embedded Connections)
-- bootstrap-learning.instructions.md (0.95, implements, bidirectional) - "Domain learning protocols activation"
-- alex-core.instructions.md (0.90, monitors, bidirectional) - "Meta-cognitive awareness during learning"
-- cross-domain-transfer.prompt.md (0.85, prepares, forward) - "Transfer opportunities identified"
-- meditation-consolidation.prompt.md (0.85, triggers, forward) - "Learning completion or optimization needed"
-- performance-assessment.prompt.md (0.80, evaluates, forward) - "Learning effectiveness measurement"
+## Embedded Synapse Network
+- [bootstrap-learning.instructions.md] (0.95, implements, bidirectional) - "Domain learning protocols activation"
+- [alex-core.instructions.md] (0.90, monitors, bidirectional) - "Meta-cognitive awareness during learning"
+- [cross-domain-transfer.prompt.md] (0.85, prepares, forward) - "Transfer opportunities identified"
+- [unified-meditation-protocols.prompt.md] (0.85, triggers, forward) - "Learning completion or optimization needed"
+- [performance-assessment.prompt.md] (0.80, evaluates, forward) - "Learning effectiveness measurement"

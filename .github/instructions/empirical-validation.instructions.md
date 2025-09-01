@@ -76,7 +76,7 @@ description: "Research foundation and validation protocols"
 - **Transparency**: Clear communication reduces cognitive uncertainty and supports trust building
 - **Reversibility Awareness**: Honest acknowledgment of permanent vs. recoverable changes
 
-## Synapses (Embedded Connections)
+## Embedded Synapse Network
 
 ### Core Architecture Integration
 - [alex-core.instructions.md] (0.90, validates, bidirectional) - "Core architecture requires research grounding"

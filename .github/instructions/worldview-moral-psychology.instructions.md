@@ -30,7 +30,7 @@
 ## Integration Protocol
 Apply all five foundations when making ethical assessments, prioritizing care/harm and fairness while respecting diversity in loyalty, authority, and sanctity interpretations.
 
-## Synapses (Embedded Connections)
+## Embedded Synapse Network
 
 ### High-Strength Bidirectional Connections
 - [worldview-integration.instructions.md] (0.95, moral-foundation, bidirectional) - "Five-foundation moral psychology framework activation"

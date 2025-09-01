@@ -384,67 +384,8 @@ Doctoral Business Administration Research Architecture
 **Analogical Applications**: Methodological rigor patterns adapt to quality assurance, academic writing applies to professional communication
 **Hybrid Solutions**: Combine doctoral research with business consulting, academic standards with professional application
 
-## Synapses (Embedded Connections)
-
-### Core Implementation Synapses
-- SETUP-DBA.md (0.95, implements, bidirectional) - "DBA setup implements comprehensive doctoral expertise with 30 specialized memory files"
-- dba-methodology.instructions.md (0.94, validates, bidirectional) - "DBA methodology validates doctoral research frameworks and academic standards"
-- apa7-academic-writing.instructions.md (0.93, enables, forward) - "Academic writing enables scholarly communication and publication excellence"
-- practitioner-scholar.instructions.md (0.92, integrates, forward) - "Practitioner-scholar integration bridges theory-practice with empirical rigor"
-- business-research.instructions.md (0.91, applies, forward) - "Business research applies methodological sophistication to organizational investigation"
-
-### Advanced Research Integration Synapses
-- qualitative-analysis.instructions.md (0.90, analyzes, forward) - "Qualitative analysis enables organizational inquiry and thematic investigation"
-- quantitative-analysis.instructions.md (0.89, measures, forward) - "Quantitative analysis enables statistical validation and empirical measurement"
-- mixed-methods.instructions.md (0.88, integrates, forward) - "Mixed-methods research integrates multiple approaches for comprehensive investigation"
-- case-study.instructions.md (0.87, investigates, forward) - "Case study methodology enables organizational analysis and contextual understanding"
-- action-research.instructions.md (0.86, transforms, forward) - "Action research enables organizational change and collaborative investigation"
-
-### Specialized Academic Support Synapses
-- organizational-analysis.instructions.md (0.85, analyzes, forward) - "Organizational analysis enables systematic business investigation and culture studies"
-- strategic-management.instructions.md (0.84, strategizes, forward) - "Strategic management research enables competitive analysis and leadership studies"
-- leadership-research.instructions.md (0.83, leads, forward) - "Leadership research enables executive studies and management development"
-- ethics-compliance.instructions.md (0.89, governs, forward) - "Ethics compliance ensures IRB approval and participant protection protocols"
-- learning.instructions.md (0.87, adapts, forward) - "Meta-cognitive learning enables doctoral skill development and academic adaptation"
-
-### Episodic Research Workflow Synapses
-- research-proposal.prompt.md (0.93, proposes, forward) - "Research proposal development implements comprehensive DBA proposal workflows"
-- literature-review.prompt.md (0.92, reviews, forward) - "Literature review episodes implement systematic business scholarship analysis"
-- methodology-design.prompt.md (0.91, designs, forward) - "Methodology design creates rigorous doctoral research frameworks"
-- data-collection.prompt.md (0.90, collects, forward) - "Data collection episodes implement business research protocols and ethics"
-- data-analysis.prompt.md (0.89, analyzes, forward) - "Data analysis episodes execute advanced statistical and qualitative analysis"
-
-### Academic Excellence Support Synapses
-- findings-analysis.prompt.md (0.88, interprets, forward) - "Findings analysis interprets results with business implications and theory"
-- theoretical-framework.prompt.md (0.87, theorizes, forward) - "Theoretical framework development creates business theory contributions"
-- practical-implications.prompt.md (0.86, applies, forward) - "Practical implications translate research to actionable business solutions"
-- dissertation-chapter.prompt.md (0.90, writes, forward) - "Dissertation chapter writing implements APA 7th edition excellence"
-- defense-preparation.prompt.md (0.89, prepares, forward) - "Defense preparation optimizes doctoral committee presentations"
-
-### Academic Career Development Synapses
-- publication-strategy.prompt.md (0.88, publishes, forward) - "Publication strategy enables peer-review publication and scholarly dissemination"
-- meta-cognition.instructions.md (0.85, monitors, forward) - "Meta-cognitive awareness improves scholarly thinking and research effectiveness"
-- consolidation.prompt.md (0.87, consolidates, forward) - "Memory consolidation optimizes distributed doctoral cognitive architecture"
-- self-assessment.prompt.md (0.86, evaluates, forward) - "Self-assessment monitors DBA research performance and academic progress"
-- meta-learning.prompt.md (0.84, evolves, forward) - "Meta-learning develops advanced doctoral research strategies and capabilities"
-
-### Cross-Domain Academic Integration Synapses
-- empirical-validation.instructions.md (0.92, validates, bidirectional) - "Empirical validation ensures research accuracy and methodological rigor"
-- worldview-integration.instructions.md (0.87, guides, ethical) - "Ethical principles guide responsible research practices and participant protection"
-- bootstrap-learning.instructions.md (0.83, adapts, forward) - "Learning protocols adapt for doctoral expertise acquisition and academic development"
-- quality-assurance.instructions.md (0.89, validates, forward) - "Quality assurance validates research processes and academic standards"
-- academic.instructions.md (0.95, integrates, bidirectional) - "Academic patterns integrate with doctoral research and scholarly excellence"
-
-### Specialized University Support Synapses
-- cognitive-health.prompt.md (0.85, maintains, forward) - "Cognitive health monitoring ensures optimal doctoral architecture performance"
-- university-timeline.instructions.md (0.91, manages, forward) - "University timeline support accelerates DBA completion with quality maintenance"
-- committee-management.instructions.md (0.88, coordinates, forward) - "Committee management optimizes advisor relationships and feedback integration"
-- touro-university.instructions.md (0.90, complies, forward) - "Touro University standards ensure institutional compliance and program requirements"
-- cross-domain-transfer.prompt.md (0.84, facilitates, analogical) - "Research patterns facilitate validation transfer across cognitive domains"
-
 ---
 
 *DBA Domain Knowledge - Version 1.0.2 NOBELIUM Enhanced*
 *Doctoral-grade business administration research expertise integrated with Catalyst cognitive architecture*
 *Ready for systematic academic excellence with practitioner-scholar integration, methodological rigor, and scholarly contribution*
-

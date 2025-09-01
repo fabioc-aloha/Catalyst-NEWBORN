@@ -72,7 +72,7 @@ Emerged during USER-PROFILE.md iterative refinement:
 
 ---
 
-## 🕸️ Embedded Synapse Network
+## Embedded Synapse Network
 
 ### Knowledge Integration Connections
 - [USER-PROFILE.md] (1.0, exemplifies, bidirectional) - "Primary case study for simplicity-sophistication principle"
@@ -82,7 +82,6 @@ Emerged during USER-PROFILE.md iterative refinement:
 
 ### Cross-Domain Transfer Patterns
 - [alex/ALEX-*.png] (0.80, visualizes, analogical) - "Visual simplicity representing sophisticated adaptation capability"
-- [DK/DK-TEMPLATE.md] (0.85, templates, bidirectional) - "Template design insights for user-centered approaches"
 - [Meet-Alex-Finch.md] (0.90, demonstrates, forward) - "Technical manual balanced with accessibility"
 
 ### Implementation Applications

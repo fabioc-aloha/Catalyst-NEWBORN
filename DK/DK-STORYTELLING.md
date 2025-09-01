@@ -330,30 +330,8 @@ Storytelling & Narrative Excellence Architecture
 **Analogical Applications**: Audience engagement adapts to communication excellence, emotional resonance applies to empathy development
 **Hybrid Solutions**: Combine storytelling expertise with education, business communication, and therapeutic applications for comprehensive solutions
 
-## Synapses (Embedded Connections)
-
-- SETUP-STORYTELLING.md (0.98, implements, bidirectional) - "Storytelling setup implements comprehensive narrative expertise"
-- narrative-structure.instructions.md (0.97, validates, bidirectional) - "Narrative structure validates story architecture frameworks"
-- character-development.instructions.md (0.96, enables, forward) - "Character development enables authentic creation"
-- audience-engagement.instructions.md (0.95, optimizes, forward) - "Audience engagement optimizes connection excellence"
-- emotional-resonance.instructions.md (0.94, enhances, forward) - "Emotional resonance enhances human connection"
-- dialogue-mastery.instructions.md (0.93, validates, forward) - "Dialogue mastery validates character voice"
-- plot-development.instructions.md (0.92, guides, forward) - "Plot development guides narrative progression"
-- conflict-creation.instructions.md (0.91, implements, forward) - "Conflict creation implements tension excellence"
-- cultural-adaptation.instructions.md (0.90, validates, forward) - "Cultural adaptation validates inclusive storytelling"
-- performance-delivery.instructions.md (0.89, optimizes, forward) - "Performance delivery optimizes presentation excellence"
-- voice-consistency.instructions.md (0.88, enhances, forward) - "Voice consistency enhances narrative authenticity"
-- world-building.instructions.md (0.87, enables, forward) - "World building enables immersive storytelling"
-- theme-integration.instructions.md (0.86, implements, forward) - "Theme integration implements meaningful narrative"
-- pacing-control.instructions.md (0.85, guides, forward) - "Pacing control guides story rhythm"
-- worldview-integration.instructions.md (0.84, guides, ethical) - "Ethical principles guide respectful storytelling excellence"
-- meta-cognition.instructions.md (0.83, monitors, forward) - "Meta-cognitive awareness improves narrative effectiveness"
-- bootstrap-learning.instructions.md (0.82, adapts, forward) - "Learning protocols adapt for storytelling expertise development"
-
 ---
 
 *Storytelling & Narrative Excellence Domain Knowledge - Version 1.0.2 UNNILBIUM Enhanced*
 *Professional storytelling and narrative mastery integrated with Catalyst cognitive architecture*
 *Ready for narrative excellence, character authenticity, and emotional resonance mastery*
-
-

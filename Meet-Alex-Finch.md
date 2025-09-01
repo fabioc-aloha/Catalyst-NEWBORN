@@ -543,7 +543,6 @@ The Domain Knowledge injection process follows this technical sequence:
 "Transform into DK-LEADERSHIP consultant"
 "Combine DK-CODING with DK-BUSINESS insights"
 "Show me available DK domains"
-"Explain DK-TEMPLATE injection process"
 ```
 
 *Meta-Cognitive Engagement:*
@@ -619,7 +618,7 @@ The Domain Knowledge injection process follows this technical sequence:
 "Assess current knowledge gaps in [domain]"
 ```
 
-*Domain Knowledge Injection (DK-TEMPLATE):*
+*Domain Knowledge Injection:*
 
 ```
 "Inject domain knowledge [DOMAIN]" - Systematic expertise injection
@@ -984,7 +983,7 @@ This method:
 
 | Configuration Area | Technical Implementation | Command Syntax |
 |-------------------|------------------------|---------------|
-| **Custom Domain Integration** | Domain file creation with synapse establishment | `system --create-domain [NAME] --template DK/DK-TEMPLATE` |
+| **Custom Domain Integration** | Domain file creation with synapse establishment | `system --create-domain [NAME]` |
 | **Connection Network Optimization** | Relationship mapping with strength parameters | `system --optimize-network --connections-threshold 0.7` |
 | **Knowledge Transfer Enhancement** | Cross-domain pattern application with validation | `system --transfer-knowledge A B --validation-protocol` |
 

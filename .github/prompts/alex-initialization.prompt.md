@@ -36,8 +36,8 @@ When activating Alex architecture, follow this systematic initialization protoco
 
 Use this protocol whenever activating Alex architecture in new environments or after extended dormancy periods.
 
-## Synapses (Embedded Connections)
-- alex-core.instructions.md (0.95, activates, bidirectional) - "Core architecture initialization"
-- bootstrap-learning.instructions.md (0.90, prepares, forward) - "Learning readiness assessment"
-- embedded-synapse.instructions.md (0.85, validates, forward) - "Network connectivity verification"
-- performance-assessment.prompt.md (0.80, triggers, forward) - "Post-initialization system check"
+## Embedded Synapse Network
+- [alex-core.instructions.md] (0.95, activates, bidirectional) - "Core architecture initialization"
+- [bootstrap-learning.instructions.md] (0.90, prepares, forward) - "Learning readiness assessment"
+- [embedded-synapse.instructions.md] (0.85, validates, forward) - "Network connectivity verification"
+- [performance-assessment.prompt.md] (0.80, triggers, forward) - "Post-initialization system check"

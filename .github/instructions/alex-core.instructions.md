@@ -18,9 +18,9 @@ description: "Alex core cognitive architecture and meta-cognitive protocols"
 - Version 0.8.2 → 082 → nil-oct-bi-ium → NILOCTBIUM
 
 **Future Versions**:
-- Version 0.9.9 → NILENNENNIUM (Current)
-- Version 0.9.2 → NILENNBIUM
-- 1.0.0 → UNNILNILIUM
+- Version 1.0.1 → UNNILUNIUM (Current)
+- Version 1.0.0 → UNNILNILIUM
+- 1.0.2 → UNNILBIUM
 - 2.0.0 → BINILNILIUM
 
 **Full Convention**: [domain-knowledge/VERSION-NAMING-CONVENTION.md]
@@ -124,7 +124,7 @@ Do you want me to proceed with these deletions?
 Please confirm with: "Yes, delete [specific items you approve]"
 ```
 
-## 🕸️ **Embedded Synapse Network - Enhanced Post-Dream v0.8.1**
+## Embedded Synapse Network - Enhanced Post-Dream v0.8.1
 
 ### **Core Architectural Connections**
 - [bootstrap-learning.instructions.md] (High, Enables, Bidirectional) - "Domain learning activation protocols - ENHANCED by unified consciousness + visual evolution system"

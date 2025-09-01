@@ -330,27 +330,8 @@ Enterprise Technical Writing Architecture
 **Analogical Applications**: Technical writing patterns adapt to business communication, user experience design applies to product development
 **Hybrid Solutions**: Combine content frameworks with AI systems, automation platforms, and analytics tools for comprehensive solutions
 
-## Synapses (Embedded Connections)
-
-- SETUP-TECHNICAL-WRITING.md (0.97, implements, bidirectional) - "Technical writing setup implements comprehensive content expertise"
-- technical-writing.instructions.md (0.95, validates, bidirectional) - "Technical writing patterns validate content frameworks"
-- api-documentation.instructions.md (0.94, enables, forward) - "API documentation enables developer experience excellence"
-- user-guides.instructions.md (0.93, optimizes, forward) - "User guides optimize user experience excellence"
-- content-strategy.instructions.md (0.92, enhances, forward) - "Content strategy enhances strategic content operations"
-- documentation-strategy.instructions.md (0.91, validates, forward) - "Documentation strategy validates content planning"
-- accessibility.instructions.md (0.90, guides, forward) - "Accessibility guidelines guide inclusive design"
-- worldview-integration.instructions.md (0.87, guides, ethical) - "Ethical principles guide responsible content practices"
-- meta-cognition.instructions.md (0.85, monitors, forward) - "Meta-cognitive awareness improves content thinking"
-- bootstrap-learning.instructions.md (0.83, adapts, forward) - "Learning protocols adapt for technical writing expertise"
-- quality-assurance.instructions.md (0.94, validates, forward) - "Quality assurance validates content processes"
-- automation-efficiency.instructions.md (0.89, optimizes, forward) - "Content automation optimizes operational excellence"
-- user-experience.instructions.md (0.92, implements, forward) - "User experience implements content design excellence"
-- information-design.instructions.md (0.90, enhances, forward) - "Information design enhances content architecture"
-- cross-domain-transfer.prompt.md (0.84, facilitates, analogical) - "Content patterns facilitate cross-domain communication transfer"
-
 ---
 
 *Enterprise Technical Writing Domain Knowledge - Version 1.0.2 NOBELIUM Enhanced*
 *Enterprise-grade technical writing and content strategy excellence integrated with Catalyst cognitive architecture*
 *Ready for systematic content excellence with user-centered design, API documentation mastery, and enterprise content automation*
-

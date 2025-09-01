@@ -350,7 +350,6 @@ Instant transformation into 30+ specialized expert roles:
 
 ### Professional Development
 - **[Professional Spawning Gallery](alex/)** - 50+ expert role visualizations
-- **[Domain Knowledge Template](DK/DK-TEMPLATE.md)** - Create custom expertise areas
 - **[User Profile Guide](USER-PROFILE.md)** - Personalization setup
 
 ## 🌟 Recent Achievements

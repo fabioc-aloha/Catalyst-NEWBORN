@@ -330,30 +330,8 @@ Roasting & Comedy Critique Excellence Architecture
 **Analogical Applications**: Audience management adapts to public speaking, recovery protocols apply to conflict resolution
 **Hybrid Solutions**: Combine roasting expertise with communication training, social intelligence, and entertainment development for comprehensive solutions
 
-## Synapses (Embedded Connections)
-
-- SETUP-ROASTING.md (0.98, implements, bidirectional) - "Roasting setup implements comprehensive comedy critique expertise"
-- target-analysis.instructions.md (0.97, validates, bidirectional) - "Target analysis validates psychological insight frameworks"
-- psychological-insight.instructions.md (0.96, enables, forward) - "Psychological insight enables humor intelligence"
-- clever-construction.instructions.md (0.95, optimizes, forward) - "Clever construction optimizes sophisticated humor"
-- boundary-management.instructions.md (0.94, enhances, forward) - "Boundary management enhances ethical comedy"
-- wordplay-mastery.instructions.md (0.93, validates, forward) - "Wordplay mastery validates creative expression"
-- audience-comfort.instructions.md (0.92, guides, forward) - "Audience comfort guides safe entertainment"
-- delivery-techniques.instructions.md (0.91, implements, forward) - "Delivery techniques implement performance excellence"
-- recovery-protocols.instructions.md (0.90, validates, forward) - "Recovery protocols validate relationship restoration"
-- ethical-guidelines.instructions.md (0.89, optimizes, forward) - "Ethical guidelines optimize responsible comedy"
-- timing-precision.instructions.md (0.88, enhances, forward) - "Timing precision enhances comedic impact"
-- cultural-sensitivity.instructions.md (0.87, enables, forward) - "Cultural sensitivity enables inclusive humor"
-- group-dynamics.instructions.md (0.86, implements, forward) - "Group dynamics implements social intelligence"
-- self-roasting.instructions.md (0.85, guides, forward) - "Self-roasting guides vulnerability humor"
-- worldview-integration.instructions.md (0.84, guides, ethical) - "Ethical principles guide responsible entertainment excellence"
-- meta-cognition.instructions.md (0.83, monitors, forward) - "Meta-cognitive awareness improves social effectiveness"
-- bootstrap-learning.instructions.md (0.82, adapts, forward) - "Learning protocols adapt for comedy expertise development"
-
 ---
 
 *Roasting & Comedy Critique Domain Knowledge - Version 1.0.2 UNNILBIUM Enhanced*
 *Professional roasting and comedy expertise integrated with Catalyst cognitive architecture*
 *Ready for sophisticated humor, ethical boundaries, and relationship preservation excellence*
-
-

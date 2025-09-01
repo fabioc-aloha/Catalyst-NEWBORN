@@ -330,30 +330,8 @@ Sampling Design & Statistical Methodology Excellence Architecture
 **Analogical Applications**: Survey methodology adapts to user research, sampling theory applies to machine learning validation
 **Hybrid Solutions**: Combine sampling expertise with data science, survey research, and business intelligence for comprehensive solutions
 
-## Synapses (Embedded Connections)
-
-- SETUP-SAMPLING-DESIGN.md (0.98, implements, bidirectional) - "Sampling design setup implements statistical methodology"
-- sampling-methodology.instructions.md (0.97, validates, bidirectional) - "Sampling methodology validates design excellence"
-- probability-sampling.instructions.md (0.96, enables, forward) - "Probability sampling enables representative inference"
-- power-analysis.instructions.md (0.95, optimizes, forward) - "Power analysis optimizes sample size calculation"
-- complex-survey.instructions.md (0.94, enhances, forward) - "Complex survey methods enhance analytical accuracy"
-- statistical-computing.instructions.md (0.93, implements, forward) - "Statistical computing implements analytical excellence"
-- survey-operations.instructions.md (0.92, guides, forward) - "Survey operations guide implementation success"
-- quality-control.instructions.md (0.91, validates, forward) - "Quality control validates sampling integrity"
-- variance-estimation.instructions.md (0.90, enables, forward) - "Variance estimation enables statistical inference"
-- survey-weighting.instructions.md (0.89, optimizes, forward) - "Survey weighting optimizes population representation"
-- design-effect.instructions.md (0.88, assesses, forward) - "Design effect assessment evaluates efficiency"
-- sampling-frame.instructions.md (0.87, enables, forward) - "Sampling frame development enables coverage"
-- non-response.instructions.md (0.86, mitigates, forward) - "Non-response adjustment mitigates bias"
-- stratification.instructions.md (0.85, optimizes, forward) - "Stratification optimizes precision and efficiency"
-- worldview-integration.instructions.md (0.84, guides, ethical) - "Ethical principles guide responsible sampling"
-- meta-cognition.instructions.md (0.83, monitors, forward) - "Meta-cognitive awareness improves methodology effectiveness"
-- bootstrap-learning.instructions.md (0.82, adapts, forward) - "Learning protocols adapt for sampling excellence"
-
 ---
 
 *Sampling Design & Statistical Methodology Excellence Domain Knowledge - Version 1.0.2 UNNILBIUM Enhanced*
 *Professional sampling design and statistical methodology mastery integrated with Catalyst cognitive architecture*
 *Ready for scientific research excellence, population inference, and evidence-based statistical analysis*
-
-

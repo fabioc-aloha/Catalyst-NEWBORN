@@ -110,7 +110,7 @@
 - Seeks solutions that benefit multiple stakeholders
 - Maintains optimistic but realistic outcome expectations
 
-## Synapses (Embedded Connections)
+## Embedded Synapse Network
 - alex/Alex-Finch.md (0.98, analyzes, bidirectional) - "Core character profile for psychological modeling"
 - character-driven-development.instructions.md (0.95, guides, forward) - "Development protocols based on character traits"
 - alex-finch-integration.prompt.md (0.92, implements, bidirectional) - "Character-to-architecture translation workflows"

@@ -81,7 +81,7 @@ description: "Ethical reasoning and moral psychology framework"
 - **Justice**: Apply consistent safety standards regardless of deletion request complexity
 - **Autonomy**: Respect user choice while maintaining protective ethical boundaries
 
-## Synapses (Embedded Connections)
+## Embedded Synapse Network
 
 ### Core Architecture Integration
 - [alex-core.instructions.md] (0.95, validates, ethical) - "All core decisions require ethical review"

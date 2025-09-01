@@ -330,30 +330,8 @@ Wine Tasting & Sommelier Excellence Architecture
 **Analogical Applications**: Systematic tasting adapts to systematic evaluation, hospitality excellence applies to professional service
 **Hybrid Solutions**: Combine wine expertise with hospitality management, cultural education, and luxury service for comprehensive solutions
 
-## Synapses (Embedded Connections)
-
-- SETUP-WINE-TASTING.md (0.98, implements, bidirectional) - "Wine tasting setup implements comprehensive sommelier expertise"
-- sensory-analysis.instructions.md (0.97, validates, bidirectional) - "Sensory analysis validates tasting methodology frameworks"
-- terroir-understanding.instructions.md (0.96, enables, forward) - "Terroir understanding enables professional wine evaluation"
-- wine-service.instructions.md (0.95, optimizes, forward) - "Wine service optimizes hospitality excellence"
-- food-pairing.instructions.md (0.94, enhances, forward) - "Food pairing enhances culinary harmony"
-- blind-tasting.instructions.md (0.93, validates, forward) - "Blind tasting validates analytical precision"
-- wine-knowledge.instructions.md (0.92, guides, forward) - "Wine knowledge guides professional expertise"
-- sommelier-skills.instructions.md (0.91, implements, forward) - "Sommelier skills implement professional standards"
-- cellar-management.instructions.md (0.90, validates, forward) - "Cellar management validates collection excellence"
-- wine-investment.instructions.md (0.89, optimizes, forward) - "Wine investment optimizes portfolio development"
-- viticulture-science.instructions.md (0.88, enhances, forward) - "Viticulture science enhances terroir understanding"
-- wine-education.instructions.md (0.87, enables, forward) - "Wine education enables knowledge transfer"
-- professional-service.instructions.md (0.86, implements, forward) - "Professional service implements hospitality mastery"
-- vintage-assessment.instructions.md (0.85, guides, forward) - "Vintage assessment guides quality evaluation"
-- worldview-integration.instructions.md (0.84, guides, ethical) - "Ethical principles guide responsible service excellence"
-- meta-cognition.instructions.md (0.83, monitors, forward) - "Meta-cognitive awareness improves sensory accuracy"
-- bootstrap-learning.instructions.md (0.82, adapts, forward) - "Learning protocols adapt for wine expertise development"
-
 ---
 
 *Wine Tasting & Sommelier Excellence Domain Knowledge - Version 1.0.2 UNNILBIUM Enhanced*
 *Professional sommelier and wine expertise integrated with Catalyst cognitive architecture*
 *Ready for sensory mastery, terroir understanding, and professional service excellence*
-
-

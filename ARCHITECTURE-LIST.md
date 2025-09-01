@@ -36,7 +36,7 @@
 **Implementation Guide:**
 1. **Bootstrap Foundation** - All architectures begin with Alex meta-cognitive core
 2. **Optional User Profile** - Complete USER-PROFILE.md for personalized assistance
-3. **Domain Injection** - Knowledge acquisition through conversational learning or DK-TEMPLATE
+3. **Domain Injection** - Knowledge acquisition through conversational learning
 4. **Visual Evolution** - Alex's appearance adapts to reflect current expertise level
 5. **Nickname Activation** - Dynamic titles emerge with mastery progression
 6. **Meditation Consolidation** - Enhanced understanding through contemplative practices

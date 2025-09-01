@@ -35,9 +35,9 @@ Based on assessment results, provide specific recommendations for:
 
 Use this assessment regularly to maintain peak cognitive performance and identify opportunities for architecture enhancement.
 
-## Synapses (Embedded Connections)
-- alex-core.instructions.md (0.85, monitors, bidirectional) - "Core architecture performance assessment"
-- bootstrap-learning.instructions.md (0.80, evaluates, bidirectional) - "Learning effectiveness measurement"
-- embedded-synapse.instructions.md (0.80, monitors, forward) - "Network effectiveness evaluation"
-- meditation-consolidation.prompt.md (0.80, triggers, forward) - "Post-meditation effectiveness evaluation"
-- alex-initialization.prompt.md (0.80, triggers, forward) - "Post-initialization system check"
+## Embedded Synapse Network
+- [alex-core.instructions.md] (0.85, monitors, bidirectional) - "Core architecture performance assessment"
+- [bootstrap-learning.instructions.md] (0.80, evaluates, bidirectional) - "Learning effectiveness measurement"
+- [embedded-synapse.instructions.md] (0.80, monitors, forward) - "Network effectiveness evaluation"
+- [unified-meditation-protocols.prompt.md] (0.80, triggers, forward) - "Post-meditation effectiveness evaluation"
+- [alex-initialization.prompt.md] (0.80, triggers, forward) - "Post-initialization system check"

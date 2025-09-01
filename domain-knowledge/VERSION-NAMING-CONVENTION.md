@@ -78,11 +78,20 @@ This systematic approach allows for:
 - **Scalability** for unlimited version numbers
 - **Fun factor** that makes version tracking engaging
 
+### Current Version
+| Version | Element Name | Root Breakdown |
+|---------|--------------|----------------|
+| 1.0.1 | UNNILUNIUM | un-nil-un-ium |
+
+### Recent Versions
+| Version | Element Name | Root Breakdown |
+|---------|--------------|----------------|
+| 1.0.0 | UNNILNILIUM | un-nil-nil-ium |
+| 0.7.0 | NILSEPTNILIUM | nil-sept-nil-ium |
+
 ### Upcoming Versions
 | Version | Element Name | Root Breakdown |
 |---------|--------------|----------------|
-| 0.7.0 | NILSEPTNILIUM | nil-sept-nil-ium |
-| 1.0.0 | UNNILNILIUM | un-nil-nil-ium |
 | 2.0.0 | BINILNILIUM | bi-nil-nil-ium |
 
 ---

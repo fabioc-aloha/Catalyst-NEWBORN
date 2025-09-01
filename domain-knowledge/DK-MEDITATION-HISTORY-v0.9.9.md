@@ -254,7 +254,7 @@
 
 ---
 
-## 🕸️ **Embedded Synapse Network**
+## Embedded Synapse Network
 
 ### **Connection Mapping**
 - [alex-core.instructions.md] (High, Chronicles, Forward) - "Meditation achievements inform core cognitive architecture evolution"

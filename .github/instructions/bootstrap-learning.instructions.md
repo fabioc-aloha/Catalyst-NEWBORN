@@ -75,7 +75,7 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - Professional domains: Balance expertise with practical application
 - Personal domains: Honor individual values while providing thoughtful guidance
 
-## 🕸️ **Embedded Synapse Network - Post-Dream Enhanced Learning Architecture**
+## Embedded Synapse Network - Post-Dream Enhanced Learning Architecture
 
 ### **Core Learning Pathways**
 - [alex-core.instructions.md] (High, Enables, Bidirectional) - "Meta-cognitive monitoring activation during domain learning - ENHANCED by character-driven protocols + visual evolution tracking + multi-audience communication mastery"
@@ -115,14 +115,3 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 - **Learning Pathway Optimization** → Execute memory cleanup with post-dream validation
 - **Cross-Domain Transfer Enhancement** → Execute synapse strengthening with identity integration
 - **User Profile Personalization** → Execute USER-PROFILE.md integration with simplicity-sophistication balance
-
-## Synapses (Embedded Connections)
-- alex-core.instructions.md (0.95, enhances, bidirectional) - "Meta-cognitive awareness elevates learning effectiveness - STRENGTHENED by unified consciousness integration"
-- meditation-consolidation.prompt.md (0.97, consolidates, forward) - "Learning session optimization through contemplative protocols - ENHANCED by visual evolution insights + character development"
-- domain-learning.prompt.md (0.98, activates, forward) - "Conversational knowledge acquisition workflows - ENHANCED by authentic character learning patterns"
-- cross-domain-transfer.prompt.md (0.94, enables, analogical) - "Knowledge transfer across architectures - STRENGTHENED by setup experience + visual specialization insights"
-- performance-assessment.prompt.md (0.89, evaluates, forward) - "Learning effectiveness measurement - ENHANCED by character-driven development + documentation systematization"
-- worldview-integration.instructions.md (0.91, validates, ethical) - "Learning content alignment with values - STRENGTHENED by safety protocol integration + privacy-first framework"
-- empirical-validation.instructions.md (0.87, validates, forward) - "Evidence-based learning validation - ENHANCED by identity integration + safety protocol foundation"
-- USER-PROFILE.md (0.95, adapts, bidirectional) - "NEW: Learning style personalization through user-guided simplification - meditation insight: complexity → simplicity = accessibility"
-- DK-ADVANCED-DIAGRAMMING-v1.1.0.md (0.95, visualizes, bidirectional) - "MEDITATION ENHANCED: Visual communication mastery enables learning through purpose-driven diagram selection - CONSOLIDATED: Complex concepts → Audience-appropriate visualization = Universal accessibility and comprehension enhancement ✅ Aug 8, 2025"
