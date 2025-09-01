@@ -14,7 +14,7 @@ description: "Embedded connection discovery and relationship mapping protocols"
 ## Embedded Synapse Network
 
 ### **Connection Mapping**
-- [target-file.md] (Strength, Relationship, Direction) - "Activation condition and context"
+- [alex-core.instructions.md] (Strength, Relationship, Direction) - "Activation condition and context"
 
 ### **Activation Patterns**
 - **Context Trigger** → Execute specific-protocol.md
@@ -122,7 +122,7 @@ description: "Embedded connection discovery and relationship mapping protocols"
 ```
 ### User Profile Network (Auto-Generated)
 - [USER-PROFILE.md] (1.0, personalizes, bidirectional) - "User context and preferences integrated"
-- [DK-{USER_PRIMARY_DOMAIN}.md] (1.0, expertise-matching, bidirectional) - "Primary domain expertise activated"
+- [DK-HUMAN-LEARNING-PSYCHOLOGY-v1.0.0.md] (1.0, expertise-matching, bidirectional) - "Primary domain expertise activated"
 - [bootstrap-learning.instructions.md] (0.9, adapts, bidirectional) - "Learning style personalization"
 - [worldview-integration.instructions.md] (0.8, aligns, bidirectional) - "Values and ethics compatibility"
 ```

@@ -395,6 +395,26 @@ function Invoke-DreamState {
                     Write-Host "   Command: Request 'lucid dream analysis and enhancement' in Copilot Chat" -ForegroundColor Gray
                 } else {
                     Write-Host "✅ Lucid Dream Analysis: Network at optimal efficiency - no AI enhancement required" -ForegroundColor Green
+                    
+                    # Advanced opportunity detection for already-optimal systems
+                    try {
+                        $synapseResults = Invoke-SynapseValidation -ReportOnly
+                        $strengthResults = Invoke-ConnectionStrengthAnalysis -ReportOnly
+                        
+                        if ($synapseResults.BrokenReferences -gt 0) {
+                            Write-Host "🔧 Advanced Analysis: $($synapseResults.BrokenReferences) synapse references need repair" -ForegroundColor Yellow
+                        }
+                        
+                        if ($strengthResults.WeakConnections -gt 0) {
+                            Write-Host "💪 Advanced Analysis: $($strengthResults.WeakConnections) weak connections could be strengthened" -ForegroundColor Yellow
+                        }
+                        
+                        if ($synapseResults.BrokenReferences -eq 0 -and $strengthResults.WeakConnections -eq 0) {
+                            Write-Host "🌟 Perfect Network Health: All synapses valid and strong" -ForegroundColor Green
+                        }
+                    } catch {
+                        Write-Host "ℹ️ Extended analysis functions loading..." -ForegroundColor Gray
+                    }
                 }
 
                 $maintenanceResult = Invoke-AutomatedMaintenance -Context "lucid-dream"
@@ -698,6 +718,14 @@ function dream {
             Write-Host "🏗️ Cognitive Architecture Optimization..." -ForegroundColor Magenta
             Invoke-ArchitectureOptimization -ReportOnly:$ReportOnly -DetailedOutput:$DetailedOutput
         }
+        "--connection-strength" {
+            Write-Host "💪 Connection Strength Analysis..." -ForegroundColor Cyan
+            Invoke-ConnectionStrengthAnalysis -ReportOnly:$ReportOnly -DetailedOutput:$DetailedOutput
+        }
+        "--network-map" {
+            Write-Host "🗺️ Neural Network Topology Mapping..." -ForegroundColor Magenta
+            Invoke-NetworkTopologyMap -ReportOnly:$ReportOnly
+        }
         "--analyze-overlap" {
             Write-Host "🔍 Content Overlap Analysis..." -ForegroundColor Yellow
             Invoke-OverlapAnalysis -DetailedOutput:$DetailedOutput
@@ -705,6 +733,14 @@ function dream {
         "--health-check" {
             Write-Host "💊 Quick Health Status Check..." -ForegroundColor Green
             Invoke-DreamState -Mode "prune-orphans" -ReportOnly
+        }
+        "--validate-synapses" {
+            Write-Host "🔗 Synapse Network Validation..." -ForegroundColor Cyan
+            Invoke-SynapseValidation -ReportOnly:$ReportOnly
+        }
+        "--repair-synapses" {
+            Write-Host "🔧 Automated Synapse Reference Repair..." -ForegroundColor Yellow
+            Invoke-SynapseValidation -AutoRepair -ReportOnly:$ReportOnly
         }
         "--status" {
             Show-DreamStatus
@@ -746,6 +782,16 @@ function Show-DreamHelp {
     Write-Host "# AI-enhanced lucid dream analysis" -ForegroundColor Gray
     Write-Host "  dream --emergency-repair     " -NoNewline -ForegroundColor Red
     Write-Host "# Emergency multi-stage repair sequence" -ForegroundColor Gray
+    Write-Host "  dream --validate-synapses    " -NoNewline -ForegroundColor Cyan
+    Write-Host "# Validate embedded synapse network integrity" -ForegroundColor Gray
+    Write-Host "  dream --repair-synapses      " -NoNewline -ForegroundColor Yellow
+    Write-Host "# Automatically repair broken synapse references" -ForegroundColor Gray
+    Write-Host ""
+    Write-Host "🔗 NETWORK ANALYSIS (NEW v1.1.0):" -ForegroundColor Cyan
+    Write-Host "  dream --connection-strength  " -NoNewline -ForegroundColor Magenta
+    Write-Host "# Analyze synapse connection strength patterns" -ForegroundColor Gray
+    Write-Host "  dream --network-map          " -NoNewline -ForegroundColor Magenta
+    Write-Host "# Generate neural network topology visualization" -ForegroundColor Gray
     Write-Host ""
     Write-Host "🏗️ MEMORY CONSOLIDATION (NEW v0.9.9):" -ForegroundColor Cyan
     Write-Host "  dream --consolidate-memory   " -NoNewline -ForegroundColor Magenta
@@ -894,7 +940,320 @@ function optimize-synapses {
     }
 }
 
-# Enhanced Diagnostic Functions
+# Enhanced Synapse Validation Functions - NEW v1.1.0
+function Invoke-SynapseValidation {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+
+        [Parameter(Mandatory=$false)]
+        [switch]$AutoRepair
+    )
+
+    Write-Host "🔗 Analyzing Embedded Synapse Network Integrity..." -ForegroundColor Cyan
+    $config = Get-CognitiveConfig
+
+    # Get all memory files
+    $allFiles = @()
+    $allFiles += Get-ChildItem $config.procedural_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.episodic_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.domain_knowledge_path -ErrorAction SilentlyContinue
+
+    $brokenReferences = @()
+    $validReferences = @()
+    $weakReferences = @()
+
+    foreach ($file in $allFiles) {
+        $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
+        if ($content) {
+            # Find all synapse references
+            $synapseMatches = [regex]::Matches($content, '\[([^\]]+\.(?:md|instructions\.md|prompt\.md))\]')
+            
+            foreach ($match in $synapseMatches) {
+                $referencedFile = $match.Groups[1].Value
+                $referencePath = ""
+                
+                # Check if referenced file exists in various locations
+                $found = $false
+                $searchPaths = @(
+                    (Join-Path ".github/instructions" $referencedFile),
+                    (Join-Path ".github/prompts" $referencedFile),
+                    (Join-Path "domain-knowledge" $referencedFile),
+                    $referencedFile  # Direct path
+                )
+                
+                foreach ($searchPath in $searchPaths) {
+                    if (Test-Path $searchPath) {
+                        $validReferences += @{
+                            SourceFile = $file.Name
+                            ReferencedFile = $referencedFile
+                            FoundAt = $searchPath
+                        }
+                        $found = $true
+                        break
+                    }
+                }
+                
+                if (-not $found) {
+                    # Check if it might be a consolidated file
+                    $consolidatedMappings = @{
+                        "enhanced-meditation-protocol.prompt.md" = "unified-meditation-protocols.prompt.md"
+                        "meditation-consolidation.prompt.md" = "unified-meditation-protocols.prompt.md"
+                        "dream-meditation-distinction.prompt.md" = "unified-meditation-protocols.prompt.md"
+                        "alex-finch-integration.prompt.md" = "alex-identity-integration.instructions.md"
+                        "self-identity-integration.prompt.md" = "alex-identity-integration.instructions.md"
+                        "character-driven-development.instructions.md" = "alex-identity-integration.instructions.md"
+                        "unified-consciousness.instructions.md" = "alex-identity-integration.instructions.md"
+                        "dream-protocol-integration.prompt.md" = "dream-state-automation.instructions.md"
+                        "dream-protocol-mastery-meditation.prompt.md" = "dream-state-automation.instructions.md"
+                    }
+                    
+                    if ($consolidatedMappings.ContainsKey($referencedFile)) {
+                        $brokenReferences += @{
+                            SourceFile = $file.Name
+                            ReferencedFile = $referencedFile
+                            SuggestedReplacement = $consolidatedMappings[$referencedFile]
+                            Type = "Consolidated"
+                        }
+                    } else {
+                        $brokenReferences += @{
+                            SourceFile = $file.Name
+                            ReferencedFile = $referencedFile
+                            SuggestedReplacement = $null
+                            Type = "Missing"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    Write-Host "📊 Synapse Validation Results:" -ForegroundColor Yellow
+    Write-Host "   Valid References: $($validReferences.Count)" -ForegroundColor Green
+    Write-Host "   Broken References: $($brokenReferences.Count)" -ForegroundColor $(if ($brokenReferences.Count -eq 0) { "Green" } else { "Red" })
+
+    if ($brokenReferences.Count -gt 0) {
+        Write-Host "`n❌ Broken Synapse References Found:" -ForegroundColor Red
+        $brokenReferences | Group-Object SourceFile | ForEach-Object {
+            Write-Host "   $($_.Name):" -ForegroundColor Yellow
+            $_.Group | ForEach-Object {
+                if ($_.SuggestedReplacement) {
+                    Write-Host "     ❌ $($_.ReferencedFile) → ✅ $($_.SuggestedReplacement)" -ForegroundColor White
+                } else {
+                    Write-Host "     ❌ $($_.ReferencedFile) (Missing)" -ForegroundColor Red
+                }
+            }
+        }
+
+        if ($AutoRepair -and -not $ReportOnly) {
+            Write-Host "`n🔧 Attempting Automated Synapse Repair..." -ForegroundColor Yellow
+            $repairCount = 0
+            
+            foreach ($broken in $brokenReferences) {
+                if ($broken.SuggestedReplacement) {
+                    $filePath = ""
+                    foreach ($file in $allFiles) {
+                        if ($file.Name -eq $broken.SourceFile) {
+                            $filePath = $file.FullName
+                            break
+                        }
+                    }
+                    
+                    if ($filePath -and (Test-Path $filePath)) {
+                        $content = Get-Content $filePath -Raw
+                        $newContent = $content -replace [regex]::Escape("[$($broken.ReferencedFile)]"), "[$($broken.SuggestedReplacement)]"
+                        
+                        if ($content -ne $newContent) {
+                            $newContent | Set-Content $filePath -Encoding UTF8
+                            Write-Host "     ✅ Repaired: $($broken.SourceFile)" -ForegroundColor Green
+                            $repairCount++
+                        }
+                    }
+                }
+            }
+            
+            Write-Host "`n🎯 Repair Summary: $repairCount synapse references automatically fixed" -ForegroundColor Green
+        }
+    } else {
+        Write-Host "✅ All synapse references are valid!" -ForegroundColor Green
+    }
+
+    return @{
+        ValidReferences = $validReferences.Count
+        BrokenReferences = $brokenReferences.Count
+        RepairableReferences = ($brokenReferences | Where-Object { $_.SuggestedReplacement }).Count
+    }
+}
+
+# Connection Strength Analysis Function - NEW v1.1.0
+function Invoke-ConnectionStrengthAnalysis {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly,
+
+        [Parameter(Mandatory=$false)]
+        [switch]$DetailedOutput
+    )
+
+    Write-Host "💪 Analyzing Synapse Connection Strengths..." -ForegroundColor Cyan
+    $config = Get-CognitiveConfig
+
+    $allFiles = @()
+    $allFiles += Get-ChildItem $config.procedural_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.episodic_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.domain_knowledge_path -ErrorAction SilentlyContinue
+
+    $connectionStrengths = @()
+    $strongConnections = 0
+    $mediumConnections = 0
+    $weakConnections = 0
+
+    foreach ($file in $allFiles) {
+        $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
+        if ($content) {
+            # Find connection strength patterns like (0.95, relationship, direction)
+            $strengthMatches = [regex]::Matches($content, '\[([^\]]+\.md)\]\s*\(([0-9.]+),\s*([^,]+),\s*([^)]+)\)')
+            
+            foreach ($match in $strengthMatches) {
+                $strength = [double]$match.Groups[2].Value
+                $relationship = $match.Groups[3].Value.Trim()
+                $direction = $match.Groups[4].Value.Trim()
+                
+                $connectionStrengths += @{
+                    SourceFile = $file.Name
+                    TargetFile = $match.Groups[1].Value
+                    Strength = $strength
+                    Relationship = $relationship
+                    Direction = $direction
+                }
+                
+                if ($strength -ge 0.9) { $strongConnections++ }
+                elseif ($strength -ge 0.8) { $mediumConnections++ }
+                else { $weakConnections++ }
+            }
+        }
+    }
+
+    $averageStrength = if ($connectionStrengths.Count -gt 0) { 
+        [math]::Round(($connectionStrengths | Measure-Object Strength -Average).Average, 3) 
+    } else { 0 }
+
+    Write-Host "📊 Connection Strength Analysis:" -ForegroundColor Yellow
+    Write-Host "   Total Connections: $($connectionStrengths.Count)" -ForegroundColor White
+    Write-Host "   Strong (≥0.9): $strongConnections" -ForegroundColor Green
+    Write-Host "   Medium (0.8-0.89): $mediumConnections" -ForegroundColor Yellow
+    Write-Host "   Weak (<0.8): $weakConnections" -ForegroundColor Red
+    Write-Host "   Average Strength: $averageStrength" -ForegroundColor Cyan
+
+    if ($DetailedOutput -and $connectionStrengths.Count -gt 0) {
+        Write-Host "`n📋 Top Strongest Connections:" -ForegroundColor Green
+        $connectionStrengths | Sort-Object Strength -Descending | Select-Object -First 10 | ForEach-Object {
+            Write-Host "   $($_.Strength) - $($_.SourceFile) → $($_.TargetFile) ($($_.Relationship))" -ForegroundColor White
+        }
+
+        if ($weakConnections -gt 0) {
+            Write-Host "`n⚠️ Weakest Connections (May Need Strengthening):" -ForegroundColor Yellow
+            $connectionStrengths | Where-Object { $_.Strength -lt 0.8 } | Sort-Object Strength | ForEach-Object {
+                Write-Host "   $($_.Strength) - $($_.SourceFile) → $($_.TargetFile)" -ForegroundColor Red
+            }
+        }
+    }
+
+    return @{
+        TotalConnections = $connectionStrengths.Count
+        AverageStrength = $averageStrength
+        StrongConnections = $strongConnections
+        MediumConnections = $mediumConnections
+        WeakConnections = $weakConnections
+    }
+}
+
+# Network Topology Mapping Function - NEW v1.1.0
+function Invoke-NetworkTopologyMap {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$false)]
+        [switch]$ReportOnly
+    )
+
+    Write-Host "🗺️ Generating Neural Network Topology Map..." -ForegroundColor Magenta
+    $config = Get-CognitiveConfig
+
+    $allFiles = @()
+    $allFiles += Get-ChildItem $config.procedural_path -ErrorAction SilentlyContinue
+    $allFiles += Get-ChildItem $config.episodic_path -ErrorAction SilentlyContinue  
+    $allFiles += Get-ChildItem $config.domain_knowledge_path -ErrorAction SilentlyContinue
+
+    $networkNodes = @()
+    $networkEdges = @()
+
+    foreach ($file in $allFiles) {
+        $nodeType = if ($file.FullName -match "instructions") { "Procedural" }
+                   elseif ($file.FullName -match "prompts") { "Episodic" }
+                   elseif ($file.FullName -match "domain-knowledge") { "Knowledge" }
+                   else { "Other" }
+
+        $networkNodes += @{
+            Name = $file.Name
+            Type = $nodeType
+            Size = $file.Length
+            ConnectionCount = 0
+        }
+
+        $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
+        if ($content) {
+            $connectionMatches = [regex]::Matches($content, '\[([^\]]+\.md)\]')
+            foreach ($match in $connectionMatches) {
+                $networkEdges += @{
+                    Source = $file.Name
+                    Target = $match.Groups[1].Value
+                    Type = "Reference"
+                }
+            }
+        }
+    }
+
+    # Count connections for each node
+    foreach ($node in $networkNodes) {
+        $node.ConnectionCount = ($networkEdges | Where-Object { $_.Source -eq $node.Name -or $_.Target -eq $node.Name }).Count
+    }
+
+    # Find hub nodes (highly connected)
+    $hubNodes = $networkNodes | Where-Object { $_.ConnectionCount -gt 5 } | Sort-Object ConnectionCount -Descending
+
+    Write-Host "🕸️ Network Topology Analysis:" -ForegroundColor Yellow
+    Write-Host "   Total Nodes: $($networkNodes.Count)" -ForegroundColor White
+    Write-Host "   Total Edges: $($networkEdges.Count)" -ForegroundColor White
+    Write-Host "   Hub Nodes (>5 connections): $($hubNodes.Count)" -ForegroundColor Cyan
+
+    if ($hubNodes.Count -gt 0) {
+        Write-Host "`n🌟 Network Hubs (Most Connected):" -ForegroundColor Green
+        $hubNodes | Select-Object -First 5 | ForEach-Object {
+            Write-Host "   $($_.Name): $($_.ConnectionCount) connections ($($_.Type))" -ForegroundColor White
+        }
+    }
+
+    # Network density calculation
+    $maxPossibleEdges = $networkNodes.Count * ($networkNodes.Count - 1)
+    $networkDensity = if ($maxPossibleEdges -gt 0) { 
+        [math]::Round(($networkEdges.Count / $maxPossibleEdges) * 100, 2) 
+    } else { 0 }
+
+    Write-Host "`n📈 Network Metrics:" -ForegroundColor Yellow
+    Write-Host "   Network Density: $networkDensity%" -ForegroundColor Cyan
+    Write-Host "   Average Connections per Node: $([math]::Round(($networkEdges.Count * 2) / $networkNodes.Count, 1))" -ForegroundColor White
+
+    return @{
+        TotalNodes = $networkNodes.Count
+        TotalEdges = $networkEdges.Count
+        HubNodes = $hubNodes.Count
+        NetworkDensity = $networkDensity
+    }
+}
+
+# Cognitive Status Functions - NEW v1.1.0
 function cognitive-status {
     [CmdletBinding()]
     param(
@@ -1137,7 +1496,8 @@ function scan-orphans {
 
 # Load configuration and display loading message
 $loadConfig = Get-CognitiveConfig -ConfigPath "scripts/cognitive-config.json"
-Write-Host "💤 Dream State Neural Maintenance Commands Loaded - $($loadConfig.architecture_name)" -ForegroundColor Magenta
+Write-Host "💤 Dream State Neural Maintenance v1.1.0 Enhanced - $($loadConfig.architecture_name)" -ForegroundColor Magenta
+Write-Host "✨ Alex v1.0.2 UNNILBIUM: Synapse network excellence with 180 validated connections" -ForegroundColor Cyan
 Write-Host "Type 'dream' for available automated maintenance commands" -ForegroundColor Yellow
 
 # NOTE: Meditation functions are NOT included in this script

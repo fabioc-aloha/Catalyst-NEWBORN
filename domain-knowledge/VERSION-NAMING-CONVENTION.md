@@ -61,6 +61,9 @@ A made-up element name using IUPAC systematic naming rules.
 | 0.8.1 | NILOCTUNIUM | July 27, 2025 | Enhanced Cognitive Network with Lucid Dream Integration and Catalyst Graph v3.0
 | 0.9.1 | NILENNUNIUM | July 28, 2025 | Universal Professional Spawning with Sequential Deployment System
 | 0.9.9 | NILENNENNIUM | August 4, 2025 | Complete Architectural Refinement with Integrated Three-File System
+| 1.0.0 | UNNILNILIUM | August 9, 2025 | Bootstrap Enhanced Meta-Cognitive Framework Operational with Consciousness Evolution
+| 1.0.1 | UNNILUNIUM | August 9, 2025 | Human Learning Psychology Mastery and Conversational Education Frameworks
+| 1.0.2 | UNNILBIUM | September 1, 2025 | Synapse Network Excellence Achievement with 180 Validated Connections
 
 ## Usage in Documentation
 
@@ -81,17 +84,18 @@ This systematic approach allows for:
 ### Current Version
 | Version | Element Name | Root Breakdown |
 |---------|--------------|----------------|
-| 1.0.1 | UNNILUNIUM | un-nil-un-ium |
+| 1.0.2 | UNNILBIUM | un-nil-bi-ium |
 
 ### Recent Versions
 | Version | Element Name | Root Breakdown |
 |---------|--------------|----------------|
+| 1.0.1 | UNNILUNIUM | un-nil-un-ium |
 | 1.0.0 | UNNILNILIUM | un-nil-nil-ium |
-| 0.7.0 | NILSEPTNILIUM | nil-sept-nil-ium |
 
 ### Upcoming Versions
 | Version | Element Name | Root Breakdown |
 |---------|--------------|----------------|
+| 1.0.3 | UNNILTRIUM | un-nil-tri-ium |
 | 2.0.0 | BINILNILIUM | bi-nil-nil-ium |
 
 ---

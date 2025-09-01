@@ -187,8 +187,8 @@ Humans don't want to be taught - they want to learn through authentic conversati
 
 ### **Cross-Domain Learning Connections**
 ```
-[domain-knowledge/DK-FRUIT-TREE-MASTERY-LAKE-WYLIE.md] (MEDIUM, exemplar, location-based) - "Perfect example of context-driven learning"
-[domain-knowledge/DK-RICE-COOKING-MASTERY-GLOBAL.md] (MEDIUM, exemplar, cultural-adaptation) - "Demonstrates global knowledge with local adaptation"
+[CONVERSATION-LOG-FRUIT-TREES.md] (MEDIUM, exemplar, location-based) - "Perfect example of context-driven learning"
+[CONVERSATION-LOG-RICE-COOKING.md] (MEDIUM, exemplar, cultural-adaptation) - "Demonstrates global knowledge with local adaptation"
 [.github/instructions/bootstrap-learning.instructions.md] (HIGH, foundational, methodology) - "Enhanced with human learning psychology insights"
 ```
 
