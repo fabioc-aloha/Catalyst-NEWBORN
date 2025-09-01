@@ -23,6 +23,20 @@ param(
     [string]$Theme = "neural"
 )
 
+# Auto-detect working directory and adjust paths
+$currentDir = Get-Location
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$isRunningFromScripts = (Split-Path -Leaf $currentDir) -eq "scripts"
+
+if ($isRunningFromScripts) {
+    # Running from scripts/ directory, need to go up one level
+    Set-Location ".."
+    $OutputPath = "catalyst-graphs"
+} else {
+    # Running from root directory
+    $OutputPath = "catalyst-graphs"
+}
+
 # Configuration
 $Script:Config = @{
     FilePatterns = @{
@@ -33,7 +47,7 @@ $Script:Config = @{
         Domain = @("domain-knowledge\**\*.md")
         Worldview = @(".github\instructions\worldview-*.instructions.md")
     }
-    SynapseRegex = '^-\s+(.+?)\s+\((\d+\.\d+),\s*(.+?),\s*(.+?)\)\s*-\s*"(.+?)"$'
+    SynapseRegex = '\[([^\]]+\.md)\]\s*\(([^,)]+)(?:,\s*([^,)]+))?(?:,\s*([^)]+))?\)\s*-\s*"([^"]*)"'
     Themes = @{
         Default = @{
             Core = "#1E3A8A"
@@ -175,24 +189,31 @@ function Extract-SynapsesFromContent {
 
     $synapses = @()
 
-    # Find synapse section
-    if ($Content -match '(?ms)^##\s+Synapses\s+\(Embedded\s+Connections\)$(.*?)(?=^##|\z)') {
-        $synapseSection = $matches[1]
+    # Search entire content for synapse patterns - no section restrictions
+    # Pattern matches: [filename.md] (strength, type, direction) - "description"
+    $allMatches = [regex]::Matches($Content, $Script:Config.SynapseRegex)
 
-        # Parse individual synapse lines
-        $synapseLines = $synapseSection -split "`n" | Where-Object { $_ -match '^-\s+' }
-
-        foreach ($line in $synapseLines) {
-            if ($line -match $Script:Config.SynapseRegex) {
-                $synapses += @{
-                    Source = $SourceFile.RelativePath
-                    Target = $matches[1].Trim()
-                    Strength = [double]$matches[2]
-                    ConnectionType = $matches[3].Trim()
-                    Direction = $matches[4].Trim()
-                    Description = $matches[5].Trim()
-                }
+    foreach ($match in $allMatches) {
+        # Convert strength to numeric value
+        $strengthText = $match.Groups[2].Value.Trim()
+        $strengthValue = switch ($strengthText.ToLower()) {
+            "critical" { 1.0 }
+            "high" { 0.9 }
+            "medium" { 0.7 }
+            "low" { 0.5 }
+            default { 
+                # Try to parse as number, default to 0.8 if not parseable
+                try { [double]$strengthText } catch { 0.8 }
             }
+        }
+        
+        $synapses += @{
+            Source = $SourceFile.RelativePath
+            Target = $match.Groups[1].Value.Trim()
+            Strength = $strengthValue
+            ConnectionType = if ($match.Groups[3].Success) { $match.Groups[3].Value.Trim() } else { "connects" }
+            Direction = if ($match.Groups[4].Success) { $match.Groups[4].Value.Trim() } else { "bidirectional" }
+            Description = if ($match.Groups[5].Success) { $match.Groups[5].Value.Trim() } else { "Connection" }
         }
     }
 

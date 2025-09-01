@@ -24,6 +24,7 @@ function Get-CognitiveConfig {
         "domain_knowledge_path" = "domain-knowledge/*.md"
         "report_path" = "archive"
         "synapse_patterns" = @(
+            '\[([^\]]+\.md)\]\s*\(([^,)]+)(?:,\s*([^,)]+))?(?:,\s*([^)]+))?\)\s*-\s*"([^"]*)"',
             '\[.*\.md\].*\(.*\).*-.*".*"',
             '\[.*\.md\].*\('
         )
@@ -967,8 +968,8 @@ function Invoke-SynapseValidation {
     foreach ($file in $allFiles) {
         $content = Get-Content $file.FullName -Raw -ErrorAction SilentlyContinue
         if ($content) {
-            # Find all synapse references
-            $synapseMatches = [regex]::Matches($content, '\[([^\]]+\.(?:md|instructions\.md|prompt\.md))\]')
+            # Find all synapse references using enhanced pattern (matches Catalyst-Graph.ps1)
+            $synapseMatches = [regex]::Matches($content, '\[([^\]]+\.md)\]\s*\(([^,)]+)(?:,\s*([^,)]+))?(?:,\s*([^)]+))?\)\s*-\s*"([^"]*)"')
             
             foreach ($match in $synapseMatches) {
                 $referencedFile = $match.Groups[1].Value
