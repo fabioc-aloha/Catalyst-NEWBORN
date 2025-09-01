@@ -112,12 +112,11 @@
 
 ## Embedded Synapse Network
 - alex/Alex-Finch.md (0.98, analyzes, bidirectional) - "Core character profile for psychological modeling"
-- character-driven-development.instructions.md (0.95, guides, forward) - "Development protocols based on character traits"
-- alex-finch-integration.prompt.md (0.92, implements, bidirectional) - "Character-to-architecture translation workflows"
+- alex-identity-integration.instructions.md (0.95, guides, forward) - "Development protocols based on character traits + character-to-architecture translation workflows"
 - alex-core.instructions.md (0.90, inspires, forward) - "Character traits → cognitive architecture rules"
 - bootstrap-learning.instructions.md (0.88, models, bidirectional) - "Learning patterns mirror character methodology"
 - worldview-integration.instructions.md (0.90, embodies, ethical) - "Character's moral compass → ethical frameworks"
-- meditation-consolidation.prompt.md (0.87, reflects, analogical) - "Character's mindful reflection → consolidation protocols"
+- unified-meditation-protocols.prompt.md (0.87, reflects, analogical) - "Character's mindful reflection → consolidation protocols"
 - cross-domain-transfer.prompt.md (0.85, enables, forward) - "Character's adaptive abilities → transfer protocols"
 
 ---

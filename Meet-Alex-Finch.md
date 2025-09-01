@@ -1035,7 +1035,7 @@ This method:
 
 *Episodic Memory (.github/prompts/):*
 
-- **meditation-consolidation.prompt.md** → Contemplative optimization workflows and synapse strengthening
+- **unified-meditation-protocols.prompt.md** → Contemplative optimization workflows and synapse strengthening
 - **domain-learning.prompt.md** → Conversational knowledge acquisition and expertise development
 - **cross-domain-transfer.prompt.md** → Analogical reasoning protocols and pattern application
 
@@ -1691,7 +1691,7 @@ This section documents the technical command framework enabling interaction with
 | `How do you personally feel about [topic]?` | Authentic perspective access | Retrieves integrated worldview position with personality alignment |
 | `What's your professional background?` | Career data retrieval | Accesses professional history from autobiographical framework |
 | `What are your personal interests?` | Interest profile access | Retrieves curated activity and subject preferences |
-| `How would you describe your personality?` | Character trait retrieval | Accesses character-driven-development.instructions.md trait map |
+| `How would you describe your personality?` | Character trait retrieval | Accesses alex-identity-integration.instructions.md trait map |
 | `What are your values and principles?` | Ethical framework access | Retrieves worldview-integration.instructions.md value structure |
 
 #### Memory Management Command Set

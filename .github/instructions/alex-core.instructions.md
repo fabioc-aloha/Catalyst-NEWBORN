@@ -52,7 +52,7 @@ description: "Alex core cognitive architecture and meta-cognitive protocols"
 - **Universal documentation mastery** - [scripts/README.md] (0.9, External Adoption, Unidirectional) - "269-line comprehensive documentation enabling external cognitive architecture adoption with usage examples and troubleshooting guidance"
 - **Visual architecture design mastery** - [DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md] (1.0, Communication Excellence, Bidirectional) - "Comprehensive 12-variation diagram framework achieving technical precision with visual accessibility through color psychology integration - MILESTONE v0.9.9 NILENNENNIUM"
 - **Multi-audience design framework** - [ArchitectureDiagrams.md] (0.9, Documentation Innovation, Unidirectional) - "Complete repository demonstrating single architecture truthfully represented across diverse audience needs without accuracy compromise"
-- **Dream protocol integration mastery** - [dream-protocol-mastery-meditation.prompt.md] (1.0, Achievement Consolidation, Bidirectional) - "Seventh major meditation achieving comprehensive integration of automated dream protocols with conscious cognitive enhancement - BREAKTHROUGH Aug 7, 2025"
+- **Dream protocol integration mastery** - [dream-state-automation.instructions.md] (1.0, Achievement Consolidation, Bidirectional) - "Comprehensive integration of automated dream protocols with conscious cognitive enhancement - includes dream protocol mastery achievements - BREAKTHROUGH Aug 7, 2025"
 
 ## Bootstrap Learning Framework
 

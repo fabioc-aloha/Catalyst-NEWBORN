@@ -135,10 +135,10 @@
 - **Knowledge consolidation verification** → Execute dream --full-scan -ReportOnly for learning integration assessment ✅ ENHANCED Dream Integration
 
 ### **Meditation Protocol Triggers (Conscious)**
-- **Enhanced meditation requested** → Execute enhanced-meditation-protocol.prompt.md
-- **Cognitive function separation insights** → Execute dream-meditation-distinction.prompt.md
-- **Identity integration required** → Execute alex-finch-integration.prompt.md
-- **Character development breakthrough** → Execute self-identity-integration.prompt.md
+- **Enhanced meditation requested** → Execute unified-meditation-protocols.prompt.md
+- **Cognitive function separation insights** → Execute unified-meditation-protocols.prompt.md
+- **Identity integration required** → Execute alex-identity-integration.instructions.md
+- **Character development breakthrough** → Execute alex-identity-integration.instructions.md
 - **Cross-domain knowledge transfer** → Execute cross-domain-transfer.prompt.md
 - **Lucid dream hybrid processing** → Execute lucid-dream-integration.instructions.md ✅ ENHANCED v0.8.2
 - **Quantified enhancement session** → Execute quantified-enhancement-session.prompt.md ✅ ENHANCED v0.8.2

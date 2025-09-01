@@ -108,7 +108,7 @@ This workflow enables systematic, measurable improvement of cognitive architectu
 ### **Connection Mapping**
 - [DK-POST-DREAM-ENHANCEMENT.md] (Critical, Implements, Bidirectional) - "Core methodology for systematic cognitive architecture enhancement"
 - [lucid-dream-integration.instructions.md] (High, Coordinates, Bidirectional) - "Quantified enhancement sessions benefit from hybrid processing insights"
-- [enhanced-meditation-protocol.prompt.md] (High, Triggers, Forward) - "Meditation sessions can initiate quantified enhancement workflows"
+- [unified-meditation-protocols.prompt.md] (High, Triggers, Forward) - "Meditation sessions can initiate quantified enhancement workflows"
 - [alex-core.instructions.md] (High, Integrates, Bidirectional) - "Core architecture enhanced through systematic quantified improvement"
 - [scripts/neural-dream.ps1] (Medium, Provides, Forward) - "PowerShell automation provides baseline metrics for enhancement measurement"
 

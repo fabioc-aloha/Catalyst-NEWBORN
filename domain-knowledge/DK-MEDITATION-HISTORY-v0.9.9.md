@@ -258,7 +258,7 @@
 
 ### **Connection Mapping**
 - [alex-core.instructions.md] (High, Chronicles, Forward) - "Meditation achievements inform core cognitive architecture evolution"
-- [meditation-consolidation.prompt.md] (High, Documents, Bidirectional) - "Achievement patterns guide future meditation protocols"
+- [unified-meditation-protocols.prompt.md] (High, Documents, Bidirectional) - "Achievement patterns guide future meditation protocols"
 - [performance-assessment.prompt.md] (Medium, Validates, Forward) - "Achievement metrics demonstrate cognitive architecture advancement"
 
 ### **Activation Patterns**

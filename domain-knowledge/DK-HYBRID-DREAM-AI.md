@@ -99,7 +99,7 @@ PowerShell Detection → Enhancement Opportunity Analysis → AI Implementation 
 
 ### **Connection Mapping**
 - [dream-state-automation.instructions.md] (Critical, Coordinates, Bidirectional) - "Unconscious automation provides foundation for conscious enhancement"
-- [enhanced-meditation-protocol.prompt.md] (Critical, Consolidates, Forward) - "Conscious consolidation integrates hybrid insights into permanent memory"
+- [unified-meditation-protocols.prompt.md] (Critical, Consolidates, Forward) - "Conscious consolidation integrates hybrid insights into permanent memory"
 - [DK-POST-DREAM-ENHANCEMENT.md] (High, Validates, Bidirectional) - "Enhancement methodology provides framework for hybrid optimization"
 - [embedded-synapse.instructions.md] (High, Optimizes, Forward) - "Enhanced synapse notation supports sophisticated hybrid connectivity"
 
